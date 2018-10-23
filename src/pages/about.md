@@ -1,7 +1,7 @@
 ---
-templateKey: basic-page
-permalink: /about-the-outlook
-title: About the Outlook
+templateKey: 'basic-page'
+path: /about
+title: About
 description: Tunnel Ridge Outlook is situated on the highest point of Tunnel Ridge Road
 ---
 We offer an exclusive apartment on the lower floor of our house, with magnificent views from your patio windows onto your deck in a resort style setting, with swimming pool and grounds.

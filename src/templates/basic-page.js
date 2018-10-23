@@ -5,6 +5,13 @@ import Helmet from "react-helmet";
 import { graphql, Link } from "gatsby";
 import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
+import Jumbotron from "react-bootstrap/lib/Jumbotron";
+import Button from "react-bootstrap/lib/Button";
+
+var jumbotronstyles = {
+  background: "#000000",
+  height: "60vh"
+};
 
 export const BasicPageTemplate = ({
   content,
@@ -16,20 +23,31 @@ export const BasicPageTemplate = ({
   const PostContent = contentComponent || Content;
 
   return (
-    <section className="section">
-      {helmet || ""}
-      <div className="container content">
-        <div className="columns">
-          <div className="column is-10 is-offset-1">
-            <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
-              {title}
-            </h1>
-            <p>{description}</p>
-            <PostContent content={content} />
+    <div>
+      <Jumbotron style={jumbotronstyles}>
+        <div className="container">
+          <h1>{title}</h1>
+          <p>{description}</p>
+          <p>
+            <Button bsStyle="primary">Learn more</Button>
+          </p>
+        </div>
+      </Jumbotron>
+      <section className="section">
+        {helmet || ""}
+        <div className="container content">
+          <div className="columns">
+            <div className="column is-10 is-offset-1">
+              <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
+                {title}
+              </h1>
+
+              <PostContent content={content} />
+            </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </div>
   );
 };
 
