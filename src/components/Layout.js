@@ -10,7 +10,7 @@ const TemplateWrapper = ({ children }) => (
     <Helmet title="Home | Gatsby + Netlify CMS" />
     <Navbar />
     <div id="page-wrap">
-      <div class="top">
+      <div className="top">
         <img src={logo} alt="Tunnel Ridge Outlook" style={{ width: "300px" }} />
       </div>
       {children}
