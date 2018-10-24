@@ -4,19 +4,14 @@ import { kebabCase } from "lodash";
 import Helmet from "react-helmet";
 import { graphql, Link } from "gatsby";
 import Layout from "../components/Layout";
+import AaJumbotron from "../components/AaJumbotron/AaJumbotron";
 import Content, { HTMLContent } from "../components/Content";
-import Jumbotron from "react-bootstrap/lib/Jumbotron";
-import Button from "react-bootstrap/lib/Button";
-
-var jumbotronstyles = {
-  background: "#000000",
-  height: "60vh"
-};
 
 export const BasicPageTemplate = ({
   content,
   contentComponent,
   description,
+  featuredimage,
   title,
   helmet
 }) => {
@@ -24,15 +19,11 @@ export const BasicPageTemplate = ({
 
   return (
     <div>
-      <Jumbotron style={jumbotronstyles}>
-        <div className="container">
-          <h1>{title}</h1>
-          <p>{description}</p>
-          <p>
-            <Button bsStyle="primary">Learn more</Button>
-          </p>
-        </div>
-      </Jumbotron>
+      <AaJumbotron
+        title={title}
+        description={description}
+        featuredimage={featuredimage}
+      />
       <section className="section">
         {helmet || ""}
         <div className="container content">
@@ -51,6 +42,7 @@ BasicPageTemplate.propTypes = {
   content: PropTypes.node.isRequired,
   contentComponent: PropTypes.func,
   description: PropTypes.string,
+  featuredimage: PropTypes.string,
   title: PropTypes.string,
   helmet: PropTypes.instanceOf(Helmet)
 };
@@ -64,6 +56,7 @@ const BasicPage = ({ data }) => {
         content={post.html}
         contentComponent={HTMLContent}
         description={post.frontmatter.description}
+        featuredimage={post.frontmatter.featuredimage}
         helmet={<Helmet title={`${post.frontmatter.title}`} />}
         title={post.frontmatter.title}
       />
@@ -88,6 +81,7 @@ export const pageQuery = graphql`
         date(formatString: "MMMM DD, YYYY")
         title
         description
+        featuredimage
       }
     }
   }
