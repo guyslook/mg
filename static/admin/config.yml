@@ -45,3 +45,12 @@ collections:
             fields: 
               - {label: "Menu title", name: "menutitle", widget: "string", required: "true"}
               - {label: "Menu path", name: "menupath", widget: "string", required: "true"}
+  - name: "menu"
+    label: "Menu"
+    folder: "src/menu"
+    create: true
+    fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "basic-page"}
+      - {label: "Menu title", name: "menutitle", widget: "string", required: "true"}
+      - {label: "Menu path", name: "menupath", widget: "string", required: "true"}
+          

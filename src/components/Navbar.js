@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "gatsby";
-import github from "../img/github-icon.svg";
+import { StaticQuery, graphql } from "gatsby";
 
 import { elastic as Menu } from "react-burger-menu";
 
@@ -82,6 +82,44 @@ class Navbar extends React.Component {
             Products
           </Link>
         </Menu>
+        <StaticQuery
+          query={graphql`
+            query {
+              allMarkdownRemark(
+                filter: { frontmatter: { templateKey: { eq: "settings" } } }
+              ) {
+                totalCount
+                edges {
+                  node {
+                    id
+                    frontmatter {
+                      menuitems {
+                        menupath
+                        menutitle
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          `}
+          render={data => (
+            <div>
+              <Link to={`/`}>
+                <h3>{data.allMarkdownRemark.totalCount}</h3>
+                {data.allMarkdownRemark.edges.map(({ node }) => (
+                  <div key={node.id}>
+                    <h3>
+                      {console.log(node.frontmatter.menuitems.menupath)}
+                      {node.frontmatter.menuitems.menupath}{" "}
+                      <span>— {node.frontmatter.menuitems.menutitle}</span>
+                    </h3>
+                  </div>
+                ))}
+              </Link>
+            </div>
+          )}
+        />
       </nav>
     );
   }

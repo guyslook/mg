@@ -1,8 +1,10 @@
 import React from "react";
 import PropTypes from "prop-types";
+import { StaticQuery, graphql } from "gatsby";
 
 export default class HTML extends React.Component {
   render() {
+    // const { data } = this.props;
     return (
       <html {...this.props.htmlAttributes}>
         <head>
@@ -48,3 +50,20 @@ HTML.propTypes = {
   body: PropTypes.string,
   postBodyComponents: PropTypes.array
 };
+
+// export const query = graphql`
+//   query {
+//     allMarkdownRemark {
+//       totalCount
+//       edges {
+//         node {
+//           id
+//           frontmatter {
+//             title
+//             date(formatString: "DD MMMM, YYYY")
+//           }
+//         }
+//       }
+//     }
+//   }
+// `;
