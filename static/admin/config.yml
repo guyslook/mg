@@ -44,4 +44,4 @@ collections:
             widget: "list"
             fields: 
               - {label: "Menu title", name: "menutitle", widget: "string", required: "true"}
-              - {label: "Menu path", name: "menupath", widget: "string" requited: "true"}
+              - {label: "Menu path", name: "menupath", widget: "string", required: "true"}
