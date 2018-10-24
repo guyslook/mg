@@ -39,13 +39,12 @@ collections:
 
   - name: "settings"
     label: "Settings"
-    folder: "src/pages/settings"
     files:
-      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "settings"}
       - file: "src/pages/settings/menu.md"
         label: "Menu Settings"
         name: "menusettings"
         fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "settings"}
           - label: "Menu Items"
             name: "menuitems"
             widget: "list"
