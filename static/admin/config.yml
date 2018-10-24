@@ -30,3 +30,18 @@ collections:
       - {label: "Description", name: "description", widget: "text"}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Featured Image", name: "featuredimage", widget: "image"}
+
+  - name: "settings"
+    label: "Settings"
+    folder: "src/settings"
+    files:
+      - file: "src/settings/menu/index.md"
+        label: "Settings"
+        name: "settings"
+        field:
+          - {label: "Menu Items", name: "menuitems", widget: "list", fields: 
+            - {label: "Menu title", name: "menutitle", widget: "string"}
+            - {label: "Menu path", name: "menupath", widget: "string"}
+            }
+
+    

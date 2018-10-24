@@ -2,6 +2,8 @@ import React from "react";
 import Jumbotron from "react-bootstrap/lib/Jumbotron";
 import Button from "react-bootstrap/lib/Button";
 
+require("./AaJumbotron.scss");
+
 class AaJumbotron extends React.Component {
   constructor(props) {
     super(props);
