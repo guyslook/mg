@@ -39,9 +39,9 @@ collections:
 
   - name: "settings"
     label: "Settings"
-    folder: "src/pages"
+    folder: "src/pages/settings"
     files:
-      - file: "src/pages/menu/index.md"
+      - file: "src/pages/settings/menu/index.md"
         label: "Menu Settings"
         name: "menusettings"
         fields:
