@@ -37,6 +37,7 @@ collections:
     create: true
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "basic-page"}
+      - {label: "Title", name: "title", widget: "string"}
       - {label: "Menu title", name: "menutitle", widget: "string"}
       - {label: "Menu path", name: "menupath", widget: "string"}
           
