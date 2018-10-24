@@ -30,6 +30,12 @@ collections:
       - {label: "Description", name: "description", widget: "text"}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Featured Image", name: "featuredimage", widget: "image"}
+      - label: "Menu Items"
+            name: "menuitems"
+            widget: "list"
+            fields: 
+              - {label: "Menu title", name: "menutitle", widget: "string", required: "true"}
+              - {label: "Menu path", name: "menupath", widget: "string", required: "true"}
 
   - name: "settings"
     label: "Settings"
