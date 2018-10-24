@@ -41,7 +41,7 @@ collections:
     label: "Settings"
     folder: "src/pages/settings"
     files:
-      - file: "src/pages/settings/menu/index.md"
+      - file: "src/pages/settings/menu.md"
         label: "Menu Settings"
         name: "menusettings"
         fields:
