@@ -31,23 +31,9 @@ collections:
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Featured Image", name: "featuredimage", widget: "image"}
 
-  - name: "settings"
-    label: "Settings"
-    files:
-      - file: "src/pages/settings/menu.md"
-        label: "Menu Settings"
-        name: "menusettings"
-        fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "settings"}
-          - label: "Menu Items"
-            name: "menuitems"
-            widget: "list"
-            fields: 
-              - {label: "Menu title", name: "menutitle", widget: "string", required: "true"}
-              - {label: "Menu path", name: "menupath", widget: "string", required: "true"}
   - name: "menu"
     label: "Menu"
-    folder: "src/menu"
+    folder: "src/pages/menu"
     create: true
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "basic-page"}
