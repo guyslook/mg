@@ -38,7 +38,7 @@ collections:
       - file: "src/settings/menu/index.md"
         label: "Menu Settings"
         name: "menusettings"
-        field:
+        fields:
           - label: "Menu Items"
             name: "menuitems"
             widget: "list"
