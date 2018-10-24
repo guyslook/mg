@@ -36,12 +36,13 @@ collections:
     folder: "src/settings"
     files:
       - file: "src/settings/menu/index.md"
-        label: "Settings"
-        name: "settings"
+        label: "Menu Settings"
+        name: "menusettings"
         field:
-          - {label: "Menu Items", name: "menuitems", widget: "list", fields: 
-            - {label: "Menu title", name: "menutitle", widget: "string"}
-            - {label: "Menu path", name: "menupath", widget: "string"}
-            }
-
-    
+          - label: "Menu Items"
+            name: "menuitems"
+            widget: "list"
+            fields: 
+              - {label: "Menu title", name: "menutitle", widget: "string"}
+              - {label: "Menu path", name: "menupath", widget: "string"}
+              
