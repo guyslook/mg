@@ -30,17 +30,22 @@ collections:
       - {label: "Description", name: "description", widget: "text"}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Featured Image", name: "featuredimage", widget: "image"}
-      - label: "Testimonials"
-        name: "testimonials"
+      - label: "Website elements"
+        name: "elements"
         widget: "list"
         fields:
-          - {label: "Quote", name: "quote", widget: "string", default: "Everything is awesome!"}
-          - label: "Author"
-            name: "author"
+          - label: "Element1"
+            name: "element1"
             widget: "list"
             fields:
-              - {label: Name, name: name, widget: string, default: "Emmet"}
-              - {label: Avatar, name: avatar, widget: image}
+              - {label: Name, name: element1name, widget: string}
+              - {label: Avatar, name: element1avatar, widget: image}
+          - label: "Element2"
+            name: "element2"
+            widget: "list"
+            fields:
+              - {label: Name, name: element2name, widget: string}
+              - {label: Avatar, name: element2avatar, widget: image}
 
   - name: "menu"
     label: "Menu"
