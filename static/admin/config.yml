@@ -34,10 +34,10 @@ collections:
         name: "testimonials"
         widget: "list"
         fields:
-          - {label: Quote, name: quote, widget: string, default: "Everything is awesome!"}
-          - label: Author
-            name: author
-            widget: object
+          - {label: "Quote", name: "quote", widget: "string", default: "Everything is awesome!"}
+          - label: "Author"
+            name: "author"
+            widget: "list"
             fields:
               - {label: Name, name: name, widget: string, default: "Emmet"}
               - {label: Avatar, name: avatar, widget: image}
