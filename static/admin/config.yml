@@ -34,18 +34,18 @@ collections:
         name: "elements"
         widget: "list"
         fields:
-          - label: "Element1"
-            name: "element1"
+          - label: "Hero"
+            name: "hero"
             widget: "list"
             fields:
-              - {label: Name, name: element1name, widget: string}
-              - {label: Avatar, name: element1avatar, widget: image}
-          - label: "Element2"
-            name: "element2"
+              - {label: Image, name: heroimage, widget: "image"}
+              - {label: Title, name: herotitle, widget: "string"}
+              - {label: Description, name: herodescription, widget: "string"}
+          - label: "Text"
+            name: "text"
             widget: "list"
             fields:
-              - {label: Nametwo, name: element2name, widget: string}
-              - {label: Avatar, name: element2avatar, widget: image}
+              - {label: Paragraph, name: paragraph, widget: "markdown"}
 
   - name: "menu"
     label: "Menu"
