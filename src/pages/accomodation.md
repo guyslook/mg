@@ -1,7 +1,7 @@
 ---
 templateKey: basic-page
 permalink: '/:title'
-title: Accomodation
+title: Accommodation
 description: >-
   An exclusive apartment on the lower floor of our house, with magnificent views
   from your patio windows onto your deck in a resort style setting, with
