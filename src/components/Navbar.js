@@ -75,51 +75,43 @@ class Navbar extends React.Component {
           isOpen={this.state.menuOpen}
           left
         >
-          <Link className="navbar-item" to="/about">
-            About
-          </Link>
-          <Link className="navbar-item" to="/products">
-            Products
-          </Link>
-        </Menu>
-        <StaticQuery
-          query={graphql`
-            query {
-              allMarkdownRemark(
-                filter: { frontmatter: { templateKey: { eq: "settings" } } }
-              ) {
-                totalCount
-                edges {
-                  node {
-                    id
-                    frontmatter {
-                      menuitems {
-                        menupath
+          <StaticQuery
+            query={graphql`
+              query {
+                allMarkdownRemark(
+                  filter: { frontmatter: { templateKey: { eq: "basic-page" } } }
+                ) {
+                  totalCount
+                  edges {
+                    node {
+                      id
+                      frontmatter {
                         menutitle
+                        menupath
                       }
                     }
                   }
                 }
               }
-            }
-          `}
-          render={data => (
-            <div>
-              <Link to={`/`}>
-                <h3>{data.allMarkdownRemark.totalCount}</h3>
+            `}
+            render={data => (
+              <div>
                 {data.allMarkdownRemark.edges.map(({ node }) => (
                   <div key={node.id}>
                     <h3>
-                      {console.log(node.frontmatter.menuitems.menupath)}
-                      {node.frontmatter.menuitems.menupath}{" "}
-                      <span>— {node.frontmatter.menuitems.menutitle}</span>
+                      <Link
+                        className="navbar-item"
+                        to={node.frontmatter.menupath}
+                      >
+                        {node.frontmatter.menutitle}
+                      </Link>
                     </h3>
                   </div>
                 ))}
-              </Link>
-            </div>
-          )}
-        />
+              </div>
+            )}
+          />
+        </Menu>
       </nav>
     );
   }
