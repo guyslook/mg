@@ -84,7 +84,7 @@ export const BasicPageTemplate = ({
                   ))) ||
                   (Array.isArray(element.text) &&
                     element.text.map(text => (
-                      <div className="heroimage">{text.paragraph}</div>
+                      <div className="text">{text.paragraph}</div>
                     )))}
               </div>
             ))
