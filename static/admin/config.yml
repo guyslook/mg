@@ -36,7 +36,7 @@ collections:
     folder: "src/pages/menu"
     create: true
     fields:
-      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "basic-page"}
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "menu"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Menu title", name: "menutitle", widget: "string"}
       - {label: "Menu path", name: "menupath", widget: "string"}

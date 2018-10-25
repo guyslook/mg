@@ -79,14 +79,14 @@ class Navbar extends React.Component {
             query={graphql`
               query {
                 allMarkdownRemark(
-                  filter: { frontmatter: { templateKey: { eq: "basic-page" } } }
+                  filter: { frontmatter: { templateKey: { eq: "menu" } } }
                 ) {
                   totalCount
                   edges {
                     node {
                       id
                       frontmatter {
-                        menutitle
+                        title
                         menupath
                       }
                     }
@@ -103,7 +103,7 @@ class Navbar extends React.Component {
                         className="navbar-item"
                         to={node.frontmatter.menupath}
                       >
-                        {node.frontmatter.menutitle}
+                        {node.frontmatter.title}
                       </Link>
                     </h3>
                   </div>

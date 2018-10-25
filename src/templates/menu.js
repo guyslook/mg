@@ -6,7 +6,7 @@ import { graphql, Link } from "gatsby";
 import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
 
-export const SettingsTemplate = ({
+export const MenuTemplate = ({
   content,
   contentComponent,
   description,
@@ -23,7 +23,7 @@ export const SettingsTemplate = ({
   );
 };
 
-SettingsTemplate.propTypes = {
+MenuTemplate.propTypes = {
   content: PropTypes.node.isRequired,
   contentComponent: PropTypes.func,
   description: PropTypes.string,
@@ -36,16 +36,14 @@ const Settings = ({ data }) => {
   const { markdownRemark: post } = data;
 
   return (
-    <Layout>
-      <SettingsTemplate
-        content={post.html}
-        contentComponent={HTMLContent}
-        description={post.frontmatter.description}
-        featuredimage={post.frontmatter.featuredimage}
-        helmet={<Helmet title={`${post.frontmatter.title}`} />}
-        title={post.frontmatter.title}
-      />
-    </Layout>
+    <MenuTemplate
+      content={post.html}
+      contentComponent={HTMLContent}
+      description={post.frontmatter.description}
+      featuredimage={post.frontmatter.featuredimage}
+      helmet={<Helmet title={`${post.frontmatter.title}`} />}
+      title={post.frontmatter.title}
+    />
   );
 };
 

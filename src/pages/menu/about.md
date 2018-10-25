@@ -1,5 +1,5 @@
 ---
-templateKey: basic-page
+templateKey: menu
 title: About
 menutitle: About
 menupath: /about
