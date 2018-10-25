@@ -4,43 +4,7 @@ import { StaticQuery, graphql } from "gatsby";
 
 import { elastic as Menu } from "react-burger-menu";
 
-var menustyles = {
-  bmBurgerButton: {
-    position: "fixed",
-    width: "36px",
-    height: "30px",
-    right: "36px",
-    top: "36px"
-  },
-  bmBurgerBars: {
-    background: "#373a47"
-  },
-  bmCrossButton: {
-    height: "24px",
-    width: "24px"
-  },
-  bmCross: {
-    background: "#bdc3c7"
-  },
-  bmMenu: {
-    background: "#373a47",
-    padding: "2.5em 1.5em 0",
-    fontSize: "1.15em"
-  },
-  bmMorphShape: {
-    fill: "#373a47"
-  },
-  bmItemList: {
-    color: "#b8b7ad",
-    padding: "0.8em"
-  },
-  bmItem: {
-    display: "inline-block"
-  },
-  bmOverlay: {
-    background: "rgba(0, 0, 0, 0.3)"
-  }
-};
+require("./Navbar.scss");
 
 class Navbar extends React.Component {
   constructor(props) {
@@ -71,7 +35,6 @@ class Navbar extends React.Component {
         <Menu
           pageWrapId={"page-wrap"}
           outerContainerId={"outer-container"}
-          styles={menustyles}
           isOpen={this.state.menuOpen}
           left
         >
@@ -95,20 +58,18 @@ class Navbar extends React.Component {
               }
             `}
             render={data => (
-              <div>
+              <ul>
+                <li>
+                  <Link to="/">Home</Link>
+                </li>
                 {data.allMarkdownRemark.edges.map(({ node }) => (
-                  <div key={node.id}>
-                    <h3>
-                      <Link
-                        className="navbar-item"
-                        to={node.frontmatter.menupath}
-                      >
-                        {node.frontmatter.title}
-                      </Link>
-                    </h3>
-                  </div>
+                  <li key={node.id}>
+                    <Link className="navbarItem" to={node.frontmatter.menupath}>
+                      {node.frontmatter.title}
+                    </Link>
+                  </li>
                 ))}
-              </div>
+              </ul>
             )}
           />
         </Menu>

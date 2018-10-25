@@ -3,7 +3,7 @@ import Helmet from "react-helmet";
 import logo from "../img/logo.svg";
 import { Link } from "gatsby";
 
-import Navbar from "../components/Navbar";
+import Navbar from "../components/Navbar/Navbar";
 import "./all.sass";
 
 const TemplateWrapper = ({ children }) => (
