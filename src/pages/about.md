@@ -3,9 +3,15 @@ templateKey: basic-page
 title: About
 description: Tunnel Ridge Outlook is situated on the highest point of Tunnel Ridge Road
 featuredimage: /img/2016-08-18-13-46-50.jpg
-menuitems:
-  - menupath: /about
-    menutitle: About
+elements:
+  - hero:
+      - herodescription: >-
+          Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+          ridiculus mus. Donec sed odio dui. Cras justo odio, dapibus ac
+          facilisis in, egestas eget quam. Nullam id dolor id nibh ultricies
+          vehicula ut id elit.
+        heroimage: /img/2016-08-18-13-46-50.jpg
+        herotitle: See our availability
 ---
 We offer an exclusive apartment on the lower floor of our house, with magnificent views from your patio windows onto your deck in a resort style setting, with swimming pool and grounds.
 
