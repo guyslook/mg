@@ -33,6 +33,7 @@ collections:
       - label: "Website elements"
         name: "elements"
         widget: "list"
+        required: "false"
         fields:
           - label: "Hero"
             name: "hero"

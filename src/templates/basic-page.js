@@ -45,6 +45,7 @@ export const BasicPageTemplate = ({
   description,
   featuredimage,
   title,
+  elements,
   helmet
 }) => {
   const PostContent = contentComponent || Content;
@@ -66,6 +67,29 @@ export const BasicPageTemplate = ({
           </div>
         </div>
       </section>
+      <div className="elements">
+        <h2>Page elements here:</h2>
+        {elements
+          ? elements.map(element => (
+              <div className="element">
+                {(Array.isArray(element.hero) &&
+                  element.hero.map(hero => (
+                    <div className="heroimage">
+                      <AaJumbotron
+                        title={hero.herotitle}
+                        description={hero.herodescription}
+                        featuredimage={hero.heroimage}
+                      />
+                    </div>
+                  ))) ||
+                  (Array.isArray(element.text) &&
+                    element.text.map(text => (
+                      <div className="heroimage">{text.paragraph}</div>
+                    )))}
+              </div>
+            ))
+          : ""}
+      </div>
       <AaGallery images={IMAGES} />
     </div>
   );
@@ -77,6 +101,7 @@ BasicPageTemplate.propTypes = {
   description: PropTypes.string,
   featuredimage: PropTypes.string,
   title: PropTypes.string,
+  elements: PropTypes.string,
   helmet: PropTypes.instanceOf(Helmet)
 };
 
@@ -90,9 +115,11 @@ const BasicPage = ({ data }) => {
         contentComponent={HTMLContent}
         description={post.frontmatter.description}
         featuredimage={post.frontmatter.featuredimage}
+        elements={post.frontmatter.elements}
         helmet={<Helmet title={`${post.frontmatter.title}`} />}
         title={post.frontmatter.title}
       />
+      {console.log(post)}
     </Layout>
   );
 };
@@ -115,6 +142,16 @@ export const pageQuery = graphql`
         title
         description
         featuredimage
+        elements {
+          hero {
+            herodescription
+            heroimage
+            herotitle
+          }
+          text {
+            paragraph
+          }
+        }
       }
     }
   }
