@@ -44,7 +44,7 @@ collections:
             name: "element2"
             widget: "list"
             fields:
-              - {label: Name, name: element2name, widget: string}
+              - {label: Nametwo, name: element2name, widget: string}
               - {label: Avatar, name: element2avatar, widget: image}
 
   - name: "menu"
