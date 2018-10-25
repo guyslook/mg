@@ -12,6 +12,14 @@ elements:
           vehicula ut id elit.
         heroimage: /img/2016-08-18-13-46-50.jpg
         herotitle: See our availability
+  - hero:
+      - herodescription: >-
+          Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
+          Cras justo odio, dapibus ac facilisis in, egestas eget quam. Praesent
+          commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed
+          odio dui.
+        heroimage: /img/chemex.jpg
+        herotitle: Second element with a hero
 ---
 We offer an exclusive apartment on the lower floor of our house, with magnificent views from your patio windows onto your deck in a resort style setting, with swimming pool and grounds.
 
