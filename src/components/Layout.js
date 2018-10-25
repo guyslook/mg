@@ -4,6 +4,7 @@ import logo from "../img/logo.svg";
 import { StaticQuery, Link, graphql } from "gatsby";
 
 import Navbar from "../components/Navbar";
+import { Link } from "gatsby";
 import "./all.sass";
 
 const TemplateWrapper = ({ children }) => (
@@ -12,7 +13,13 @@ const TemplateWrapper = ({ children }) => (
     <Navbar />
     <div id="page-wrap">
       <div className="top">
-        <img src={logo} alt="Tunnel Ridge Outlook" style={{ width: "300px" }} />
+        <Link to="/">
+          <img
+            src={logo}
+            alt="Tunnel Ridge Outlook"
+            style={{ width: "300px" }}
+          />
+        </Link>
       </div>
       {children}
     </div>
