@@ -6,6 +6,12 @@ featuredimage: /img/2016-08-18-13-46-50.jpg
 elements:
   - hero:
       - herodescription: >-
+          Tunnel Ridge Outlook is situated on the highest point of Tunnel Ridge
+          Road
+        heroimage: /img/2016-08-18-13-46-50.jpg
+        herotitle: Tunnel Ridge Outlook
+  - hero:
+      - herodescription: >-
           Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
           ridiculus mus. Donec sed odio dui. Cras justo odio, dapibus ac
           facilisis in, egestas eget quam. Nullam id dolor id nibh ultricies
