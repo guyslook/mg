@@ -6,6 +6,7 @@ import { graphql, Link } from "gatsby";
 import Layout from "../components/Layout";
 import AaJumbotron from "../components/AaJumbotron/AaJumbotron";
 import AaGallery from "../components/AaGallery/AaGallery";
+import AaTextElement from "../components/AaTextElement/AaTextElement";
 import Content, { HTMLContent } from "../components/Content";
 
 const IMAGES = [
@@ -69,6 +70,7 @@ export const BasicPageTemplate = ({
       </section>
       <div className="elements">
         <h2>Page elements here:</h2>
+
         {elements
           ? elements.map(element => (
               <div className="element">
@@ -84,7 +86,9 @@ export const BasicPageTemplate = ({
                   ))) ||
                   (Array.isArray(element.text) &&
                     element.text.map(text => (
-                      <div className="text">{text.paragraph}</div>
+                      <div>
+                        <AaTextElement html={text.paragraph} />
+                      </div>
                     )))}
               </div>
             ))
@@ -119,7 +123,6 @@ const BasicPage = ({ data }) => {
         helmet={<Helmet title={`${post.frontmatter.title}`} />}
         title={post.frontmatter.title}
       />
-      {console.log(post)}
     </Layout>
   );
 };
