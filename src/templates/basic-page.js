@@ -43,8 +43,6 @@ const IMAGES = [
 export const BasicPageTemplate = ({
   content,
   contentComponent,
-  description,
-  featuredimage,
   title,
   elements,
   helmet
@@ -53,24 +51,7 @@ export const BasicPageTemplate = ({
 
   return (
     <div>
-      <AaJumbotron
-        title={title}
-        description={description}
-        featuredimage={featuredimage}
-      />
-      <section className="section">
-        {helmet || ""}
-        <div className="container content">
-          <div className="columns">
-            <div className="column is-10 is-offset-1">
-              <PostContent content={content} />
-            </div>
-          </div>
-        </div>
-      </section>
       <div className="elements">
-        <h2>Page elements here:</h2>
-
         {elements
           ? elements.map(element => (
               <div className="element">
@@ -102,8 +83,6 @@ export const BasicPageTemplate = ({
 BasicPageTemplate.propTypes = {
   content: PropTypes.node.isRequired,
   contentComponent: PropTypes.func,
-  description: PropTypes.string,
-  featuredimage: PropTypes.string,
   title: PropTypes.string,
   elements: PropTypes.string,
   helmet: PropTypes.instanceOf(Helmet)
@@ -143,8 +122,6 @@ export const pageQuery = graphql`
       frontmatter {
         date(formatString: "MMMM DD, YYYY")
         title
-        description
-        featuredimage
         elements {
           hero {
             herodescription

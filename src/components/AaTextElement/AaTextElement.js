@@ -21,7 +21,9 @@ class AaTextElement extends React.Component {
 
     return (
       <React.Fragment>
-        <div className="TextElement">{ReactHtmlParser(newHTML)}</div>
+        <div className="TextElement">
+          <div className="container content">{ReactHtmlParser(newHTML)}</div>
+        </div>
       </React.Fragment>
     );
   }

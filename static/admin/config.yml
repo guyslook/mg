@@ -25,11 +25,7 @@ collections:
     create: true
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "basic-page"}
-      - {label: "Permalink", name: "permalink", widget: "hidden", default: "/:title"}
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Description", name: "description", widget: "text"}
-      - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Featured Image", name: "featuredimage", widget: "image"}
       - label: "Website elements"
         name: "elements"
         widget: "list"
