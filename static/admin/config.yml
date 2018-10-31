@@ -43,8 +43,8 @@ collections:
             widget: "list"
             fields:
               - {label: Paragraph, name: paragraph, widget: "markdown"}
-          - label: "Gallery",
-            name: "gallery",
+          - label: "Gallery"
+            name: "gallery"
             widget: "list"
             fields:
               - label: "Gallery item"
