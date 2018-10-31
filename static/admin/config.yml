@@ -43,6 +43,16 @@ collections:
             widget: "list"
             fields:
               - {label: Paragraph, name: paragraph, widget: "markdown"}
+          - label: "Gallery",
+            name: "gallery",
+            widget: "list"
+            fields:
+              - label: "Gallery item"
+                name: "galleryitem"
+                widget: "list"
+                fields:
+                  - {label: Image, name: galleryimage, widget: "image"}
+                  - {label: Title, name: gallerytitle, widget: "string"}
 
   - name: "menu"
     label: "Menu"
