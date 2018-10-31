@@ -1,8 +1,6 @@
 ---
 templateKey: basic-page
 title: Tunnel Ridge Outlook
-description: Tunnel Ridge Outlook is situated on the highest point of Tunnel Ridge Road
-featuredimage: /img/2016-08-18-13-46-50.jpg
 elements:
   - hero:
       - herodescription: >-
@@ -10,6 +8,13 @@ elements:
           Road
         heroimage: /img/2016-08-18-13-46-50.jpg
         herotitle: Tunnel Ridge Outlook
+  - text:
+      - paragraph: >-
+          Vestibulum id ligula porta felis euismod semper. Aenean lacinia
+          bibendum nulla sed consectetur. Donec ullamcorper nulla non metus
+          auctor fringilla. Maecenas sed diam eget risus varius blandit sit amet
+          non magna. Maecenas sed diam eget risus varius blandit sit amet non
+          magna.
   - hero:
       - herodescription: >-
           Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
@@ -30,10 +35,4 @@ elements:
         herotitle: Second element with a hero
     text: []
 ---
-We offer an exclusive apartment on the lower floor of our house, with magnificent views from your patio windows onto your deck in a resort style setting, with swimming pool and grounds.
 
-​Your apartment is air conditioned, spacious and has a fully fitted kitchen, with full cooking facilities and BBQ outside.  Free wifi.
-
-The bedroom looks out to the deck and pool and bush and sea views in the distance.
-
-​We offer a peaceful and quiet location for those who want to get away from it all.
