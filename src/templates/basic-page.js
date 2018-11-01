@@ -70,6 +70,14 @@ export const BasicPageTemplate = ({
                       <div>
                         <AaTextElement html={text.paragraph} />
                       </div>
+                    ))) ||
+                  (Array.isArray(element.gallery) &&
+                    element.gallery.map(gallery => (
+                      <div>
+                        {console.log(Array.isArray(gallery.galleryitem))}
+                        {console.log(gallery.galleryitem)}
+                        <AaGallery images={gallery.galleryitem} />
+                      </div>
                     )))}
               </div>
             ))
@@ -130,6 +138,12 @@ export const pageQuery = graphql`
           }
           text {
             paragraph
+          }
+          gallery {
+            galleryitem {
+              galleryimage
+              gallerytitle
+            }
           }
         }
       }
