@@ -27,11 +27,10 @@ elements:
           from it all.
   - gallery:
       - galleryitem:
-          - galleryimage: /img/2016-08-18-13-46-50.jpg
-            gallerytitle: A view of the garden
-          - galleryimage: /img/2016-08-18-13-46-50.jpg
-            gallerytitle: Another view of the garden
-          - galleryimage: /img/view1.jpg
-            gallerytitle: The view of the mountains
+          - src: /img/2016-08-18-13-46-50.jpg
+            caption: A view of the garden
+          - src: /img/2016-08-18-13-46-50.jpg
+            caption: Another view of the garden
+          - src: /img/view1.jpg
+            caption: The view of the mountains
 ---
-
