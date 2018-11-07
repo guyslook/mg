@@ -36,5 +36,13 @@ elements:
           - caption: The view of the mountains
             src: /img/view1.jpg
             thumbnail: /img/view1.jpg
+  - quote:
+      - quoteauthor: Sean(Aus)
+        quotetitle: >-
+          Jason, our host, was attentive, helpful, and a great guide to the
+          area. We felt looked after but also had a lot of privacy. The
+          facilities were perfect, the view was gorgeous, and the homemade
+          scones were delightful. I would stay here again in a heartbeat and
+          will advise anyone traveling to this part of Australia to stay here.
 ---
 
