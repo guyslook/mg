@@ -25,9 +25,15 @@ class AaJumbotron extends React.Component {
           <div className="container">
             <h1>{this.props.title}</h1>
             <p>{this.props.description}</p>
-            <p>
-              <Button bsStyle="primary">Learn more</Button>
-            </p>
+            {this.props.link ? (
+              <p>
+                <a href={this.props.link}>
+                  <Button bsStyle="primary">Learn more</Button>
+                </a>
+              </p>
+            ) : (
+              ""
+            )}
           </div>
         </div>
       </Jumbotron>
