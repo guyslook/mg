@@ -31,7 +31,6 @@ export const BasicPageTemplate = ({
                         title={hero.herotitle}
                         description={hero.herodescription}
                         featuredimage={hero.heroimage}
-                        herolink={hero.herolink}
                       />
                     </div>
                   ))) ||
@@ -104,7 +103,6 @@ export const pageQuery = graphql`
             herodescription
             heroimage
             herotitle
-            herolink
           }
           text {
             paragraph
