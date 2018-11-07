@@ -74,7 +74,6 @@ export const BasicPageTemplate = ({
             ))
           : ""}
       </div>
-      <AaGallery images={IMAGES} />
     </div>
   );
 };
@@ -134,6 +133,7 @@ export const pageQuery = graphql`
             galleryitem {
               src
               caption
+              thumbnail
             }
           }
         }

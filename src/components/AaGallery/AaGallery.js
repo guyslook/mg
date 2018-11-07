@@ -3,7 +3,7 @@ import Gallery from "react-grid-gallery";
 
 require("./AaGallery.scss");
 
-class AaJumbotron extends React.Component {
+class AaGallery extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -16,4 +16,4 @@ class AaJumbotron extends React.Component {
   }
 }
 
-export default AaJumbotron;
+export default AaGallery;
