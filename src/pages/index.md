@@ -7,6 +7,7 @@ elements:
           Tunnel Ridge Outlook is situated on the highest point of Tunnel Ridge
           Road
         heroimage: /img/2016-08-18-13-46-50.jpg
+        herolink: /about
         herotitle: Tunnel Ridge Outlook
   - text:
       - paragraph: >-
