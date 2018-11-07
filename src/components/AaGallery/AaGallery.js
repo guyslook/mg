@@ -12,7 +12,11 @@ class AaGallery extends React.Component {
   }
 
   render() {
-    return <Gallery images={this.props.images} />;
+    return (
+      <div className="aagallery">
+        <Gallery images={this.props.images} />
+      </div>
+    );
   }
 }
 

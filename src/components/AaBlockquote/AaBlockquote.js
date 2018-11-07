@@ -13,8 +13,8 @@ class AaBlockquote extends React.Component {
   render() {
     return (
       <blockquote>
-        BQ
-        <span>Author</span>
+        {this.props.quote}
+        <span>{this.props.author}</span>
       </blockquote>
     );
   }

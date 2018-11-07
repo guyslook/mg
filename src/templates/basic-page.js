@@ -8,6 +8,7 @@ import AaJumbotron from "../components/AaJumbotron/AaJumbotron";
 import AaGallery from "../components/AaGallery/AaGallery";
 import AaTextElement from "../components/AaTextElement/AaTextElement";
 import Content, { HTMLContent } from "../components/Content";
+import AaBlockquote from "../components/AaBlockquote/AaBlockquote";
 
 export const BasicPageTemplate = ({
   content,
@@ -44,9 +45,16 @@ export const BasicPageTemplate = ({
                   (Array.isArray(element.gallery) &&
                     element.gallery.map(gallery => (
                       <div>
-                        {console.log(Array.isArray(gallery.galleryitem))}
-                        {console.log(gallery.galleryitem)}
                         <AaGallery images={gallery.galleryitem} />
+                      </div>
+                    ))) ||
+                  (Array.isArray(element.quote) &&
+                    element.quote.map(quote => (
+                      <div>
+                        <AaBlockquote
+                          quote={quote.quotetitle}
+                          author={quote.quoteauthor}
+                        />
                       </div>
                     )))}
               </div>
@@ -115,6 +123,10 @@ export const pageQuery = graphql`
               caption
               thumbnail
             }
+          }
+          quote {
+            quotetitle
+            quoteauthor
           }
         }
       }
