@@ -50,8 +50,6 @@ elements:
           Check out time: 10.30am
 
 
-
-
           Accommodation is for 2 people maximum.  Further visitors are welcome,
           but shouldn’t stay overnight without prior arrangement.
 
@@ -66,12 +64,16 @@ elements:
           Clients can then choose to pay by the following methods:
 
 
-          * **Cash:**\
-            This is payable on arrival
-          * **Bank Transfer:**\
-            Paying by bank transfer is easy and details can be sent to you on request. All transactions must be completed two days prior to arrival to ensure they have gone through and show on our internet banking statement.
-          * **Debit/Credit Card:**\
-            This method can be used on arrival. please note a 2% admin fee is charged for this service.
+          * **Cash: **This is payable on arrival
+
+          * **Bank Transfer: **Paying by bank transfer is easy and details can
+          be sent to you on request. All transactions must be completed two days
+          prior to arrival to ensure they have gone through and show on our
+          internet banking statement.
+
+          * **Debit/Credit Card: **This method can be used on arrival. please
+          note a 2% admin fee is charged for this service.
+
 
           **Cancellations**
 
