@@ -9,57 +9,56 @@ import Navbar from "../components/Navbar/Navbar";
 import "./all.sass";
 
 const TemplateWrapper = ({ children }) => (
-  <div id="outer-container">
-    <Helmet title="Home | Gatsby + Netlify CMS" />
-    <Navbar />
-    <div id="page-wrap">
-      <div className="top">
-        <Link to="/">
-          <img
-            src={logo}
-            alt="Tunnel Ridge Outlook"
-            style={{ width: "300px" }}
-          />
-        </Link>
-      </div>
-      {children}
-    </div>
-
-    <StaticQuery
-      query={graphql`
-        query {
-          allMarkdownRemark(
-            filter: { frontmatter: { templateKey: { eq: "settings" } } }
-          ) {
-            totalCount
-            edges {
-              node {
-                id
-                frontmatter {
-                  title
-                  companyaddress
-                  sociallinks {
-                    facebook
-                    twitter
-                  }
+  <StaticQuery
+    query={graphql`
+      query {
+        allMarkdownRemark(
+          filter: { frontmatter: { templateKey: { eq: "settings" } } }
+        ) {
+          totalCount
+          edges {
+            node {
+              id
+              frontmatter {
+                title
+                companyaddress
+                sociallinks {
+                  facebook
+                  twitter
                 }
               }
             }
           }
         }
-      `}
-      render={data => (
-        <div>
-          {data.allMarkdownRemark.edges.map(({ node }) => (
+      }
+    `}
+    render={data => (
+      <div id="outer-container">
+        {data.allMarkdownRemark.edges.map(({ node }) => (
+          <div>
+            <Helmet title={node.frontmatter.title} />
+            <Navbar />
+            <div id="page-wrap">
+              <div className="top">
+                <Link to="/">
+                  <img
+                    src={logo}
+                    alt="Tunnel Ridge Outlook"
+                    style={{ width: "300px" }}
+                  />
+                </Link>
+              </div>
+              {children}
+            </div>
             <AaFooter
               socialLinks={node.frontmatter.sociallinks}
               address={node.frontmatter.companyaddress}
             />
-          ))}
-        </div>
-      )}
-    />
-  </div>
+          </div>
+        ))}
+      </div>
+    )}
+  />
 );
 
 export default TemplateWrapper;
