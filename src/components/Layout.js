@@ -2,6 +2,7 @@ import React from "react";
 import Helmet from "react-helmet";
 import logo from "../img/logo.svg";
 import { Link } from "gatsby";
+import { StaticQuery, graphql } from "gatsby";
 
 import Navbar from "../components/Navbar/Navbar";
 import "./all.sass";
@@ -22,6 +23,44 @@ const TemplateWrapper = ({ children }) => (
       </div>
       {children}
     </div>
+    <footer>
+      <div class="address">
+        <StaticQuery
+          query={graphql`
+            query {
+              allMarkdownRemark(
+                filter: { frontmatter: { templateKey: { eq: "menu" } } }
+              ) {
+                totalCount
+                edges {
+                  node {
+                    id
+                    frontmatter {
+                      title
+                      menupath
+                    }
+                  }
+                }
+              }
+            }
+          `}
+          render={data => (
+            <ul>
+              <li>
+                <Link to="/">Home</Link>
+              </li>
+              {data.allMarkdownRemark.edges.map(({ node }) => (
+                <li key={node.id}>
+                  <Link className="navbarItem" to={node.frontmatter.menupath}>
+                    {node.frontmatter.title}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          )}
+        />
+      </div>
+    </footer>
   </div>
 );
 

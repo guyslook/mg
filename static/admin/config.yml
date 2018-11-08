@@ -75,4 +75,19 @@ collections:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "menu"}
       - {label: "Menu Title", name: "title", widget: "string"}
       - {label: "Menu path", name: "menupath", widget: "string"}
+  - name: "settings"
+    label: "Site Settings"
+    folder: "src/pages/settings"
+    create: true
+    fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "settings"}
+      - {label: "Website name", name: "websitename", widget: "string", required: true}
+      - {label: "Company address", name: "companyaddress", widget: "markdown", required: false}
+      - label: "Social Links"
+        name: "sociallinks"
+        widget: "object"
+        fields:
+          - {label: "Facebook URL", name: "facebook", widget: "string", required: false}
+          - {label: "Twitter URL", name: "twitter", widget: "string", required: false}
+          - {label: "Instagram URL", name: "instagram", widget: "string", required: false}
           
