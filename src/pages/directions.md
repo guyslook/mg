@@ -8,8 +8,6 @@ elements:
         herotitle: Directions
   - text:
       - paragraph: >-
-
-
           ## Directions from Brisbane Airport:
 
 
@@ -68,5 +66,11 @@ elements:
 
           * After a small road to the left (Ford Rd) the road rises slightly and
           we are on the left hand side (opposite a road off to the right).
+
+
+
+
+          Don't hesitate to [contact us](/contact) if you need help with
+          directions
 ---
 
