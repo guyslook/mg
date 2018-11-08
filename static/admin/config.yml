@@ -61,6 +61,11 @@ collections:
             fields:
               - {label: Quote, name: quotetitle, widget: "string"}
               - {label: Quote author, name: quoteauthor, widget: "string"}
+          - label: "Custom HTML"
+            name: "customhtml"
+            widget: "list"
+            fields:
+              - {label: Custom HTML, name: customhtml, widget: "string"}
 
   - name: "menu"
     label: "Menu"
