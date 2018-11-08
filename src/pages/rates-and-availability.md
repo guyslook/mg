@@ -82,5 +82,12 @@ elements:
 
           If you cancel within 14 days of your arrival time the full payment is
           required and will be debited from your credit/debit card.
+  - quote:
+      - quoteauthor: 'Thomas(Aus) - January 19, 2018'
+        quotetitle: >-
+          Excellent hosts. Attention to detail. Even had a Happy Birthday sign
+          when we arrived. Well stocked with everything. Milk, butter, water,
+          soft drinks, teas and coffee. One could want for no more. Scones yummy
+          thanks.
 ---
 
