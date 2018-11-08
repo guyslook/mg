@@ -54,7 +54,7 @@ Settings.propTypes = {
 export default Settings;
 
 export const pageQuery = graphql`
-  query SettingsByID($id: String!) {
+  query SiteSettingsByID($id: String!) {
     markdownRemark(id: { eq: $id }) {
       id
       html
