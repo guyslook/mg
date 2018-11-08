@@ -1,7 +1,7 @@
 import React from "react";
-import { Link } from "gatsby";
+import { FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa";
 
-// require("./AaFooter.scss");
+require("./AaFooter.scss");
 
 class AaFooter extends React.Component {
   constructor(props) {
@@ -19,21 +19,27 @@ class AaFooter extends React.Component {
           <ul>
             {this.props.socialLinks.facebook ? (
               <li>
-                <a href={this.props.socialLinks.facebook}>Facebook</a>
+                <a href={this.props.socialLinks.facebook}>
+                  <FaFacebook size="2em" />
+                </a>
               </li>
             ) : (
               ""
             )}
             {this.props.socialLinks.twitter ? (
               <li>
-                <a href={this.props.socialLinks.twitter}>Twitter</a>
+                <a href={this.props.socialLinks.twitter}>
+                  <FaTwitter size="2em" />
+                </a>
               </li>
             ) : (
               ""
             )}
             {this.props.socialLinks.instagram ? (
               <li>
-                <a href={this.props.socialLinks.instagram}>Instagram</a>
+                <a href={this.props.socialLinks.instagram}>
+                  <FaInstagram size="2em" />
+                </a>
               </li>
             ) : (
               ""

@@ -1,0 +1,31 @@
+@import "../all.sass";
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-basis: 50%;
+  justify-content: space-between;
+  border-top: 8px solid $primary-invert;
+}
+
+.footerAddress {
+  display: flex;
+  max-width: 50%;
+}
+
+.footerSocial {
+  display: flex;
+  ul {
+    display: flex;
+    li {
+      margin-left: 20px;
+      a {
+        color: $primary-invert;
+        &:hover {
+          color: $primary;
+        }
+      }
+    }
+  }
+}
