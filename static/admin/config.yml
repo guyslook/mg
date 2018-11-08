@@ -78,7 +78,7 @@ collections:
   - name: "settings"
     label: "Site Settings"
     folder: "src/pages/settings"
-    create: true
+    create: false
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "settings"}
       - {label: "Website name", name: "title", widget: "string", required: true}
