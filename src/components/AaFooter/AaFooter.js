@@ -1,6 +1,7 @@
 import React from "react";
+import { Link } from "gatsby";
 
-require("./AaFooter.scss");
+// require("./AaFooter.scss");
 
 class AaFooter extends React.Component {
   constructor(props) {
@@ -12,10 +13,35 @@ class AaFooter extends React.Component {
 
   render() {
     return (
-      <blockquote>
-        {this.props.quote}
-        <span>{this.props.author}</span>
-      </blockquote>
+      <footer className="footer">
+        <div className="footerAddress">{this.props.address}</div>
+        <div className="footerSocial">
+          <ul>
+            {this.props.socialLinks.facebook ? (
+              <li>
+                <a href={this.props.socialLinks.facebook}>Facebook</a>
+              </li>
+            ) : (
+              ""
+            )}
+            {this.props.socialLinks.twitter ? (
+              <li>
+                <a href={this.props.socialLinks.twitter}>Twitter</a>
+              </li>
+            ) : (
+              ""
+            )}
+            {this.props.socialLinks.instagram ? (
+              <li>
+                <a href={this.props.socialLinks.instagram}>Instagram</a>
+              </li>
+            ) : (
+              ""
+            )}
+          </ul>
+        </div>
+        {/* <div className="footerSocial">{this.props.socialLinks}</div> */}
+      </footer>
     );
   }
 }

@@ -3,6 +3,7 @@ import Helmet from "react-helmet";
 import logo from "../img/logo.svg";
 import { Link } from "gatsby";
 import { StaticQuery, graphql } from "gatsby";
+import AaFooter from "./AaFooter/AaFooter";
 
 import Navbar from "../components/Navbar/Navbar";
 import "./all.sass";
@@ -23,44 +24,41 @@ const TemplateWrapper = ({ children }) => (
       </div>
       {children}
     </div>
-    <footer>
-      <div class="address">
-        <StaticQuery
-          query={graphql`
-            query {
-              allMarkdownRemark(
-                filter: { frontmatter: { templateKey: { eq: "menu" } } }
-              ) {
-                totalCount
-                edges {
-                  node {
-                    id
-                    frontmatter {
-                      title
-                      menupath
-                    }
+
+    <StaticQuery
+      query={graphql`
+        query {
+          allMarkdownRemark(
+            filter: { frontmatter: { templateKey: { eq: "settings" } } }
+          ) {
+            totalCount
+            edges {
+              node {
+                id
+                frontmatter {
+                  title
+                  companyaddress
+                  sociallinks {
+                    facebook
+                    twitter
                   }
                 }
               }
             }
-          `}
-          render={data => (
-            <ul>
-              <li>
-                <Link to="/">Home</Link>
-              </li>
-              {data.allMarkdownRemark.edges.map(({ node }) => (
-                <li key={node.id}>
-                  <Link className="navbarItem" to={node.frontmatter.menupath}>
-                    {node.frontmatter.title}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          )}
-        />
-      </div>
-    </footer>
+          }
+        }
+      `}
+      render={data => (
+        <div>
+          {data.allMarkdownRemark.edges.map(({ node }) => (
+            <AaFooter
+              socialLinks={node.frontmatter.sociallinks}
+              address={node.frontmatter.companyaddress}
+            />
+          ))}
+        </div>
+      )}
+    />
   </div>
 );
 
