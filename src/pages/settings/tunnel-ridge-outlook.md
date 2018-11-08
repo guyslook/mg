@@ -11,6 +11,7 @@ companyaddress: |-
   Tel (international): +61 478 672862
 sociallinks:
   facebook: 'https://www.facebook.com/tunnelridgeoutlook/'
+  instagram: 'https://www.instagram.com/tunnelridgeoutlook/'
   twitter: 'https://www.twitter.com/tunnelridgeoutlook/'
 ---
 
