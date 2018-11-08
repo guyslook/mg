@@ -81,7 +81,7 @@ collections:
     create: true
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "settings"}
-      - {label: "Website name", name: "websitename", widget: "string", required: true}
+      - {label: "Website name", name: "title", widget: "string", required: true}
       - {label: "Company address", name: "companyaddress", widget: "markdown", required: false}
       - label: "Social Links"
         name: "sociallinks"
