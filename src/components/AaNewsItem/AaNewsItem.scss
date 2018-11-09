@@ -8,6 +8,12 @@
     display:inline;
 }
 
+.AaNewsItem .content {
+    border-bottom: 8px solid $secondary;
+    background-color: $gray;
+    padding: 30px;
+}
+
 .AaNewsItem .btn {
     border-radius: 30px;
     font-size: 15px;
