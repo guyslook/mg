@@ -1,13 +1,13 @@
-import React from 'react'
-import Layout from '../components/Layout'
+import React from "react";
+import Layout from "../components/Layout";
+import AaBlockquote from "../components/AaBlockquote/AaBlockquote";
 
 const NotFoundPage = () => (
   <Layout>
     <div>
-      <h1>NOT FOUND</h1>
-      <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
+      <AaBlockquote quote="Oops, this page doesn't exist, please contact us if you can't find what you're looking for" />
     </div>
   </Layout>
-)
+);
 
-export default NotFoundPage
+export default NotFoundPage;
