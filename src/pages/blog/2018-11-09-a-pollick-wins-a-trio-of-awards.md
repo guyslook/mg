@@ -8,6 +8,4 @@ description: >-
 tags:
   - awards
 ---
-A Pollick wins a trio of awards from Costa Coffee in recognition of our commitment to quality.
-
 ![Trio of awards](/img/large9376184.jpg)
