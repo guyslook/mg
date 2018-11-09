@@ -10,8 +10,6 @@ description: >-
 tags:
   - accreditation
 ---
-A Pollick has been awarded accreditation from safecontractor for its commitment to achieving excellence in health and safety. Safecontractor is a leading third party accreditation scheme which recognises very high standards in health and safety management amongst UK contractors.
-
 Safecontractor accreditation enhances the company’s ability to attract new contracts and its commitment to safety will be viewed positively by its insurers when the company liability policy is up for renewal.
 
 Safecontractor is applicable to most sectors although it is particularly relevant to food manufacture, property, facilities management, retail and leisure sectors, all of which are big users of contracted services.
