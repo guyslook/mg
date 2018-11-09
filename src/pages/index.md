@@ -19,7 +19,7 @@ elements:
   - hero:
       - herodescription: Costa Coffee contractor of the year
         heroimage: /img/awards.jpg
-        herolink: /awards
+        herolink: /tags/awards
         herotitle: Awards
 ---
 
