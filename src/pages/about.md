@@ -53,5 +53,6 @@ elements:
       - galleryitem:
           - caption: Costa coffee | The UK's leading Coffee retailer.
             src: /img/costa-2.jpg
+            thumbnail: /img/costa-2.jpg
 ---
 
