@@ -26,5 +26,9 @@ elements:
         heroimage: /img/pexels-photo-264706.jpeg
         herolink: /news
         herotitle: Latest News
+  - quote:
+      - quotetitle: >-
+          A family business now in its third generation, A. Pollick Ltd was
+          established 75 years ago by the managing director's grandfather.
 ---
 
