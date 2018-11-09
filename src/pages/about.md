@@ -21,8 +21,8 @@ elements:
           offices and showrooms.
 
 
-          We have worked with some of our clients for a very long time شاô four
-          of them for over a decade. A very strong management base means we are
+          We have worked with some of our clients for a very long time four of
+          them for over a decade. A very strong management base means we are
           extremely service-orientated and focussed on keeping our clients
           happy.
 
