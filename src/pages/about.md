@@ -4,45 +4,50 @@ title: About
 elements:
   - hero:
       - herodescription: >-
-          Tunnel Ridge Outlook is situated on the highest point of Tunnel Ridge
-          Road
+          A. Pollick Ltd are a family run shop-fitting company, founded in 1934.
+          Based in Manchester, we work nationwide for mainly blue chip and
+          high-profile, publicly appointed companies.
         heroimage: /img/2016-08-18-13-46-50.jpg
         herotitle: About
   - text:
       - paragraph: >-
-          We offer an exclusive apartment on the lower floor of our house, with
-          magnificent views from your patio windows onto your deck in a resort
-          style setting, with swimming pool and grounds.
+          As a main contractor, we employ and manage sub-contractors both
+          appointed and nominated by the client and ourselves.
 
 
-          ​Your apartment is air conditioned, spacious and has a fully fitted
-          kitchen, with full cooking facilities and BBQ outside.  Free wifi.
+          The majority of our work is retail-based. This encompasses the high
+          street, shopping centres, retail parks, train stations and airports
+          all over the UK and Ireland. In addition, we also carry out work in
+          offices and showrooms.
 
 
-          The bedroom looks out to the deck and pool and bush and sea views in
-          the distance.
+          We have worked with some of our clients for a very long time شاô four
+          of them for over a decade. A very strong management base means we are
+          extremely service-orientated and focussed on keeping our clients
+          happy.
 
 
-          ​We offer a peaceful and quiet location for those who want to get away
-          from it all.
-  - gallery:
-      - galleryitem:
-          - caption: A view of the garden
-            src: /img/2016-08-18-13-46-50.jpg
-            thumbnail: /img/2016-08-18-13-46-50.jpg
-          - caption: Another view of the garden
-            src: /img/2016-08-18-13-46-50.jpg
-            thumbnail: /img/2016-08-18-13-46-50.jpg
-          - caption: The view of the mountains
-            src: /img/view1.jpg
-            thumbnail: /img/view1.jpg
+          We are able to work from architects' or designers' drawings.
+          Alternatively, we can provide a full survey, design, and local
+          authority approval service, as required.
+
+
+          In addition, we run our own manufacturing plant, which enables us to
+          design and create anything from full-length bars to small display
+          units.
   - quote:
-      - quoteauthor: Sean(Aus)
-        quotetitle: >-
-          Jason, our host, was attentive, helpful, and a great guide to the
-          area. We felt looked after but also had a lot of privacy. The
-          facilities were perfect, the view was gorgeous, and the homemade
-          scones were delightful. I would stay here again in a heartbeat and
-          will advise anyone traveling to this part of Australia to stay here.
+      - quotetitle: >-
+          "We pride ourselves on building strong enduring relationships with
+          quality companies by providing consistently high quality and service
+          levels."
+  - text:
+      - paragraph: >-
+          A family business now in its third generation, A. Pollick Ltd was
+          established 75 years ago by the managing director's grandfather.
+
+
+          In the 1970s and 1980s, the firm progressed into working with retail
+          chains around the UK. And as the high street has become more complex
+          and demanding, we have adapted to meet those new challenges.
 ---
 
