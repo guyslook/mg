@@ -1,5 +1,10 @@
 import React from "react";
 import { FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa";
+import ReactHtmlParser, {
+  processNodes,
+  convertNodeToElement,
+  htmlparser2
+} from "react-html-parser";
 
 require("./AaFooter.scss");
 
@@ -12,9 +17,11 @@ class AaFooter extends React.Component {
   }
 
   render() {
+    var markdown = require("markdown").markdown;
+    const newAddressHTML = markdown.toHTML(this.props.address);
     return (
       <footer className="footer">
-        <div className="footerAddress">{this.props.address}</div>
+        <div className="footerAddress">{ReactHtmlParser(newAddressHTML)}</div>
         <div className="footerSocial">
           <ul>
             {this.props.socialLinks.facebook ? (

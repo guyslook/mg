@@ -2,9 +2,9 @@
 templateKey: settings
 title: Tunnel Ridge Outlook
 companyaddress: |-
-  ​352 Tunnel Ridge Road\
-  Mooloolah Valley\
-  Queensland 4553\
+  352 Tunnel Ridge Road  
+  Mooloolah Valley  
+  Queensland 4553  
   Australia
 
   Tel (from Aus): 0478 672862

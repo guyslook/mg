@@ -1,17 +1,20 @@
 @import "../all.sass";
 
-.footer {
+footer.footer {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   flex-basis: 50%;
   justify-content: space-between;
   border-top: 8px solid $primary-invert;
+  padding: 20px;
 }
 
 .footerAddress {
-  display: flex;
   max-width: 50%;
+  p{
+    margin-bottom: 15px;
+  }
 }
 
 .footerSocial {

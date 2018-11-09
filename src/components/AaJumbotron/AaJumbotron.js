@@ -20,7 +20,7 @@ class AaJumbotron extends React.Component {
       height: "80vh"
     };
     return (
-      <Jumbotron style={jumbotronstyles}>
+      <Jumbotron className="aaJumbotron" style={jumbotronstyles}>
         <div className="jumbotron-container">
           <div className="container">
             <h1>{this.props.title}</h1>
