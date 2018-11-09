@@ -7,7 +7,7 @@ elements:
           A. Pollick Ltd are a family run shop-fitting company, founded in 1934.
           Based in Manchester, we work nationwide for mainly blue chip and
           high-profile, publicly appointed companies.
-        heroimage: /img/2016-08-18-13-46-50.jpg
+        heroimage: /img/key-market-review.jpg
         herolink: /about
         herotitle: A.Pollick Shopfitters
   - text:
