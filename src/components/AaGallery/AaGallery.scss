@@ -1,5 +1,33 @@
 .ReactGridGallery {
     display: flex;
+    flex-wrap: wrap;
     margin-top: 50px;
     margin-bottom: 50px;
+}
+
+.tile-icon-bar {
+    display: none;
+}
+
+.aagallery .ReactGridGallery .tile {
+    float: none;
+    width:50%;
+    background: none !important;
+}
+
+.tile-overlay {
+    display: none;
+}
+
+.tile-bottom-bar {
+    display: none;
+}
+
+.tile-viewport {
+    height: auto !important;
+}
+
+.aagallery .ReactGridGallery .tile img{
+    width: 100%;
+    height: auto !important;
 }

@@ -1,8 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { kebabCase } from "lodash";
 import Helmet from "react-helmet";
-import { graphql, Link } from "gatsby";
+import { graphql } from "gatsby";
 import Layout from "../components/Layout";
 import AaJumbotron from "../components/AaJumbotron/AaJumbotron";
 import AaGallery from "../components/AaGallery/AaGallery";
@@ -22,6 +21,7 @@ export const BasicPageTemplate = ({
   return (
     <div>
       <div className="elements">
+        {PostContent ? "" : ""}
         {elements
           ? elements.map(element => (
               <div className="element">
