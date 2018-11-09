@@ -51,6 +51,7 @@ elements:
           and demanding, we have adapted to meet those new challenges.
   - gallery:
       - galleryitem:
-          - src: /img/costa-2.jpg
+          - caption: Costa coffee | The UK's leading Coffee retailer.
+            src: /img/costa-2.jpg
 ---
 
