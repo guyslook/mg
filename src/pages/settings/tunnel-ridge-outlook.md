@@ -2,7 +2,7 @@
 templateKey: settings
 title: Tunnel Ridge Outlook
 companyaddress: |-
-  ​352 Tunnel Ridge Road
+  352 Tunnel Ridge Road
 
   Mooloolah Valley
 
