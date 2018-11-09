@@ -4,20 +4,18 @@ title: Contact
 elements:
   - text:
       - paragraph: |-
-          # Tunnel Ridge Outlook
+          # A. POLLICK LTD
 
-          ​352 Tunnel Ridge Road
-
-          Mooloolah Valley
-
-          Queensland 4553
-
-          Australia
+          3 Eager street  
+          Newton Heath  
+          Manchester  
+          M40 1EP  
 
 
+          Phone: 0161 681 2077
 
-          Tel (from Aus): 0478 672862
+          Fax: 0161 681 2093
 
-          Tel (international): +61 478 672862
+          Email:info@apollick.co.uk
 ---
 
