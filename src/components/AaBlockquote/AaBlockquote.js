@@ -12,7 +12,7 @@ class AaBlockquote extends React.Component {
 
   render() {
     return (
-      <blockquote>
+      <blockquote className="container">
         {this.props.quote}
         <span>{this.props.author}</span>
       </blockquote>

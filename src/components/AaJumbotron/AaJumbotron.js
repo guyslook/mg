@@ -28,7 +28,7 @@ class AaJumbotron extends React.Component {
             {this.props.link ? (
               <p>
                 <a href={this.props.link}>
-                  <Button bsStyle="primary">Learn more</Button>
+                  <Button bsStyle="primary">Learn more →</Button>
                 </a>
               </p>
             ) : (
