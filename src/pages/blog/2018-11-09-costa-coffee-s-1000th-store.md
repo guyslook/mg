@@ -8,6 +8,4 @@ description: >-
 tags:
   - costa
 ---
-A.Pollick Ltd recently opened Costa Coffee's 1000th store in the UK, having opened their 500th store about 3 years ago.
-
 We are now embarking on a Re-Image program for Costa Coffee for their entire range of existing stores, having been awarded Costa Coffee's Contractor of the Year 2007.
