@@ -1,18 +1,21 @@
 ---
 templateKey: settings
-title: Tunnel Ridge Outlook
+title: A.Pollick Shopfitters
 companyaddress: |-
-  352 Tunnel Ridge Road  
-  Mooloolah Valley  
-  Queensland 4553  
-  Australia
+  3 Eager street  
+  Newton Heath  
+  Manchester  
+  M40 1EP  
 
-  Tel (from Aus): 0478 672862
 
-  Tel (international): +61 478 672862
+  Phone: 0161 681 2077
+
+  Fax: 0161 681 2093
+
+  Email:info@apollick.co.uk
 sociallinks:
-  facebook: 'https://www.facebook.com/tunnelridgeoutlook/'
-  instagram: 'https://www.instagram.com/tunnelridgeoutlook/'
-  twitter: 'https://www.twitter.com/tunnelridgeoutlook/'
+  facebook: ''
+  instagram: ''
+  twitter: ''
 ---
 
