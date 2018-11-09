@@ -8,7 +8,7 @@ companyaddress: |-
 
   Queensland 4553
 
-  Australia
+  **Australia**
 
 
 
