@@ -49,5 +49,8 @@ elements:
           In the 1970s and 1980s, the firm progressed into working with retail
           chains around the UK. And as the high street has become more complex
           and demanding, we have adapted to meet those new challenges.
+  - gallery:
+      - galleryitem:
+          - src: /img/costa-2.jpg
 ---
 
