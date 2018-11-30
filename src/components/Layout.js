@@ -1,6 +1,6 @@
 import React from "react";
 import Helmet from "react-helmet";
-import logo from "../img/logo.svg";
+import logo from "../img/logo.png";
 import { Link } from "gatsby";
 import { StaticQuery, graphql } from "gatsby";
 import AaFooter from "./AaFooter/AaFooter";
@@ -43,7 +43,7 @@ const TemplateWrapper = ({ children }) => (
                 <Link to="/">
                   <img
                     src={logo}
-                    alt="Tunnel Ridge Outlook"
+                    alt="Heritage Engineering North West LTD"
                     style={{ width: "300px" }}
                   />
                 </Link>
