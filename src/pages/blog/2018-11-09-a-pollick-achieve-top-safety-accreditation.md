@@ -7,6 +7,6 @@ description: >-
   Engineering North West Ltd, who have donated £750 to help support our youth
   and training bands. Thank you so much for your kindness.
 tags:
-  - accreditation
+  - sponsorship
 ---
 "We would like to say a massive thank you to our friends over at Heritage Engineering North West Ltd, who have donated £750 to help support our youth and training bands. Thank you so much for your kindness."
