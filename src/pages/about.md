@@ -11,30 +11,30 @@ elements:
         herotitle: About
   - text:
       - paragraph: >-
-          As a main contractor, we employ and manage sub-contractors both
-          appointed and nominated by the client and ourselves.
+          We are a family run company who specialise in the manufacture of
+          machined components for numerous  modern industries including
+          packaging, lifting and printing, producing anything from bespoke
+          one-off items and after market parts for often obsolete machinery to
+          emergency repair work/reverse engineering.  We are capable of
+          machining your standard  materials ie. steel, stainless steel and
+          non-ferrous metals and also we have vast experience in most modern
+          composites and plastics used widely in todays industries.
 
 
-          The majority of our work is retail-based. This encompasses the high
-          street, shopping centres, retail parks, train stations and airports
-          all over the UK and Ireland. In addition, we also carry out work in
-          offices and showrooms.
+          We are the company to come to if you want our experience and expertise
+          combined, this ensures you we offer the very best and most experienced
+          service every time. Our customers range from large brands to smaller
+          operations and we are happy to hear from you wherever you are.
 
 
-          We have worked with some of our clients for a very long time four of
-          them for over a decade. A very strong management base means we are
-          extremely service-orientated and focussed on keeping our clients
-          happy.
+          Whatever your requirements we will do our best to help, as a
+          professional company we are all highly trained in all engineering
+          aspects. We love working on all kinds of projects from the very simple
+          and straightforward to the very complicated.
 
 
-          We are able to work from architects' or designers' drawings.
-          Alternatively, we can provide a full survey, design, and local
-          authority approval service, as required.
-
-
-          In addition, we run our own manufacturing plant, which enables us to
-          design and create anything from full-length bars to small display
-          units.
+          If you have a project and you are not sure where to start [contact
+          us](/contact).
   - quote:
       - quotetitle: >-
           "We pride ourselves on building strong enduring relationships with
