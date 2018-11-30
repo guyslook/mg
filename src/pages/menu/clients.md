@@ -1,6 +1,6 @@
 ---
 templateKey: menu
 title: Clients
-menupath: /clients
+menupath: /products
 ---
 
