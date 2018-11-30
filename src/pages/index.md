@@ -1,33 +1,17 @@
 ---
 templateKey: basic-page
-title: A.Pollick Shopfitters
+title: Heritage Engineering
 elements:
   - hero:
       - herodescription: >-
-          A. Pollick Ltd are a family run shop-fitting company, founded in 1934.
-          Based in Manchester, we work nationwide for mainly blue chip and
-          high-profile, publicly appointed companies.
-        heroimage: /img/key-market-review.jpg
+          Heritage Engineering North West Ltd is an engineering company that
+          specialises in the manufacture of machined components.
+        heroimage: /img/11731722_1594820430769974_7243743190434385688_o.jpg
         herolink: /about
-        herotitle: A.Pollick Shopfitters
-  - text:
-      - paragraph: >-
-          Our clients include a range of blue chip, high-profile retail
-          organisations, who demand a high standard and quality of work. Many of
-          the following companies have used our services many times for their
-          branches across the UK.
-  - hero:
-      - herodescription: Costa Coffee contractor of the year
-        heroimage: /img/awards.jpg
-        herolink: /tags/awards
-        herotitle: Awards
-  - quote:
-      - quotetitle: >-
-          A family business now in its third generation, A. Pollick Ltd was
-          established 75 years ago by the managing director's grandfather.
+        herotitle: Heritage Engineering
   - hero:
       - herodescription: Find out what we've been up to
-        heroimage: /img/pexels-photo-264706.jpeg
+        heroimage: /img/11709946_1594815537437130_7839460710303105809_o.jpg
         herolink: /news
         herotitle: Latest News
 ---
