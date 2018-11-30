@@ -3,11 +3,17 @@ templateKey: settings
 title: Heritage Engineering North West LTD.
 companyaddress: |-
   Heritage Engineering North West Ltd. 
+
   Unit 16 
+
   Failsworth Industrial Estate 
+
   Failsworth 
+
   Oldham 
+
   Greater Manchester 
+
   M35 0BN
 
   0161 681 8468
