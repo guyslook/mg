@@ -4,18 +4,16 @@ title: Contact
 elements:
   - text:
       - paragraph: |-
-          # A. POLLICK LTD
+          # Heritage Engineering North West LTD.
 
-          3 Eager street  
-          Newton Heath  
-          Manchester  
-          M40 1EP  
+          Failsworth Industrial Estate \
+          Failsworth \
+          Oldham \
+          Greater Manchester \
+          M35 0BN
 
+          0161 681 8468
 
-          Phone: 0161 681 2077
-
-          Fax: 0161 681 2093
-
-          Email:info@apollick.co.uk
+          contact@heritageengineeringnw.co.uk
 ---
 
