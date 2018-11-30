@@ -40,25 +40,5 @@ elements:
           "We pride ourselves on building strong enduring relationships with
           quality companies by providing consistently high quality and service
           levels."
-  - text:
-      - paragraph: >-
-          A family business now in its third generation, A. Pollick Ltd was
-          established 75 years ago by the managing director's grandfather.
-
-
-          In the 1970s and 1980s, the firm progressed into working with retail
-          chains around the UK. And as the high street has become more complex
-          and demanding, we have adapted to meet those new challenges.
-  - gallery:
-      - galleryitem:
-          - caption: Costa coffee | The UK's leading Coffee retailer.
-            src: /img/costa-2.jpg
-            thumbnail: /img/costa-2.jpg
-          - src: /img/story1.jpg
-            thumbnail: /img/story1.jpg
-          - src: /img/costa-1.jpg
-            thumbnail: /img/costa-1.jpg
-          - src: /img/toyota-2.jpg
-            thumbnail: /img/toyota-2.jpg
 ---
 
