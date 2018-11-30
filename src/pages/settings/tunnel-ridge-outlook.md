@@ -1,20 +1,21 @@
 ---
 templateKey: settings
-title: A.Pollick Shopfitters
+title: Heritage Engineering North West LTD.
 companyaddress: |-
-  3 Eager street  
-  Newton Heath  
-  Manchester  
-  M40 1EP  
+  Heritage Engineering North West Ltd.\
+  Unit 16\
+  Failsworth Industrial Estate \
+  Failsworth\
+  Oldham\
+  Greater Manchester\
+  M35 0BN
 
+  0161 681 8468
 
-  Phone: 0161 681 2077
-
-  Fax: 0161 681 2093
-
-  Email:info@apollick.co.uk
+  contact@heritageengineeringnw.co.uk
 sociallinks:
-  facebook: ''
+  facebook: >-
+    https://www.facebook.com/Heritage-Engineering-North-West-Ltd-1426232660962086/
   instagram: ''
   twitter: ''
 ---
