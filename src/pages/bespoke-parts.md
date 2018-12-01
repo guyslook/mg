@@ -12,5 +12,9 @@ elements:
 
           We specialise in the manufacture of  obsolete and bespoke components
           from samples and drawings.
+  - gallery:
+      - galleryitem:
+          - src: /img/clamp-9.jpg
+      - {}
 ---
 
