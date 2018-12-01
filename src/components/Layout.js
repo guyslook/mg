@@ -6,6 +6,7 @@ import { StaticQuery, graphql } from "gatsby";
 import AaFooter from "./AaFooter/AaFooter";
 
 import Navbar from "../components/Navbar/Navbar";
+import Services from "../components/Services/Services";
 import "./all.sass";
 
 const TemplateWrapper = ({ children }) => (
@@ -48,8 +49,10 @@ const TemplateWrapper = ({ children }) => (
                   />
                 </Link>
               </div>
+              <Services />
               {children}
             </div>
+
             <AaFooter
               socialLinks={node.frontmatter.sociallinks}
               address={node.frontmatter.companyaddress}
