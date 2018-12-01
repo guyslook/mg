@@ -14,7 +14,9 @@ elements:
           from samples and drawings.
   - gallery:
       - galleryitem:
-          - src: /img/clamp-9.jpg
+          - caption: Aluminium Clamp for Welding Machine
+            src: /img/clamp-9.jpg
+            thumbnail: /img/clamp-9.jpg
       - {}
 ---
 
