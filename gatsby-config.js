@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: "Gatsby + Netlify CMS Starter"
+    title: "Heritage Engineering North West LTD."
   },
   plugins: [
     "gatsby-plugin-react-helmet",
@@ -31,6 +31,39 @@ module.exports = {
       resolve: "gatsby-plugin-netlify-cms",
       options: {
         modulePath: `${__dirname}/src/cms/cms.js`
+      }
+    },
+    {
+      resolve: `gatsby-plugin-favicon`,
+      options: {
+        logo: "./src/img/favicon.png",
+
+        // WebApp Manifest Configuration
+        appName: "Heritage Engineering North West LTD.", // Inferred with your package.json
+        appDescription: null,
+        developerName: null,
+        developerURL: null,
+        dir: "auto",
+        lang: "en-US",
+        background: "#232e3a",
+        theme_color: "#232e3a",
+        display: "standalone",
+        orientation: "any",
+        start_url: "/",
+        version: "1.0",
+
+        icons: {
+          android: true,
+          appleIcon: true,
+          appleStartup: true,
+          coast: false,
+          favicons: true,
+          firefox: true,
+          opengraph: false,
+          twitter: false,
+          yandex: false,
+          windows: false
+        }
       }
     },
     // {
