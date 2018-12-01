@@ -29,7 +29,5 @@ elements:
           - caption: Welding Machine clamp
             src: /img/clamp-3.jpg
             thumbnail: /img/clamp-3.jpg
-  - {}
-  - {}
 ---
 
