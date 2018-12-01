@@ -23,5 +23,9 @@ elements:
           - caption: Welding Machine clamp
             src: /img/clamp-5.jpg
             thumbnail: /img/clamp-5.jpg
+          - caption: Welding Machine clamp
+            src: /img/clamp-4.jpg
+            thumbnail: /img/clamp-4.jpg
+  - {}
 ---
 
