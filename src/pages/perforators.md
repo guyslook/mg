@@ -5,7 +5,10 @@ elements:
   - gallery: []
     text:
       - paragraph: >-
-          ## Hot Perforators
+          # **Hot, Cold and Intermittent Perforators**
+
+
+          **Hot Perforators**
 
 
           Our Hot Perforators have solid state heater controls with both
@@ -23,7 +26,7 @@ elements:
           ![hot perforator](/img/perforator.png)
 
 
-          ## Cold Perforators
+          **Cold Perforators**
 
 
           Our Cold Perforators have easily interchangeable pin segments, which
@@ -55,7 +58,7 @@ elements:
           ![Cold Perforator](/img/coldperforator.jpg)
 
 
-          ## Intermittent Perforators
+          **Intermittent Perforators**
 
 
           The P.X Intermittent perforation unit is a fully enclosed unit,
