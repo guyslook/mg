@@ -17,5 +17,8 @@ elements:
           - caption: Aluminium Clamp for Welding Machine
             src: /img/clamp-9.jpg
             thumbnail: /img/clamp-9.jpg
+          - caption: Aluminium glamp for Welding Machine
+            src: /img/clamp-7.jpg
+            thumbnail: /img/clamp-7.jpg
 ---
 
