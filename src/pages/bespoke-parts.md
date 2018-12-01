@@ -24,8 +24,8 @@ elements:
             src: /img/clamp-5.jpg
             thumbnail: /img/clamp-5.jpg
           - caption: Welding Machine clamp
-            src: /img/clamp-4.jpg
-            thumbnail: /img/clamp-4.jpg
+            src: /img/clamp-1.jpg
+            thumbnail: /img/clamp-1.jpg
           - caption: Welding Machine clamp
             src: /img/clamp-3.jpg
             thumbnail: /img/clamp-3.jpg
