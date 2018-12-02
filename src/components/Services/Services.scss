@@ -25,11 +25,19 @@ h2{
 }
 
 .services-links .twenty a {
-    border-left: 2px solid #1B222D;
+	border-left: 2px solid #1B222D;
+	
+	@media only screen and (max-width: 600px) {
+		border-left: none;
+	}
 }
 
 .services-links .twentyone a {
-    border-right: 2px solid #1B222D;
+	border-right: 2px solid #1B222D;
+	
+	@media only screen and (max-width: 600px) {
+		border-right: none;
+	}
 }
 
 .services-links .service-links-inner{
@@ -37,11 +45,26 @@ h2{
 	margin-right:auto;
 	width: 80%;
 	display:flex;
+	flex-wrap: wrap;
+
+	@media only screen and (max-width: 600px) {
+		width: 98%;
+	}
 }
 
 .services-links .twenty {
 	flex-grow: 1;
-    flex-basis: 0;
+	flex-basis: 0;
+	
+	@media only screen and (max-width: 600px) {
+		flex-basis:50%;
+	}
+}
+
+.services-links .twentyone {
+	@media only screen and (max-width: 600px) {
+		max-width: 50%;
+	}
 }
 
 .services-links a img {

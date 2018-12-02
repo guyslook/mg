@@ -43,6 +43,7 @@ const TemplateWrapper = ({ children }) => (
               <div className="top">
                 <Link to="/">
                   <img
+                    className="logo"
                     src={logo}
                     alt="Heritage Engineering North West LTD"
                     style={{ width: "300px" }}
