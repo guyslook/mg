@@ -50,8 +50,14 @@ const TemplateWrapper = ({ children }) => (
                   />
                 </Link>
               </div>
-              <Services />
+              <div className="hidden-xs">
+                <Services />
+              </div>
+
               {children}
+              <div className="visible-xs">
+                <Services />
+              </div>
             </div>
 
             <AaFooter
