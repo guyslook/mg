@@ -15,5 +15,10 @@ elements:
           a very timely fashion and right first time, even working late into the
           night so I could get a production line up and running for the next
           days shift.
+  - gallery:
+      - galleryitem:
+          - caption: Drive Shaft
+            src: /img/drive shaft 1.JPG
+            thumbnail: /img/drive shaft 1.JPG
 ---
 
