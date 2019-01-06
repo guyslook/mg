@@ -24,7 +24,7 @@ elements:
           We can also replace any pinned rollers for other types of Perforators
           used throughout the world.  Patterns include P1, P1.5, P8, P30 and
           P160, including straight and diamond patterns in Steel and CZ121 Brass
-          for hot and cold perforators.
+          for hot and cold perforators. [View our Gallery](/gallery)
   - gallery:
       - galleryitem:
           - caption: Aluminium Clamp for Welding Machine
