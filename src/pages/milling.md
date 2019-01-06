@@ -18,5 +18,8 @@ elements:
           - caption: Roller Cam Lifting Assembly
             src: /img/roler cam lifting assembly (2).jpg
             thumbnail: /img/roler cam lifting assembly (2).jpg
+          - caption: Guide
+            src: /img/guide 2.JPG
+            thumbnail: /img/guide 2.JPG
 ---
 
