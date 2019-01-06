@@ -45,6 +45,10 @@ elements:
           - caption: Bespoke nuts
             src: /img/bespoke nuts 1.jpg
             thumbnail: /img/bespoke nuts 1.jpg
+          - caption: Hot Perforation Pin Segment
+            src: /img/imag0014.jpg
+            thumbnail: /img/imag0014.jpg
+          - {}
     text:
       - paragraph: ''
 ---
