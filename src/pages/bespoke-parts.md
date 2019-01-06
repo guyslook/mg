@@ -7,14 +7,14 @@ elements:
           # Bespoke Parts
 
 
-          Reverse engineering
+          **Reverse engineering**
 
 
           We specialise in the manufacture of  obsolete and bespoke components
           from samples and drawings.
 
 
-          Pin Segments
+          **Pin Segments**
 
 
           We specialise in the manufacture of pinned roller segments to suit our
