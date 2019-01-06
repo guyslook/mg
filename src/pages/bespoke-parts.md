@@ -33,6 +33,8 @@ elements:
             src: /img/bespoke nuts 1.jpg
             thumbnail: /img/bespoke nuts 1.jpg
     text:
+      - paragraph: ''
+  - text:
       - paragraph: >-
           Pin Segments
 
