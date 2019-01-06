@@ -12,5 +12,8 @@ elements:
           - caption: Split Drive Clamp
             src: /img/change clamp 1.JPG
             thumbnail: /img/change clamp 1.JPG
+          - caption: Clamp
+            src: /img/clamp 6.JPG
+            thumbnail: /img/clamp 6.JPG
 ---
 
