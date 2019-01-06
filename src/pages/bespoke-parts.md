@@ -48,7 +48,9 @@ elements:
           - caption: Hot Perforation Pin Segment
             src: /img/imag0014.jpg
             thumbnail: /img/imag0014.jpg
-          - {}
+          - caption: Hot Perforation Pin Segment
+            src: /img/imag0017.jpg
+            thumbnail: /img/imag0017.jpg
     text:
       - paragraph: ''
 ---
