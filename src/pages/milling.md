@@ -15,5 +15,8 @@ elements:
           - caption: Clamp
             src: /img/clamp 6.JPG
             thumbnail: /img/clamp 6.JPG
+          - caption: Roller Cam Lifting Assembly
+            src: /img/roler cam lifting assembly (2).jpg
+            thumbnail: /img/roler cam lifting assembly (2).jpg
 ---
 
