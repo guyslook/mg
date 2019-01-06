@@ -23,5 +23,8 @@ elements:
           - caption: Large Pivot Pins
             src: /img/large pivot pins 1.JPG
             thumbnail: /img/large pivot pins 1.JPG
+          - caption: Phospher Bronze Bearings
+            src: /img/phosphor bronze bearing 2.jpg
+            thumbnail: /img/phosphor bronze bearing 2.jpg
 ---
 
