@@ -20,5 +20,8 @@ elements:
           - caption: Drive Shaft
             src: /img/drive shaft 1.JPG
             thumbnail: /img/drive shaft 1.JPG
+          - caption: Large Pivot Pins
+            src: /img/large pivot pins 1.JPG
+            thumbnail: /img/large pivot pins 1.JPG
 ---
 
