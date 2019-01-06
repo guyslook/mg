@@ -29,5 +29,8 @@ elements:
           - caption: Path/Heated Segment Rollers
             src: /img/px5 hot perforator.jpg
             thumbnail: /img/px5 hot perforator.jpg
+          - caption: 'Roller and Shaft Assembley '
+            src: /img/roler and shaft assembly 1.JPG
+            thumbnail: /img/roler and shaft assembly 1.JPG
 ---
 
