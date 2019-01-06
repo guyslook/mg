@@ -12,6 +12,19 @@ elements:
 
           We specialise in the manufacture of  obsolete and bespoke components
           from samples and drawings.
+
+
+          Pin Segments
+
+
+          We specialise in the manufacture of pinned roller segments to suit our
+          PX5 Hot and Cold Perforating Machines.
+
+
+          We can also replace any pinned rollers for other types of Perforators
+          used throughout the world.  Patterns include P1, P1.5, P8, P30 and
+          P160, including straight and diamond patterns in Steel and CZ121 Brass
+          for hot and cold perforators.
   - gallery:
       - galleryitem:
           - caption: Aluminium Clamp for Welding Machine
@@ -34,18 +47,5 @@ elements:
             thumbnail: /img/bespoke nuts 1.jpg
     text:
       - paragraph: ''
-  - text:
-      - paragraph: >-
-          Pin Segments
-
-
-          We specialise in the manufacture of pinned roller segments to suit our
-          PX5 Hot and Cold Perforating Machines.
-
-
-          We can also replace any pinned rollers for other types of Perforators
-          used throughout the world.  Patterns include P1, P1.5, P8, P30 and
-          P160, including straight and diamond patterns in Steel and CZ121 Brass
-          for hot and cold perforators.
 ---
 
