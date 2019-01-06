@@ -26,5 +26,8 @@ elements:
           - caption: Phospher Bronze Bearings
             src: /img/phosphor bronze bearing 2.jpg
             thumbnail: /img/phosphor bronze bearing 2.jpg
+          - caption: Path/Heated Segment Rollers
+            src: /img/px5 hot perforator.jpg
+            thumbnail: /img/px5 hot perforator.jpg
 ---
 
