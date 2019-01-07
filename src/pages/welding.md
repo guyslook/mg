@@ -8,6 +8,9 @@ elements:
       - caption: Oxy/Propane Safety Trolley
         src: /img/oxypropane trolley.jpg
         thumbnail: /img/oxypropane trolley.jpg
+      - caption: Bracket
+        src: /img/imag0251.jpg
+        thumbnail: /img/imag0251.jpg
     type: gallery
 ---
 
