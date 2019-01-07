@@ -2,7 +2,18 @@
 templateKey: basic-page
 title: Repair Work
 elements:
-  - paragraph: "# Repair Work\r\n\nShaft repairs\r\n\nBoring and bushing of worn bearing bores\r\n\nPulleys and sheaves\r\n\nRe-cutting of sheaves and diverter pulleys"
+  - paragraph: |-
+      # Repair Work
+
+      Shaft repairs
+
+      Boring and bushing of worn bearing bores
+
+      Pulleys and sheaves
+
+      Re-cutting of sheaves and diverter pulleys
+
+      Replacement Shafts
     type: text
   - galleryitem:
       - caption: Bronze Bearing and Shaft Replacement
