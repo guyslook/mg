@@ -16,8 +16,8 @@ elements:
       **Pin Segments**
 
 
-      We specialise in the manufacture of pinned roller segments to suit our PX5
-      Hot and Cold Perforating Machines.
+      We also specialise in the manufacture of pinned roller segments to suit
+      our PX5 Hot and Cold Perforating Machines.
 
 
       We can also replace any pinned rollers for other types of Perforators used
