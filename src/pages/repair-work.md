@@ -8,6 +8,9 @@ elements:
       - caption: Bronze Bearing and Shaft Replacement
         src: /img/imag0209.jpg
         thumbnail: /img/imag0209.jpg
+      - caption: Replacement Shaft
+        src: /img/20130910_144910_1.jpg
+        thumbnail: /img/20130910_144910_1.jpg
     type: gallery
 ---
 
