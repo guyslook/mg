@@ -2,15 +2,14 @@
 templateKey: basic-page
 title: Gallery
 elements:
-  - type: text
-    paragraph: >-
+  - paragraph: >-
       # Gallery of products
 
 
-      For any more information on any of the products seen below please
-      [contact us ](/about)
-  - type: gallery
-    galleryitem:
+      For any more information on any of the products seen below please [contact
+      us ](/about)
+    type: text
+  - galleryitem:
       - caption: Hot Perforation Pin Segment
         src: /img/imag0022.jpg
         thumbnail: /img/imag0022.jpg
@@ -23,4 +22,9 @@ elements:
       - caption: Hot Perforation Pin Segment
         src: /img/imag0014.jpg
         thumbnail: /img/imag0014.jpg
+      - caption: Airbars
+        src: /img/airshaft3.jpg
+        thumbnail: /img/airshaft3.jpg
+    type: gallery
 ---
+
