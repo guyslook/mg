@@ -11,6 +11,9 @@ elements:
       - caption: Bracket
         src: /img/imag0251.jpg
         thumbnail: /img/imag0251.jpg
+      - caption: Bracket
+        src: /img/imag0249.jpg
+        thumbnail: /img/imag0249.jpg
     type: gallery
 ---
 
