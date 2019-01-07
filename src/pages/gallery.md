@@ -28,6 +28,11 @@ elements:
       - caption: Air Mandrel Refurbishment
         src: /img/airshaft6.jpg
         thumbnail: /img/airshaft6.jpg
+      - caption: Cam Lifting Assembly
+        src: /img/roler cam lifting assembly.jpg
+        thumbnail: /img/roler cam lifting assembly.jpg
+      - src: /img/fountain water jet nozzles.jpg
+        thumbnail: /img/fountain water jet nozzles.jpg
     type: gallery
 ---
 
