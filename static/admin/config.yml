@@ -30,10 +30,10 @@ collections:
         name: "elements"
         widget: "list"
         required: false
-        fields:
+        types:
           - label: "Hero"
             name: "hero"
-            widget: "list"
+            widget: "object"
             fields:
               - {label: Image, name: heroimage, widget: "image"}
               - {label: Title, name: herotitle, widget: "string"}
@@ -41,12 +41,12 @@ collections:
               - {label: Link, name: herolink, widget: "string", required: false}
           - label: "Text"
             name: "text"
-            widget: "list"
+            widget: "object"
             fields:
               - {label: Paragraph, name: paragraph, widget: "markdown"}
           - label: "Gallery"
             name: "gallery"
-            widget: "list"
+            widget: "object"
             fields:
               - label: "Gallery item"
                 name: "galleryitem"
@@ -57,13 +57,13 @@ collections:
                   - {label: Title, name: caption, widget: "string"}
           - label: "Quote"
             name: "quote"
-            widget: "list"
+            widget: "object"
             fields:
               - {label: Quote, name: quotetitle, widget: "string"}
               - {label: Quote author, name: quoteauthor, widget: "string"}
           - label: "Custom HTML"
             name: "customhtml"
-            widget: "list"
+            widget: "object"
             fields:
               - {label: Custom HTML, name: customhtml, widget: "string"}
 

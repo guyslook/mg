@@ -22,44 +22,74 @@ export const BasicPageTemplate = ({
     <div>
       <div className="elements">
         {PostContent ? "" : ""}
-        {elements
-          ? elements.map(element => (
-              <div className="element">
-                {(Array.isArray(element.hero) &&
-                  element.hero.map(hero => (
-                    <div className="heroimage">
-                      <AaJumbotron
-                        title={hero.herotitle}
-                        description={hero.herodescription}
-                        featuredimage={hero.heroimage}
-                        link={hero.herolink}
-                      />
+        {elements &&
+          elements.map(element => (
+            <div className="element">
+              {console.log(element)}
+              {console.log(element.type)}
+              {(element.type === "hero" && (
+                <div className="heroimage">
+                  <AaJumbotron
+                    title={element.herotitle}
+                    description={element.herodescription}
+                    featuredimage={element.heroimage}
+                    link={element.herolink}
+                  />
+                </div>
+              )) ||
+                (element.type === "text" && (
+                  <div>
+                    <AaTextElement html={element.paragraph} />
+                  </div>
+                )) ||
+                (element.type === "gallery" && (
+                  <div>
+                    <AaGallery images={element.galleryitem} />
+                  </div>
+                )) ||
+                (element.type === "quote" && (
+                  <div>
+                    <AaBlockquote
+                      quote={element.quotetitle}
+                      author={element.quoteauthor}
+                    />
+                  </div>
+                ))}
+
+              {/* {(Array.isArray(element.hero) &&
+                element.hero.map(hero => (
+                  <div className="heroimage">
+                    <AaJumbotron
+                      title={hero.herotitle}
+                      description={hero.herodescription}
+                      featuredimage={hero.heroimage}
+                      link={hero.herolink}
+                    />
+                  </div>
+                ))) ||
+                (Array.isArray(element.text) &&
+                  element.text.map(text => (
+                    <div>
+                      <AaTextElement html={text.paragraph} />
                     </div>
                   ))) ||
-                  (Array.isArray(element.text) &&
-                    element.text.map(text => (
-                      <div>
-                        <AaTextElement html={text.paragraph} />
-                      </div>
-                    ))) ||
-                  (Array.isArray(element.gallery) &&
-                    element.gallery.map(gallery => (
-                      <div>
-                        <AaGallery images={gallery.galleryitem} />
-                      </div>
-                    ))) ||
-                  (Array.isArray(element.quote) &&
-                    element.quote.map(quote => (
-                      <div>
-                        <AaBlockquote
-                          quote={quote.quotetitle}
-                          author={quote.quoteauthor}
-                        />
-                      </div>
-                    )))}
-              </div>
-            ))
-          : ""}
+                (Array.isArray(element.gallery) &&
+                  element.gallery.map(gallery => (
+                    <div>
+                      <AaGallery images={gallery.galleryitem} />
+                    </div>
+                  ))) ||
+                (Array.isArray(element.quote) &&
+                  element.quote.map(quote => (
+                    <div>
+                      <AaBlockquote
+                        quote={quote.quotetitle}
+                        author={quote.quoteauthor}
+                      />
+                    </div>
+                  )))} */}
+            </div>
+          ))}
       </div>
     </div>
   );
@@ -69,7 +99,7 @@ BasicPageTemplate.propTypes = {
   content: PropTypes.node.isRequired,
   contentComponent: PropTypes.func,
   title: PropTypes.string,
-  elements: PropTypes.string,
+  elements: PropTypes.array,
   helmet: PropTypes.instanceOf(Helmet)
 };
 
@@ -108,26 +138,23 @@ export const pageQuery = graphql`
         date(formatString: "MMMM DD, YYYY")
         title
         elements {
-          hero {
-            herodescription
-            heroimage
-            herotitle
-            herolink
+          type
+
+          herodescription
+          heroimage
+          herotitle
+          herolink
+
+          paragraph
+
+          galleryitem {
+            src
+            caption
+            thumbnail
           }
-          text {
-            paragraph
-          }
-          gallery {
-            galleryitem {
-              src
-              caption
-              thumbnail
-            }
-          }
-          quote {
-            quotetitle
-            quoteauthor
-          }
+
+          quotetitle
+          quoteauthor
         }
       }
     }
