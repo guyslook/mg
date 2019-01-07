@@ -25,6 +25,9 @@ elements:
       - caption: Airbars
         src: /img/airshaft3.jpg
         thumbnail: /img/airshaft3.jpg
+      - caption: Air Mandrel Refurbishment
+        src: /img/airshaft6.jpg
+        thumbnail: /img/airshaft6.jpg
     type: gallery
 ---
 
