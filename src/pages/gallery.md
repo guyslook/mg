@@ -31,7 +31,8 @@ elements:
       - caption: Cam Lifting Assembly
         src: /img/roler cam lifting assembly.jpg
         thumbnail: /img/roler cam lifting assembly.jpg
-      - src: /img/fountain water jet nozzles.jpg
+      - caption: Fountain Nozzles
+        src: /img/fountain water jet nozzles.jpg
         thumbnail: /img/fountain water jet nozzles.jpg
     type: gallery
 ---
