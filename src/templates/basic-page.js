@@ -25,8 +25,6 @@ export const BasicPageTemplate = ({
         {elements &&
           elements.map(element => (
             <div className="element">
-              {console.log(element)}
-              {console.log(element.type)}
               {(element.type === "hero" && (
                 <div className="heroimage">
                   <AaJumbotron
