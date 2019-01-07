@@ -11,6 +11,9 @@ elements:
       - caption: Replacement Shaft
         src: /img/20130910_144910_1.jpg
         thumbnail: /img/20130910_144910_1.jpg
+      - caption: Replacement Pivot Shaft
+        src: /img/DSC_0066.JPG
+        thumbnail: /img/DSC_0066.JPG
     type: gallery
 ---
 
