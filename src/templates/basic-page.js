@@ -164,13 +164,7 @@ export const pageQuery = graphql`
           type
 
           herodescription
-          heroimage {
-            childImageSharp {
-              fluid(maxWidth: 1200, quality: 100) {
-                ...GatsbyImageSharpFluid
-              }
-            }
-          }
+          heroimage
           herotitle
           herolink
 
