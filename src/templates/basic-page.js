@@ -17,6 +17,11 @@ export const BasicPageTemplate = ({
   helmet
 }) => {
   const PostContent = contentComponent || Content;
+  var galleryarray = [];
+  var galleryobject = {};
+  var src;
+  var thumbnail;
+  var caption;
 
   return (
     <div>
@@ -41,9 +46,21 @@ export const BasicPageTemplate = ({
                   </div>
                 )) ||
                 (element.type === "gallery" && (
-                  <div>
-                    <AaGallery images={element.galleryitem} />
-                  </div>
+                  <React.Fragment>
+                    <div className="hidden">
+                      {element.galleryitem.map(
+                        galleryimage => (
+                          (src = galleryimage.src.childImageSharp.fluid.src),
+                          (thumbnail =
+                            galleryimage.thumbnail.childImageSharp.fluid.src),
+                          (caption = galleryimage.caption),
+                          (galleryobject = { src, thumbnail, caption }),
+                          galleryarray.push(galleryobject)
+                        )
+                      )}
+                    </div>
+                    <AaGallery images={galleryarray} />
+                  </React.Fragment>
                 )) ||
                 (element.type === "quote" && (
                   <div>
@@ -146,9 +163,21 @@ export const pageQuery = graphql`
           paragraph
 
           galleryitem {
-            src
+            src {
+              childImageSharp {
+                fluid(maxWidth: 1200, quality: 100) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
             caption
-            thumbnail
+            thumbnail {
+              childImageSharp {
+                fluid(maxWidth: 500, quality: 100) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
           }
 
           quotetitle
