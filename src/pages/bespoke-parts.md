@@ -2,31 +2,30 @@
 templateKey: basic-page
 title: Bespoke Parts
 elements:
-  - type: text
-    paragraph: >-
+  - paragraph: >-
       # Bespoke Parts
 
 
       **Reverse engineering**
 
 
-      We specialise in the manufacture of  obsolete and bespoke components
-      from samples and drawings.
+      We specialise in the manufacture of  obsolete and bespoke components from
+      samples and drawings.
 
 
       **Pin Segments**
 
 
-      We specialise in the manufacture of pinned roller segments to suit our
-      PX5 Hot and Cold Perforating Machines.
+      We also specialise in the manufacture of pinned roller segments to suit
+      our PX5 Hot and Cold Perforating Machines.
 
 
-      We can also replace any pinned rollers for other types of Perforators
-      used throughout the world.  Patterns include P1, P1.5, P8, P30 and
-      P160, including straight and diamond patterns in Steel and CZ121 Brass
-      for hot and cold perforators. [View our Gallery](/gallery)
-  - type: gallery
-    galleryitem:
+      We can also replace any pinned rollers for other types of Perforators used
+      throughout the world.  Patterns include P1, P1.5, P8, P30 and P160,
+      including straight and diamond patterns in Steel and Brass for hot and
+      cold perforators. [View our Gallery](/gallery)
+    type: text
+  - galleryitem:
       - caption: Aluminium Clamp for Welding Machine
         src: /img/clamp-9.jpg
         thumbnail: /img/clamp-9.jpg
@@ -57,4 +56,6 @@ elements:
       - caption: Hot Perforation Pin Segment
         src: /img/imag0015.jpg
         thumbnail: /img/imag0015.jpg
+    type: gallery
 ---
+
