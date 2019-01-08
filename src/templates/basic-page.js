@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React from "react";
 import PropTypes from "prop-types";
 import Helmet from "react-helmet";
@@ -35,7 +36,7 @@ export const BasicPageTemplate = ({
                   <AaJumbotron
                     title={element.herotitle}
                     description={element.herodescription}
-                    featuredimage={element.heroimage.childImageSharp.fluid.src}
+                    featuredimage={element.heroimage}
                     link={element.herolink}
                   />
                 </div>
@@ -47,15 +48,20 @@ export const BasicPageTemplate = ({
                 )) ||
                 (element.type === "gallery" && (
                   <React.Fragment>
-                    <div className="hidden">
+                    <div className="">
                       {element.galleryitem.map(
                         galleryimage => (
-                          (src = galleryimage.src.childImageSharp.fluid.src),
+                          console.log(galleryimage.src),
+                          (src =
+                            galleryimage.src &&
+                            galleryimage.src.childImageSharp.fluid.src),
                           (thumbnail =
+                            galleryimage.thumbnail &&
                             galleryimage.thumbnail.childImageSharp.fluid.src),
                           (caption = galleryimage.caption),
                           (galleryobject = { src, thumbnail, caption }),
-                          galleryarray.push(galleryobject)
+                          galleryarray.push(galleryobject),
+                          console.log(galleryarray)
                         )
                       )}
                     </div>
@@ -156,13 +162,7 @@ export const pageQuery = graphql`
           type
 
           herodescription
-          heroimage {
-            childImageSharp {
-              fluid(maxWidth: 1200, quality: 100) {
-                ...GatsbyImageSharpFluid
-              }
-            }
-          }
+          heroimage
           herotitle
           herolink
 
