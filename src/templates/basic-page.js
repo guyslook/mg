@@ -36,11 +36,7 @@ export const BasicPageTemplate = ({
                   <AaJumbotron
                     title={element.herotitle}
                     description={element.herodescription}
-                    featuredimage={
-                      element.heroimage.childImageSharp.fluid.src
-                        ? element.heroimage.childImageSharp.fluid.src
-                        : element.heroimage
-                    }
+                    featuredimage={element.heroimage}
                     link={element.herolink}
                   />
                 </div>
