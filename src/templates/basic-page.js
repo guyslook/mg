@@ -35,7 +35,7 @@ export const BasicPageTemplate = ({
                   <AaJumbotron
                     title={element.herotitle}
                     description={element.herodescription}
-                    featuredimage={element.heroimage}
+                    featuredimage={element.heroimage.childImageSharp.fluid.src}
                     link={element.herolink}
                   />
                 </div>
@@ -156,7 +156,13 @@ export const pageQuery = graphql`
           type
 
           herodescription
-          heroimage
+          heroimage {
+            childImageSharp {
+              fluid(maxWidth: 1200, quality: 100) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
           herotitle
           herolink
 
