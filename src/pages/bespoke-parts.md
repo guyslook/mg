@@ -44,13 +44,13 @@ elements:
       - caption: Bespoke nuts
         src: /img/bespoke nuts 1.jpg
         thumbnail: /img/bespoke nuts 1.jpg
-      - caption: Hot Perforation Pin Segment
+      - caption: Hot Perforation Needle Segment
         src: /img/imag0014.jpg
         thumbnail: /img/imag0014.jpg
-      - caption: Hot Perforation Pin Segment
+      - caption: Hot Perforation Needle Segment
         src: /img/imag0017.jpg
         thumbnail: /img/imag0017.jpg
-      - caption: Hot Perforation Pin Segment
+      - caption: Hot Perforation Needle  Segment
         src: /img/imag0022.jpg
         thumbnail: /img/imag0022.jpg
       - caption: Hot Perforation Pin Segment
