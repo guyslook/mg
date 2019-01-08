@@ -36,7 +36,11 @@ export const BasicPageTemplate = ({
                   <AaJumbotron
                     title={element.herotitle}
                     description={element.herodescription}
-                    featuredimage={element.heroimage}
+                    featuredimage={
+                      element.heroimage.childImageSharp.fluid.src
+                        ? element.heroimage.childImageSharp.fluid.src
+                        : element.heroimage
+                    }
                     link={element.herolink}
                   />
                 </div>
@@ -51,7 +55,6 @@ export const BasicPageTemplate = ({
                     <div className="">
                       {element.galleryitem.map(
                         galleryimage => (
-                          console.log(galleryimage.src),
                           (src =
                             galleryimage.src &&
                             galleryimage.src.childImageSharp.fluid.src),
@@ -60,8 +63,7 @@ export const BasicPageTemplate = ({
                             galleryimage.thumbnail.childImageSharp.fluid.src),
                           (caption = galleryimage.caption),
                           (galleryobject = { src, thumbnail, caption }),
-                          galleryarray.push(galleryobject),
-                          console.log(galleryarray)
+                          galleryarray.push(galleryobject)
                         )
                       )}
                     </div>
@@ -162,7 +164,13 @@ export const pageQuery = graphql`
           type
 
           herodescription
-          heroimage
+          heroimage {
+            childImageSharp {
+              fluid(maxWidth: 1200, quality: 100) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
           herotitle
           herolink
 
