@@ -9,6 +9,7 @@ import AaGallery from "../components/AaGallery/AaGallery";
 import AaTextElement from "../components/AaTextElement/AaTextElement";
 import Content, { HTMLContent } from "../components/Content";
 import AaBlockquote from "../components/AaBlockquote/AaBlockquote";
+import AaCustomHTML from "../components/AaCustomHTML/AaCustomHTML";
 
 export const BasicPageTemplate = ({
   content,
@@ -75,6 +76,11 @@ export const BasicPageTemplate = ({
                       quote={element.quotetitle}
                       author={element.quoteauthor}
                     />
+                  </div>
+                )) ||
+                (element.type === "customhtml" && (
+                  <div>
+                    <AaCustomHTML html={element.customhtml} />
                   </div>
                 ))}
 
@@ -195,6 +201,8 @@ export const pageQuery = graphql`
 
           quotetitle
           quoteauthor
+
+          customhtml
         }
       }
     }

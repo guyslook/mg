@@ -7,7 +7,7 @@ elements:
 
 
       For any more information on any of the products seen below please [contact
-      us ](/about)
+      us ](/contact)
     type: text
   - galleryitem:
       - caption: Hot Perforation Pin Segment
