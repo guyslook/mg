@@ -1,11 +1,9 @@
 import React from "react";
-import ReactHtmlParser, {
-  processNodes,
-  convertNodeToElement,
-  htmlparser2
-} from "react-html-parser";
+import showdown from "showdown";
 
 require("./AaTextElement.scss");
+
+const converter = new showdown.Converter();
 
 class AaTextElement extends React.Component {
   constructor(props) {
@@ -16,13 +14,15 @@ class AaTextElement extends React.Component {
   }
 
   render() {
-    var markdown = require("markdown").markdown;
-    const newHTML = markdown.toHTML(this.props.html);
-
     return (
       <React.Fragment>
         <div className="TextElement">
-          <div className="container content">{ReactHtmlParser(newHTML)}</div>
+          <div
+            className="container content"
+            dangerouslySetInnerHTML={{
+              __html: converter.makeHtml(this.props.html)
+            }}
+          />
         </div>
       </React.Fragment>
     );
