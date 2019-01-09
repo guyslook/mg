@@ -17,7 +17,7 @@ elements:
 
 
       We also specialise in the manufacture of pinned roller needle  segments to
-      suit our PX5 Hot and Cold Perforating Machines.
+      suit our [PX5 Hot and Cold Perforating Machines](/perforators).
 
 
       We can also replace any pinned rollers for other types of Perforators used
