@@ -20,7 +20,7 @@ elements:
       experience in most modern composites and plastics used widely in todays
       industries. We also produce our own bespoke hot and cold needle
       perforating machinery and consumables used throughout the world in the
-      packaging industry .
+      packaging industry.
 
 
       We are the company to come to if you want our experience and expertise
