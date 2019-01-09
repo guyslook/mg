@@ -10,7 +10,6 @@ elements:
       will endeavour to manufacture and produce any part that is difficult to
       find anywhere else.
     herotitle: About
-    type: hero
   - paragraph: >-
       We are a family run company who specialise in the manufacture of machined
       components for numerous  modern industries including packaging, lifting
