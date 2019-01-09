@@ -2,7 +2,6 @@
 templateKey: basic-page
 title: About
 elements:
-<<<<<<< HEAD
   - type: hero
     herodescription: >-
       Heritage Engineering North West Limited was established in 2010 with
@@ -10,7 +9,6 @@ elements:
       skills involved, passed down from generation to generation is our
       Heritage.  We will endeavour to manufacture and produce any part that
       is difficult to find anywhere else.
-=======
   - herodescription: >-
       Heritage Engineering North West Limited was established in 2010 with the
       word Heritage in mind as we truly believe Engineering and the skills
@@ -18,7 +16,6 @@ elements:
       will endeavour to manufacture and produce any part that is difficult to
       find anywhere else.
     heroimage: /img/2016-08-18-13-46-50.jpg
->>>>>>> f9e795c5938ace25b1fd46ae61abc68db11e193c
     herotitle: About
     type: hero
   - paragraph: >-
