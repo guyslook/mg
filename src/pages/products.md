@@ -13,7 +13,6 @@ elements:
     herodescription: >-
       We specialise in the manufacture of obsolete and bespoke components
       from samples and drawings
-    heroimage: /img/11728837_1594816914103659_6711684572219615527_o.jpg
     herolink: /bespoke-parts
     herotitle: Bespoke Parts
 ---

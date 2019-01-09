@@ -36,7 +36,10 @@ export const BasicPageTemplate = ({
                   <AaJumbotron
                     title={element.herotitle}
                     description={element.herodescription}
-                    featuredimage={element.heroimage}
+                    featuredimage={
+                      element.heroimage &&
+                      element.heroimage.childImageSharp.fluid.src
+                    }
                     link={element.herolink}
                   />
                 </div>
@@ -48,7 +51,7 @@ export const BasicPageTemplate = ({
                 )) ||
                 (element.type === "gallery" && (
                   <React.Fragment>
-                    <div className="">
+                    <div className="hidden">
                       {element.galleryitem.map(
                         galleryimage => (
                           (src =
@@ -160,7 +163,13 @@ export const pageQuery = graphql`
           type
 
           herodescription
-          heroimage
+          heroimage {
+            childImageSharp {
+              fluid(maxWidth: 1000, quality: 70) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
           herotitle
           herolink
 

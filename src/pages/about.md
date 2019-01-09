@@ -9,7 +9,6 @@ elements:
       skills involved, passed down from generation to generation is our
       Heritage.  We will endeavour to manufacture and produce any part that
       is difficult to find anywhere else.
-    heroimage: /img/2016-08-18-13-46-50.jpg
     herotitle: About
   - type: text
     paragraph: >-

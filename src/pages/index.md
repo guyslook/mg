@@ -11,7 +11,6 @@ elements:
     herotitle: Heritage Engineering
   - type: hero
     herodescription: Find out what we've been up to
-    heroimage: /img/roler cam lifting assembly.jpg
     herolink: /news
     herotitle: Latest News
 ---

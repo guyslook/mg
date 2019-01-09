@@ -6,7 +6,6 @@ elements:
     herodescription: >-
       This is a hero box, great for introducing a page or sending the user
       to another page on the site
-    heroimage: /img/costa-2.jpg
     herotitle: Hero
   - type: text
     paragraph: >-
