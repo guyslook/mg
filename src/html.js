@@ -14,6 +14,7 @@ export default class HTML extends React.Component {
             name="viewport"
             content="width=device-width, initial-scale=1, shrink-to-fit=no"
           />
+          <meta name="google-site-verification" content="GQaSwzLl_oqjGh-OX4aFmzzX8zyAQlYm-nKFZVVH81Q" />
           <link
             rel="stylesheet"
             href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
