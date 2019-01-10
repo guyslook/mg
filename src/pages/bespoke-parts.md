@@ -25,37 +25,5 @@ elements:
       including straight and diamond patterns in Steel and Brass for hot and
       cold perforators. [View our Gallery](/gallery)
     type: text
-  - galleryitem:
-      - caption: Aluminium Clamp for Welding Machine
-        src: /img/clamp-9.jpg
-        thumbnail: /img/clamp-9.jpg
-      - caption: Aluminium clamp for Welding Machine
-        src: /img/clamp-7.jpg
-        thumbnail: /img/clamp-7.jpg
-      - caption: Welding Machine clamp
-        src: /img/clamp-5.jpg
-        thumbnail: /img/clamp-5.jpg
-      - caption: Welding Machine clamp
-        src: /img/clamp-1.jpg
-        thumbnail: /img/clamp-1.jpg
-      - caption: Welding Machine clamp
-        src: /img/clamp-3.jpg
-        thumbnail: /img/clamp-3.jpg
-      - caption: Bespoke nuts
-        src: /img/bespoke nuts 1.jpg
-        thumbnail: /img/bespoke nuts 1.jpg
-      - caption: Hot Perforation Needle Segment
-        src: /img/imag0014.jpg
-        thumbnail: /img/imag0014.jpg
-      - caption: Hot Perforation Needle Segment
-        src: /img/imag0017.jpg
-        thumbnail: /img/imag0017.jpg
-      - caption: Hot Perforation Needle  Segment
-        src: /img/imag0022.jpg
-        thumbnail: /img/imag0022.jpg
-      - caption: Hot Perforation Pin Segment
-        src: /img/imag0015.jpg
-        thumbnail: /img/imag0015.jpg
-    type: gallery
 ---
 
