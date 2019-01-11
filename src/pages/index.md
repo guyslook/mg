@@ -2,9 +2,7 @@
 templateKey: basic-page
 title: Environ Digital
 elements:
-  - herodescription: >-
-      Heritage Engineering North West Ltd is an engineering company that
-      specialises in the manufacture of machined components.
+  - herodescription: Helping you make the most out of the internet
     heroimage: /img/abstract-architectural-architecture-532561.jpg
     herolink: /about
     herotitle: Environ Digital
