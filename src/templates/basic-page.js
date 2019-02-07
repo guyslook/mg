@@ -10,6 +10,7 @@ import AaTextElement from "../components/AaTextElement/AaTextElement";
 import Content, { HTMLContent } from "../components/Content";
 import AaBlockquote from "../components/AaBlockquote/AaBlockquote";
 import AaCustomHTML from "../components/AaCustomHTML/AaCustomHTML";
+import Services from "../components/Services/Services";
 
 export const BasicPageTemplate = ({
   content,
@@ -83,9 +84,12 @@ export const BasicPageTemplate = ({
                     <AaCustomHTML html={element.customhtml} />
                   </div>
                 )) ||
-                (element.type === "prebuilt" && (
-                  <div>{console.log(element.prebuilt)}</div>
-                ))}
+                (element.type === "prebuilt" &&
+                  (element.prebuilt === "services" && (
+                    <div>
+                      <Services />
+                    </div>
+                  )))}
 
               {/* {(Array.isArray(element.hero) &&
                 element.hero.map(hero => (
