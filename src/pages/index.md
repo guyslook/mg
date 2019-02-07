@@ -7,6 +7,8 @@ elements:
     herolink: /about
     herotitle: Environ Digital
     type: hero
+  - prebuilt: services
+    type: prebuilt
   - herodescription: Find out what we've been up to
     heroimage: /img/abstract-astronomy-dark-924824.jpg
     herolink: /news
