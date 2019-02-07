@@ -83,7 +83,9 @@ export const BasicPageTemplate = ({
                     <AaCustomHTML html={element.customhtml} />
                   </div>
                 )) ||
-                (element.type === "prebuilt" && console.log(prebuilt))}
+                (element.type === "prebuilt" && (
+                  <div>{console.log(prebuilt)}</div>
+                ))}
 
               {/* {(Array.isArray(element.hero) &&
                 element.hero.map(hero => (
