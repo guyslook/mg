@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: "Heritage Engineering North West LTD."
+    title: "Environ Digital"
   },
   plugins: [
     "gatsby-plugin-react-helmet",
@@ -64,12 +64,18 @@ module.exports = {
       }
     },
     {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [`abeezee`, `muli`]
+      }
+    },
+    {
       resolve: `gatsby-plugin-favicon`,
       options: {
         logo: "./src/img/favicon.png",
 
         // WebApp Manifest Configuration
-        appName: "Heritage Engineering North West LTD.", // Inferred with your package.json
+        appName: "Environ Digital", // Inferred with your package.json
         appDescription: null,
         developerName: null,
         developerURL: null,
