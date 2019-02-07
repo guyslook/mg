@@ -72,7 +72,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-favicon`,
       options: {
-        logo: "./src/img/favicon.png",
+        logo: "./src/img/logo.png",
 
         // WebApp Manifest Configuration
         appName: "Environ Digital", // Inferred with your package.json
@@ -81,8 +81,8 @@ module.exports = {
         developerURL: null,
         dir: "auto",
         lang: "en-US",
-        background: "#232e3a",
-        theme_color: "#232e3a",
+        background: "#1D516E",
+        theme_color: "#1D516E",
         display: "standalone",
         orientation: "any",
         start_url: "/",
