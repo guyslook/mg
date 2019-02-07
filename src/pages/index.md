@@ -12,5 +12,7 @@ elements:
     herolink: /news
     herotitle: Latest News
     type: hero
+  - prebuilt: services
+    type: prebuilt
 ---
 
