@@ -82,6 +82,11 @@ export const BasicPageTemplate = ({
                   <div>
                     <AaCustomHTML html={element.customhtml} />
                   </div>
+                )) ||
+                (element.type === "prebuilt" && (
+                  <div>
+                    <div>HI</div>
+                  </div>
                 ))}
 
               {/* {(Array.isArray(element.hero) &&
@@ -202,7 +207,7 @@ export const pageQuery = graphql`
           quotetitle
           quoteauthor
 
-          customhtml
+          prebuilt
         }
       }
     }
