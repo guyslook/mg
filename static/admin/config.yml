@@ -66,6 +66,13 @@ collections:
             widget: "object"
             fields:
               - {label: Custom HTML, name: customhtml, widget: "string"}
+          - label: "Prebuild Component"
+            name: "prebuilt"
+            widget: "select"
+            options:
+              - { label: "Services", value: "services" }
+              - { label: "Component", value: "cone" }
+              - { label: "ComponentTwo", value: "ctwo" }
 
   - name: "menu"
     label: "Menu"

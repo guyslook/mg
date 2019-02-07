@@ -12,36 +12,7 @@ class Services extends React.Component {
     return (
       <div className="services-links">
         <div className="service-links-inner">
-          <div className="twenty turning">
-            <a href="/turning">
-              <img width="200" src={turning} alt="Turning" />
-              <div>Turning</div>
-            </a>
-          </div>
-          <div className="twenty milling">
-            <a href="/milling">
-              <img width="200" src={milling} alt="Milling" />
-              <div>Milling</div>
-            </a>
-          </div>
-          <div className="twenty welding">
-            <a href="/welding">
-              <img width="200" src={welding} alt="Welding" />
-              <div>Welding</div>
-            </a>
-          </div>
-          <div className="twenty repair">
-            <a href="/repair-work">
-              <img width="200" src={repair} alt="Repair Work" />
-              <div>Repair Work</div>
-            </a>
-          </div>
-          <div className="twenty twentyone bespoke">
-            <a href="/bespoke-parts">
-              <img width="200" src={bespoke} alt="Bespoke parts" />
-              <div>Bespoke parts</div>
-            </a>
-          </div>
+          <span>Services</span>
         </div>
       </div>
     );
