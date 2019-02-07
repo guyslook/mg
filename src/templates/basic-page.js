@@ -84,7 +84,7 @@ export const BasicPageTemplate = ({
                   </div>
                 )) ||
                 (element.type === "prebuilt" && (
-                  <div>{console.log(prebuilt)}</div>
+                  <div>{console.log(element.prebuilt)}</div>
                 ))}
 
               {/* {(Array.isArray(element.hero) &&
