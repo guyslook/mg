@@ -1,9 +1,5 @@
 import React from "react";
-import turning from "../../img/turning.svg";
-import milling from "../../img/milling.svg";
-import welding from "../../img/welding.svg";
-import repair from "../../img/repair.svg";
-import bespoke from "../../img/bespoke.svg";
+import Card from "../Card/Card";
 
 require("./Services.scss");
 
@@ -11,8 +7,36 @@ class Services extends React.Component {
   render() {
     return (
       <div className="services-links">
-        <div className="service-links-inner">
-          <span>Services</span>
+        <div className="service-links-inner container">
+          <div>
+            <h2>Our Services</h2>
+          </div>
+          <div className="columns">
+            <Card
+              title="Website Design and Development"
+              text="We create bespoke websites for you to show off what you do to your clients."
+              buttonText="ButtonText"
+              buttonLink="https://environ.digital"
+            />
+            <Card
+              title="SEO and Marketing"
+              text="SEO jargon is everywhere. What does it even mean? Let us break it down nice and simply for you. We'll help people find you through google search."
+              buttonText="ButtonText"
+              buttonLink="https://environ.digital"
+            />
+            <Card
+              title="Social media setup & content creation"
+              text="Let us help you reach out to your customers with social media training and some bespoke content to catch their attention."
+              buttonText="ButtonText"
+              buttonLink="https://environ.digital"
+            />
+            <Card
+              title="Training and workshops"
+              text="We can help you gain confidence working with your business online, we offer classes to help you with all aspects of the online world."
+              buttonText="ButtonText"
+              buttonLink="https://environ.digital"
+            />
+          </div>
         </div>
       </div>
     );

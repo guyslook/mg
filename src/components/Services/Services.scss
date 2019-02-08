@@ -1,75 +1,31 @@
-h2{
-	text-transform: uppercase;
-	color:#0A3A45;
-	font-weight: bold; 
-	text-align: center;
-	display:block;
-	margin-left:auto;
-	margin-right:auto;
-	background-color:#FFFFFF;
-	padding:10px;	
-}
+@import "../all.sass";
 
-.services-links{
-	background-color:#D4F0F1;
-	padding: 10px 0;
-}
+.services-links {
+	background-image: url('../../img/curve.png');
+	background-size: cover;
+	min-height: 500px;
+	padding: 100px 0;
 
-.services-links a {
-	padding: 10px;
-    display: block;
-    width: 100%;
-    text-align: center;
-    color: #1B222D;
-    font-weight: bold;
-}
-
-.services-links .twenty a {
-	border-left: 2px solid #1B222D;
-	
-	@media only screen and (max-width: 600px) {
-		border-left: none;
+	h2 {
+		color: #FFFFFF;
+		font-size: 35px;
+		font-weight: bold;
+		margin: 0px 0 100px 0;
 	}
-}
 
-.services-links .twentyone a {
-	border-right: 2px solid #1B222D;
-	
-	@media only screen and (max-width: 600px) {
-		border-right: none;
+	.btn {
+		color: #FFFFFF;
+		border-radius: 30px;
+		font-size: 20px;
+		text-transform: uppercase;
+		font-weight: bold;
+		padding: 5px 15px;
+		background-color: $secondary;
+		background-image: none;
+		border-width:0;
+		&:hover {
+			background-color: $primary;
+			background-image: none;
+		}
 	}
-}
-
-.services-links .service-links-inner{
-	margin-left:auto;
-	margin-right:auto;
-	width: 80%;
-	display:flex;
-	flex-wrap: wrap;
-
-	@media only screen and (max-width: 600px) {
-		width: 98%;
-	}
-}
-
-.services-links .twenty {
-	flex-grow: 1;
-	flex-basis: 0;
-	
-	@media only screen and (max-width: 600px) {
-		flex-basis:50%;
-	}
-}
-
-.services-links .twentyone {
-	@media only screen and (max-width: 600px) {
-		max-width: 50%;
-	}
-}
-
-.services-links a img {
-	width: 40%;
-	max-width: 150px;
-	height: auto;
-	margin-bottom:15px;
 }
