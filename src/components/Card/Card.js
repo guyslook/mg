@@ -18,6 +18,7 @@ class Card extends React.Component {
           <div class="card-content">
             <div class="content">
               <h4>{this.props.title}</h4>
+              <h5>{this.props.date}</h5>
               <p>{this.props.text}</p>
               <a href={this.props.buttonLink}>
                 <Button className="btn">More →</Button>

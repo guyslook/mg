@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import { Link, graphql } from "gatsby";
 import Layout from "../components/Layout";
 import Button from "react-bootstrap/lib/Button";
-import AaNewsItem from "../components/AaNewsItem/AaNewsItem";
+import Card from "../components/Card/Card";
 
 export default class Infos extends React.Component {
   render() {
@@ -21,12 +21,12 @@ export default class Infos extends React.Component {
                 </h1>
               </div>
               {posts.map(({ node: post }) => (
-                <AaNewsItem
+                <Card
                   id={post.id}
-                  slug={post.fields.slug}
+                  buttonLink={post.fields.slug}
                   title={post.frontmatter.title}
                   date={post.frontmatter.date}
-                  excerpt={post.excerpt}
+                  text={post.excerpt}
                 />
               ))}
             </div>
