@@ -75,7 +75,7 @@ collections:
                 widget: "select"
                 options:
                   - { label: "Services", value: "services" }
-                  - { label: "Component", value: "cone" }
+                  - { label: "Newsletter", value: "newsletter" }
                   - { label: "ComponentTwo", value: "ctwo" }
 
   - name: "menu"
