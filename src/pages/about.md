@@ -4,6 +4,7 @@ title: About
 elements:
   - heroimage: /img/business-camera-coffee-1509428.jpg
     herotitle: About Environ
+    top: true
     type: hero
   - paragraph: >-
       Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere
