@@ -3,7 +3,7 @@ templateKey: basic-page
 title: Environ Digital
 elements:
   - herodescription: Helping you make the most out of the internet
-    heroimage: /img/abstract-architectural-architecture-532561.jpg
+    heroimage: /img/tapet_2019-02-22_03-09-12_746_2160x1920.png
     herolink: /about
     herotitle: Environ Digital
     type: hero
