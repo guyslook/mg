@@ -11,7 +11,7 @@ import Content, { HTMLContent } from "../components/Content";
 import AaBlockquote from "../components/AaBlockquote/AaBlockquote";
 import AaCustomHTML from "../components/AaCustomHTML/AaCustomHTML";
 import Services from "../components/Services/Services";
-import Newsletter from "../components/Newsletter/Newsletter";
+import Newsletter from "../components/AaNewsletter/AaNewsletter";
 
 export const BasicPageTemplate = ({
   content,
@@ -93,7 +93,7 @@ export const BasicPageTemplate = ({
                   ))) ||
                   (element.prebuilt === "newsletter" && (
                     <div>
-                      <Newsletter />
+                      <AaNewsletter />
                     </div>
                   )))}
 
