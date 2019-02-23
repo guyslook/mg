@@ -39,6 +39,7 @@ collections:
               - {label: Title, name: herotitle, widget: "string"}
               - {label: Description, name: herodescription, widget: "string"}
               - {label: Link, name: herolink, widget: "string", required: false}
+              - {label: "Top", name: "top", widget: "boolean", default: false}
           - label: "Text"
             name: "text"
             widget: "object"
