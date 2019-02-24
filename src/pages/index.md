@@ -13,6 +13,7 @@ elements:
     heroimage: /img/abstract-astronomy-dark-924824.jpg
     herolink: /news
     herotitle: Latest News
+    top: true
     type: hero
 ---
 
