@@ -2,7 +2,7 @@
 templateKey: basic-page
 title: Environ Digital
 elements:
-  - herodescription: Helping you make the most out of the internet
+  - herodescription: 'Helping businesses succeed online '
     heroimage: /img/screen-shot-2019-02-24-at-00.01.16.png
     herotitle: Environ Digital
     top: true
