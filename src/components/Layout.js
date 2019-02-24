@@ -2,6 +2,7 @@ import React from "react";
 import Helmet from "react-helmet";
 import logo from "../img/logo.svg";
 import { Link } from "gatsby";
+import AniLink from "gatsby-plugin-transition-link/AniLink";
 import { StaticQuery, graphql } from "gatsby";
 import AaFooter from "./AaFooter/AaFooter";
 
@@ -41,14 +42,14 @@ const TemplateWrapper = ({ children }) => (
             <Navbar />
             <div id="page-wrap">
               <div className="top">
-                <Link to="/">
+                <AniLink cover bg="#359dd9" to="/">
                   <img
                     className="logo"
                     src={logo}
                     alt="Environ Digital"
                     style={{ width: "70px" }}
                   />
-                </Link>
+                </AniLink>
               </div>
 
               {children}

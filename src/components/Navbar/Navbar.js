@@ -62,13 +62,13 @@ class Navbar extends React.Component {
             render={data => (
               <ul>
                 <li>
-                  <AniLink fade to="/">
+                  <AniLink cover bg="#359dd9" to="/">
                     Home
                   </AniLink>
                 </li>
                 {data.allMarkdownRemark.edges.map(({ node }) => (
                   <li key={node.id}>
-                    <AniLink fade to={node.frontmatter.menupath}>
+                    <AniLink cover bg="#359dd9" to={node.frontmatter.menupath}>
                       {node.frontmatter.title}
                     </AniLink>
                   </li>

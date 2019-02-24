@@ -21,7 +21,7 @@ class Card extends React.Component {
               <h4>{this.props.title}</h4>
               <h5>{this.props.date}</h5>
               <p>{this.props.text}</p>
-              <AniLink fade to={this.props.buttonLink}>
+              <AniLink cover bg="#359dd9" to={this.props.buttonLink}>
                 <Button className="btn">More →</Button>
               </AniLink>
             </div>
