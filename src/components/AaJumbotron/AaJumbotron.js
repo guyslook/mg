@@ -1,6 +1,7 @@
 import React from "react";
 import Jumbotron from "react-bootstrap/lib/Jumbotron";
 import Button from "react-bootstrap/lib/Button";
+import AniLink from "gatsby-plugin-transition-link/AniLink";
 
 require("./AaJumbotron.scss");
 
@@ -27,9 +28,9 @@ class AaJumbotron extends React.Component {
             <p>{this.props.description}</p>
             {this.props.link ? (
               <p>
-                <a href={this.props.link}>
+                <AniLink to={this.props.link}>
                   <Button bsStyle="primary">Learn more →</Button>
-                </a>
+                </AniLink>
               </p>
             ) : (
               ""
