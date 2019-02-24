@@ -62,17 +62,13 @@ class Navbar extends React.Component {
             render={data => (
               <ul>
                 <li>
-                  <AniLink swipe direction="left" to="/">
+                  <AniLink fade to="/">
                     Home
                   </AniLink>
                 </li>
                 {data.allMarkdownRemark.edges.map(({ node }) => (
                   <li key={node.id}>
-                    <AniLink
-                      swipe
-                      direction="left"
-                      to={node.frontmatter.menupath}
-                    >
+                    <AniLink fade to={node.frontmatter.menupath}>
                       {node.frontmatter.title}
                     </AniLink>
                   </li>
