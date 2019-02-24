@@ -9,11 +9,16 @@
 }
 
 .jumbotron-container {
-    background-color:rgba(0, 0, 0, 0.5);
     height: 100%;
     color: #FFFFFF;
     align-items: center;
     display:flex;
+}
+
+.overlayhero{
+    .jumbotron-container {
+        background-color:rgba(0, 0, 0, 0.5);
+    }
 }
 
 .aaJumbotron h1 {
