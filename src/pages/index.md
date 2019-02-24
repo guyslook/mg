@@ -3,7 +3,7 @@ templateKey: basic-page
 title: Environ Digital
 elements:
   - herodescription: Helping you make the most out of the internet
-    heroimage: /img/tapet_2019-02-22_03-09-12_746_2160x1920.png
+    heroimage: /img/screen-shot-2019-02-24-at-00.01.16.png
     herotitle: Environ Digital
     top: true
     type: hero
