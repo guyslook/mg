@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "react-bootstrap/lib/Button";
+import AniLink from "gatsby-plugin-transition-link/AniLink";
 
 require("./Card.scss");
 
@@ -20,9 +21,9 @@ class Card extends React.Component {
               <h4>{this.props.title}</h4>
               <h5>{this.props.date}</h5>
               <p>{this.props.text}</p>
-              <a href={this.props.buttonLink}>
+              <AniLink fade to={this.props.buttonLink}>
                 <Button className="btn">More →</Button>
-              </a>
+              </AniLink>
             </div>
           </div>
         </div>
