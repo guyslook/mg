@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "gatsby";
 import { StaticQuery, graphql } from "gatsby";
+import TransitionLink from "gatsby-plugin-transition-link";
 
 import { elastic as Menu } from "react-burger-menu";
 
@@ -60,13 +61,35 @@ class Navbar extends React.Component {
             render={data => (
               <ul>
                 <li>
-                  <Link to="/">Home</Link>
+                  <TransitionLink
+                    to="/"
+                    exit={{
+                      trigger: ({ exit, node }) =>
+                        this.interestingExitAnimation(exit, node),
+                      length: 1
+                    }}
+                    entry={{
+                      delay: 0.6
+                    }}
+                  >
+                    Home
+                  </TransitionLink>
                 </li>
                 {data.allMarkdownRemark.edges.map(({ node }) => (
                   <li key={node.id}>
-                    <Link className="navbarItem" to={node.frontmatter.menupath}>
+                    <TransitionLink
+                      to={node.frontmatter.menupath}
+                      exit={{
+                        trigger: ({ exit, node }) =>
+                          this.interestingExitAnimation(exit, node),
+                        length: 1
+                      }}
+                      entry={{
+                        delay: 0.6
+                      }}
+                    >
                       {node.frontmatter.title}
-                    </Link>
+                    </TransitionLink>
                   </li>
                 ))}
               </ul>
