@@ -4,6 +4,7 @@ title: About
 elements:
   - heroimage: /img/tapet_2019-02-12_11-05-41_305_2160x1920.png
     herotitle: About Environ
+    overlay: true
     top: true
     type: hero
   - paragraph: >-
