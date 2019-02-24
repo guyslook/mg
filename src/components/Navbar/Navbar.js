@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "gatsby";
 import { StaticQuery, graphql } from "gatsby";
 import TransitionLink from "gatsby-plugin-transition-link";
+import AniLink from "gatsby-plugin-transition-link/AniLink";
 
 import { elastic as Menu } from "react-burger-menu";
 
@@ -61,35 +62,19 @@ class Navbar extends React.Component {
             render={data => (
               <ul>
                 <li>
-                  <TransitionLink
-                    to="/"
-                    exit={{
-                      trigger: ({ exit, node }) =>
-                        this.interestingExitAnimation(exit, node),
-                      length: 1
-                    }}
-                    entry={{
-                      delay: 0.6
-                    }}
-                  >
+                  <AniLink swipe direction="left" to="/">
                     Home
-                  </TransitionLink>
+                  </AniLink>
                 </li>
                 {data.allMarkdownRemark.edges.map(({ node }) => (
                   <li key={node.id}>
-                    <TransitionLink
+                    <AniLink
+                      swipe
+                      direction="left"
                       to={node.frontmatter.menupath}
-                      exit={{
-                        trigger: ({ exit, node }) =>
-                          this.interestingExitAnimation(exit, node),
-                        length: 1
-                      }}
-                      entry={{
-                        delay: 0.6
-                      }}
                     >
                       {node.frontmatter.title}
-                    </TransitionLink>
+                    </AniLink>
                   </li>
                 ))}
               </ul>

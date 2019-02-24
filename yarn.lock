@@ -6408,6 +6408,11 @@ gray-matter@^4.0.0, gray-matter@^4.0.1:
     section-matter "^1.0.0"
     strip-bom-string "^1.0.0"
 
+gsap@^2.1.1:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/gsap/-/gsap-2.1.1.tgz#31c14ed4b8cfc2a795492b70b01a5787eb1c8378"
+  integrity sha512-+K9n1IB3cHu6s3nSWfjBSpwYFo4OBzOswjtzMvLK2fBsfcOijTNQdJ5NxRIg5rNPjIexIUGZd4xFekHvS+3OZg==
+
 gud@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/gud/-/gud-1.0.0.tgz#a489581b17e6a70beca9abe3ae57de7a499852c0"
