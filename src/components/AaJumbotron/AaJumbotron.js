@@ -28,7 +28,7 @@ class AaJumbotron extends React.Component {
             <p>{this.props.description}</p>
             {this.props.link ? (
               <p>
-                <AniLink to={this.props.link}>
+                <AniLink cover bg="#359dd9" to={this.props.link}>
                   <Button bsStyle="primary">Learn more →</Button>
                 </AniLink>
               </p>
