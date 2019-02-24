@@ -35,7 +35,7 @@ export const BasicPageTemplate = ({
           elements.map(element => (
             <div className="element">
               {(element.type === "hero" && (
-                <div className="heroimage">
+                <div className={(element.top && "tophero") + " heroimage"}>
                   <AaJumbotron
                     title={element.herotitle}
                     description={element.herodescription}
@@ -191,6 +191,7 @@ export const pageQuery = graphql`
           }
           herotitle
           herolink
+          top
 
           paragraph
 

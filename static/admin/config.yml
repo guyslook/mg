@@ -40,6 +40,7 @@ collections:
               - {label: Description, name: herodescription, widget: "string"}
               - {label: Link, name: herolink, widget: "string", required: false}
               - {label: "Top", name: "top", widget: "boolean", default: false}
+              - {label: "Overlay", name: "overlay", widget: "boolean", default: true}
           - label: "Text"
             name: "text"
             widget: "object"

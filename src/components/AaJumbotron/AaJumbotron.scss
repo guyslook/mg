@@ -27,7 +27,7 @@
     text-transform: uppercase;
     font-weight: bold;
     padding: 5px 15px;
-    background-color: $primary-invert;
+    background-color: $secondary;
     background-image: none;
     border-width:0;
     &:hover {
@@ -35,3 +35,13 @@
         background-image: none;
     }
 }
+
+.heroimage.tophero {
+    margin-top: -115px;
+    h1 {
+        font-size: 150px;
+        margin-top: 70px;
+    }
+}
+  
+    
