@@ -19,7 +19,7 @@ class AaFooter extends React.Component {
   render() {
     var markdown = require("markdown").markdown;
     const newAddressHTML = markdown.toHTML(
-      this.props.address.replace("/", "  ")
+      this.props.address.replace(/\\/g, "  ")
     );
     return (
       <footer className="footer">
