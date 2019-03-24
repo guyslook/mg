@@ -38,7 +38,8 @@ elements:
       content, we have collected our favourite software together and can show
       you how it will help you do the things you need.
     type: text
-  - paragraph: >-
+  - dark: true
+    paragraph: >-
       ## Digital Confidence Workshop
 
 
@@ -53,7 +54,8 @@ elements:
       let's get you backed up and secure. Then if anything goes wrong, we can
       get you back up and running in no time.
     type: text
-  - paragraph: >-
+  - dark: true
+    paragraph: >-
       ## Training for Teachers and Children
 
 
