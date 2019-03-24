@@ -24,7 +24,8 @@ elements:
   - leftimage: /img/screen-shot-2019-03-24-at-14.37.48.png
     rightimage: /img/screen-shot-2019-03-24-at-14.38.04.png
     type: twoupimages
-  - paragraph: >-
+  - dark: true
+    paragraph: >-
       ## CMS Training
 
 
