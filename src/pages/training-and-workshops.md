@@ -27,7 +27,7 @@ elements:
       If we have built your website, we will teach you how to use it as part of
       the work we do when handing the site over to you. However, if someone else
       built your website we can teach you how to manage your content either as
-      part of a website audit or in a one off training session.
+      part of a website audit or a one off training session.
 
 
       **Software training**
