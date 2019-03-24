@@ -32,5 +32,19 @@ elements:
       work closely with content writers to make sure you're saying what you need
       to in the right way.
     type: text
+  - paragraph: >-
+      ## Search engine optimisation (SEO)
+
+
+      SEO jargon is everywhere. What does it even mean? Let us break it down
+      nice and simply for you. We'll help people find you through google search.
+    type: text
+  - paragraph: >-
+      ## Newsletter setup
+
+
+      Email is an effective way to get your point across, but you can't do that
+      if the bloody thing doesn't work. We'll sort it out for you.
+    type: text
 ---
 
