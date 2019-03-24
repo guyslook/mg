@@ -1,5 +1,6 @@
 import React from "react";
 import Card from "../Card/Card";
+import AniLink from "gatsby-plugin-transition-link/AniLink";
 
 require("./Services.scss");
 
@@ -66,7 +67,13 @@ class Services extends React.Component {
                     Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum
                     dolor sit amet, consectetur adipiscing elit.
                   </p>
-                  <a href="/website-design-and-development">find out more</a>
+                  <AniLink
+                    cover
+                    bg="#3f1c80"
+                    to="/website-design-and-development"
+                  >
+                    find out more →
+                  </AniLink>
                 </div>
               </div>
               <div className="column is-three-quarters">
@@ -84,7 +91,13 @@ class Services extends React.Component {
                       We spend time learning all about you and your brand, we
                       care about what you do and we’re always around to help.
                     </p>
-                    <a href="/website-design-and-development">find out more</a>
+                    <AniLink
+                      cover
+                      bg="#22526c"
+                      to="/social-media-setup-and-content-creation"
+                    >
+                      find out more →
+                    </AniLink>
                   </div>
                 </div>
               </div>
@@ -100,9 +113,13 @@ class Services extends React.Component {
                           social media training and content to catch their
                           attention.
                         </p>
-                        <a href="/website-design-and-development">
-                          find out more
-                        </a>
+                        <AniLink
+                          cover
+                          bg="#b20e1b"
+                          to="/social-media-setup-and-content-creation"
+                        >
+                          find out more →
+                        </AniLink>
                       </div>
                     </div>
                   </div>
@@ -121,7 +138,9 @@ class Services extends React.Component {
                     offer classes to help you with all aspects of the online
                     world.
                   </p>
-                  <a href="/training-and-workshops">find out more</a>
+                  <AniLink cover bg="#e48c35" to="/training-and-workshops">
+                    find out more →
+                  </AniLink>
                 </div>
               </div>
             </div>
