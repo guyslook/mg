@@ -14,7 +14,8 @@ elements:
       services that are provided and how you can help your customers. It gives
       you the opportunity to show them who you are.
     type: text
-  - paragraph: >-
+  - dark: true
+    paragraph: >-
       ## Content manageable
 
 
