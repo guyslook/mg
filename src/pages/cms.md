@@ -7,6 +7,7 @@ elements:
       content on your website.
     heroimage: /img/digital-content.jpg
     herotitle: CMS
+    overlay: true
     top: true
     type: hero
   - paragraph: >-
