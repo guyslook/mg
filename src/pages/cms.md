@@ -33,6 +33,9 @@ elements:
       the content is to edit.
     type: text
   - paragraph: >-
+      ## Need some help?
+
+
       We'll also be on hand to help out if you're stuck on something after the
       hand over. Feel free to contact us and we'll help you out best we can.
     type: text
