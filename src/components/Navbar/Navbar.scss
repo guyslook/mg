@@ -21,13 +21,16 @@
   background: #1D516E;
   padding: 2.5em 1.5em 0;
   font-size: 1.15em;
+  white-space: normal !important;
+  width: 300px !important;
 }
 
 .bm-menu a{
     color: $secondary-color;
     text-decoration: none;
-    font-size:26px;
-    margin-bottom:20px;
+    font-size: 18px;
+    margin-bottom: 15px;
+    display: block;
     &:hover {
         color: $secondary-color-light;
     }
