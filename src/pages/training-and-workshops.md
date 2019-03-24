@@ -49,7 +49,7 @@ elements:
       ## Security Safe Training
 
 
-      There's nothing worse than being hacked, it happens to the best of us,
+      There's nothing worse than being hacked, it happens to the best of us, so
       let's get you backed up and secure. Then if anything goes wrong, we can
       get you back up and running in no time.
     type: text
@@ -72,7 +72,7 @@ elements:
 
 
       Our one day workshop will get your class making their own games and then
-      competing with each other while playing the games they they have made.
+      competing with each other while playing the games that they have made.
       This fun filled day is perfect for getting your class excited about
       coding.
     type: text
