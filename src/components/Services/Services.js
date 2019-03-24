@@ -91,11 +91,7 @@ class Services extends React.Component {
                       We spend time learning all about you and your brand, we
                       care about what you do and we’re always around to help.
                     </p>
-                    <AniLink
-                      cover
-                      bg="#22526c"
-                      to="/social-media-setup-and-content-creation"
-                    >
+                    <AniLink cover bg="#22526c" to="/our-personal-approach">
                       find out more →
                     </AniLink>
                   </div>
