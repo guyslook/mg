@@ -56,7 +56,10 @@ export const BasicPageTemplate = ({
               )) ||
                 (element.type === "text" && (
                   <div>
-                    <AaTextElement html={element.paragraph} />
+                    <AaTextElement
+                      dark={element.dark}
+                      html={element.paragraph}
+                    />
                   </div>
                 )) ||
                 (element.type === "gallery" && (
@@ -210,6 +213,7 @@ export const pageQuery = graphql`
           overlay
 
           paragraph
+          dark
 
           galleryitem {
             src {

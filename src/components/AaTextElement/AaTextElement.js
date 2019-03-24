@@ -16,7 +16,7 @@ class AaTextElement extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <div className="TextElement">
+        <div className={(this.props.dark && "dark") + " TextElement"}>
           <div
             className="container content"
             dangerouslySetInnerHTML={{
