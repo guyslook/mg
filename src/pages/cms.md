@@ -29,5 +29,8 @@ elements:
       We'll also be on hand to help out, if you're stuck on something after the
       hand over, feel free to contact us and we'll help you out best we can.
     type: text
+  - leftimage: /img/screen-shot-2019-03-24-at-14.37.48.png
+    rightimage: /img/screen-shot-2019-03-24-at-14.38.04.png
+    type: twoupimages
 ---
 
