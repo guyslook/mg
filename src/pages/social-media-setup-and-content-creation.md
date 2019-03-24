@@ -16,7 +16,8 @@ elements:
       accounts, provide you with all the details you need, and show you how you
       can make the most out of each of the platforms available.
     type: text
-  - paragraph: >-
+  - dark: true
+    paragraph: >-
       ## What size?
 
 
@@ -32,7 +33,8 @@ elements:
       work closely with content writers to make sure you're saying what you need
       to in the right way.
     type: text
-  - paragraph: >-
+  - dark: true
+    paragraph: >-
       ## Search engine optimisation (SEO)
 
 
