@@ -5,6 +5,6 @@ companyaddress: © Environ Digital 2020
 sociallinks:
   facebook: 'https://www.facebook.com/environdigital'
   instagram: 'https://www.instagram.com/environdigital'
-  twitter: ''
+  twitter: 'https://twitter.com/environ_digital'
 ---
 
