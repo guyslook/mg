@@ -75,7 +75,7 @@ class Services extends React.Component {
                   </AniLink>
                 </div>
               </div>
-              <div className="column is-three-quarters">
+              <div className="column is-three-quarters hidden-xs">
                 <div className="homepageBackground" />
               </div>
             </div>
