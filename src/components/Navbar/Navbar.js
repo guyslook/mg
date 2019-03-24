@@ -45,6 +45,7 @@ class Navbar extends React.Component {
               query {
                 allMarkdownRemark(
                   filter: { frontmatter: { templateKey: { eq: "menu" } } }
+                  sort: { fields: [frontmatter___menuorder], order: ASC }
                 ) {
                   totalCount
                   edges {
@@ -53,6 +54,7 @@ class Navbar extends React.Component {
                       frontmatter {
                         title
                         menupath
+                        menuorder
                       }
                     }
                   }
