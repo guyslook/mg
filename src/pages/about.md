@@ -7,28 +7,27 @@ elements:
     overlay: true
     top: true
     type: hero
-  - paragraph: >-
-      Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere
-      erat a ante venenatis dapibus posuere velit aliquet. Curabitur blandit
-      tempus porttitor. Donec id elit non mi porta gravida at eget metus. Donec
-      ullamcorper nulla non metus auctor fringilla. Curabitur blandit tempus
-      porttitor.
+  - dark: true
+    paragraph: >-
+      Environ Digital is a small website development company designed to help
+      you with your every day needs online. We want to help you reach your
+      potential with what is possible on the internet, both reaching out to your
+      customers but also your internal online tasks and goals.
 
 
-      Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere
-      erat a ante venenatis dapibus posuere velit aliquet. Curabitur blandit
-      tempus porttitor. 
+      [Our personal approach](/our-personal-approach) means that we can directly
+      provide you with the best possible solutions to any of your problems, and
+      we are always available to get you through each one of them.
 
 
-      Donec id elit non mi porta gravida at eget metus. Donec ullamcorper nulla
-      non metus auctor fringilla. Curabitur blandit tempus porttitor.
+      We have created simple solutions that require minimum training and
+      expertise, but even if you do struggle, our developers are more than happy
+      to help you out.
 
 
-      Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere
-      erat a ante venenatis dapibus posuere velit aliquet. Curabitur blandit
-      tempus porttitor. Donec id elit non mi porta gravida at eget metus. Donec
-      ullamcorper nulla non metus auctor fringilla. Curabitur blandit tempus
-      porttitor.
+      We'd love to work with you, so if you've got a project in mind or just
+      need some help online and need some advice, get in touch now and we'll get
+      started.
     type: text
 ---
 
