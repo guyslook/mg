@@ -60,9 +60,9 @@ elements:
       **For teachers**
 
 
-      If you're providing computing and coding lessons to children it's
+      If you're providing computing and coding lessons to children then it's
       important for you to have confidence in what you're teaching in order for
-      the child to feel inspired. We think computer science and coding is going
+      the child to feel inspired. We think Computer Science and Coding is going
       to be a big part of children's futures so we want to help you help them.
       You bring the skills to teach, we'll bring the tools and subject
       knowledge.
