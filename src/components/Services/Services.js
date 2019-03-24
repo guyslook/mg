@@ -64,8 +64,7 @@ class Services extends React.Component {
                 <div className="homepageBox">
                   <h2>Website design and development</h2>
                   <p>
-                    Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum
-                    dolor sit amet, consectetur adipiscing elit.
+                    Let's get that website working for you and your customers
                   </p>
                   <AniLink
                     cover
@@ -88,8 +87,9 @@ class Services extends React.Component {
                   <div className="homepageBox">
                     <h2>Making it personal</h2>
                     <p>
-                      We spend time learning all about you and your brand, we
-                      care about what you do and we’re always around to help.
+                      We spend time learning all about you and your brand. You
+                      work directly with a developer and we’re always around to
+                      help.
                     </p>
                     <AniLink cover bg="#22526c" to="/our-personal-approach">
                       find out more →
