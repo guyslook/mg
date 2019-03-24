@@ -13,10 +13,10 @@ class TwoUpImages extends React.Component {
       <div className="container">
         <div class="columns">
           <div class="column">
-            <img src={this.props.imageone} />
+            <img src={this.props.leftimage} />
           </div>
           <div class="column">
-            <img src={this.props.imagetwo} />
+            <img src={this.props.rightimage} />
           </div>
         </div>
       </div>

@@ -10,6 +10,7 @@ import AaTextElement from "../components/AaTextElement/AaTextElement";
 import Content, { HTMLContent } from "../components/Content";
 import AaBlockquote from "../components/AaBlockquote/AaBlockquote";
 import AaCustomHTML from "../components/AaCustomHTML/AaCustomHTML";
+import TwoUpImages from "../components/TwoUpImages/TwoUpImages";
 import Services from "../components/Services/Services";
 import Newsletter from "../components/AaNewsletter/AaNewsletter";
 
@@ -89,6 +90,14 @@ export const BasicPageTemplate = ({
                 (element.type === "customhtml" && (
                   <div>
                     <AaCustomHTML html={element.customhtml} />
+                  </div>
+                )) ||
+                (element.type === "twoupimages" && (
+                  <div>
+                    <TwoUpImages
+                      leftimage={element.leftimage.childImageSharp.fluid.src}
+                      rightimage={element.rightimage.childImageSharp.fluid.src}
+                    />
                   </div>
                 )) ||
                 ((element.type === "prebuilt" &&
@@ -224,6 +233,21 @@ export const pageQuery = graphql`
           quoteauthor
 
           prebuilt
+
+          leftimage {
+            childImageSharp {
+              fluid(maxWidth: 1000, quality: 70) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+          rightimage {
+            childImageSharp {
+              fluid(maxWidth: 1000, quality: 70) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
         }
       }
     }

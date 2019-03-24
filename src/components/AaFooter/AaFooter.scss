@@ -14,6 +14,7 @@ footer.footer {
 .footerAddress {
   max-width: 50%;
   p{
+    color: #ffffff;
     margin-bottom: 15px;
     font-size: 14px;
   }
@@ -26,9 +27,9 @@ footer.footer {
     li {
       margin-left: 20px;
       a {
-        color: $primary;
+        color: $secondary;
         &:hover {
-          color: $primary;
+          color: $secondary;
         }
       }
     }
