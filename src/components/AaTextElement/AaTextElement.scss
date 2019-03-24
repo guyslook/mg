@@ -1,6 +1,6 @@
 .TextElement {
-    margin-top: 150px;
-    margin-bottom: 150px;
+    padding-top: 150px;
+    padding-bottom: 150px;
 
     .content {
         max-width: 900px;
@@ -9,6 +9,13 @@
         }
         p {
             font-size: 1.2em;
+        }
+    }
+    &.dark {
+        background-color: #333333;
+        color: #FFFFFF;
+        h2, p {
+            color: #FFFFFF;
         }
     }
 }
