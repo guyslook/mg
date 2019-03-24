@@ -30,7 +30,5 @@ elements:
       ullamcorper nulla non metus auctor fringilla. Curabitur blandit tempus
       porttitor.
     type: text
-  - prebuilt: services
-    type: prebuilt
 ---
 
