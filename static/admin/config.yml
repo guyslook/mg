@@ -79,6 +79,13 @@ collections:
                   - { label: "Services", value: "services" }
                   - { label: "Newsletter", value: "newsletter" }
                   - { label: "ComponentTwo", value: "ctwo" }
+          - label: "Two Up Images"
+            name: "twoupimages"
+            widget: "object"
+            fields:
+              - {label: Left Image, name: leftimage, widget: "image"}
+              - {label: Right Image, name: rightimage, widget: "image"}
+
 
   - name: "menu"
     label: "Menu"
