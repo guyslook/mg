@@ -43,8 +43,9 @@ elements:
       ## Newsletter setup
 
 
-      Email is an effective way to get your point across, but you can't do that
-      if the bloody thing doesn't work. We'll sort it out for you.
+      Email is an effective way to get your point across. We can design and
+      implement effective email newsletters and campaigns for your specific
+      needs.
     type: text
 ---
 
