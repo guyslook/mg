@@ -79,7 +79,7 @@ collections:
                 options:
                   - { label: "Services", value: "services" }
                   - { label: "Newsletter", value: "newsletter" }
-                  - { label: "ComponentTwo", value: "ctwo" }
+                  - { label: "Contact Form", value: "contact" }
           - label: "Two Up Images"
             name: "twoupimages"
             widget: "object"
