@@ -22,13 +22,23 @@ elements:
       Our websites are built with a simple drag and drop content management
       system, allowing you to simply create pages that fit your needs.
     type: text
-  - paragraph: >-
+  - dark: false
+    paragraph: >-
       ## Website audit
 
 
       If you want to improve your current website rather than starting again, we
       can provide an audit that will give you an insight to how things can be
       improved.
+    type: text
+  - dark: true
+    paragraph: >-
+      ## Speed is king
+
+
+      Your website needs to be fast, if it's not people will just go elsewhere.
+      We pride ourselves in using the latest techniques to ensure your website
+      loads quickly wherever your customer is loading in from.
     type: text
   - herodescription: >-
       We are very proud of our approach. If you choose us to work on your
