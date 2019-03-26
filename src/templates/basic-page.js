@@ -12,7 +12,7 @@ import AaBlockquote from "../components/AaBlockquote/AaBlockquote";
 import AaCustomHTML from "../components/AaCustomHTML/AaCustomHTML";
 import TwoUpImages from "../components/TwoUpImages/TwoUpImages";
 import Services from "../components/Services/Services";
-import Services from "../components/Contact/Contact";
+import Contact from "../components/Contact/Contact";
 import Newsletter from "../components/AaNewsletter/AaNewsletter";
 
 export const BasicPageTemplate = ({
