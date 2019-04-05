@@ -18,7 +18,10 @@ class AaTextElement extends React.Component {
       <React.Fragment>
         <div
           className={
-            (this.props.dark && "dark ") + this.props.class + " TextElement"
+            (this.props.dark && "dark") +
+            " " +
+            this.props.class +
+            " TextElement"
           }
         >
           <div className="container content">
