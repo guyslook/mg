@@ -14,6 +14,7 @@ import TwoUpImages from "../components/TwoUpImages/TwoUpImages";
 import Services from "../components/Services/Services";
 import Contact from "../components/Contact/Contact";
 import Newsletter from "../components/AaNewsletter/AaNewsletter";
+import ReactPlayer from "react-player";
 
 export const BasicPageTemplate = ({
   content,

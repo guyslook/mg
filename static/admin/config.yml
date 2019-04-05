@@ -86,6 +86,12 @@ collections:
             fields:
               - {label: Left Image, name: leftimage, widget: "image"}
               - {label: Right Image, name: rightimage, widget: "image"}
+          - label: "Video"
+            name: "video"
+            widget: "object"
+            fields:
+              - {label: Video source, name: source, widget: "string"}
+              - {label: Loop, name: loop, widget: "boolean"}
 
 
   - name: "menu"
