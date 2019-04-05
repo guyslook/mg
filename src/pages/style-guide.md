@@ -50,7 +50,7 @@ elements:
 
       Here's some text
     textClass: mybespoketext
-    textImage: false
+    textImage: /img/heart.svg
     type: text
 ---
 
