@@ -44,5 +44,13 @@ elements:
       picture-in-picture" allowfullscreen></iframe><p>Custom HTML is perfect for
       embedding iframes</p>
     type: customhtml
+  - dark: true
+    paragraph: |-
+      ## Here's a title in a text element
+
+      Here's some text
+    textClass: mybespoketext
+    textImage: false
+    type: text
 ---
 
