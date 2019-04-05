@@ -47,6 +47,8 @@ collections:
             fields:
               - {label: Paragraph, name: paragraph, widget: "markdown"}
               - {label: "Dark", name: "dark", widget: "boolean", default: false}
+              - {label: "Image", name: "textImage", widget: "boolean"}
+              - {label: "Class", name: "textClass", widget: "string"}
           - label: "Gallery"
             name: "gallery"
             widget: "object"
