@@ -49,5 +49,15 @@ elements:
     herolink: /our-personal-approach
     herotitle: Our personal approach
     type: hero
+  - paragraph: >-
+      ## Our personal approach
+
+
+      We are very proud of our approach. If you choose us to work on your
+      website you will work directly with a website developer. This cuts out
+      anyone in the middle, saves on costs and gives you the website you
+      actually want.
+    textClass: personal
+    type: text
 ---
 
