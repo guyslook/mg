@@ -16,11 +16,21 @@ class AaTextElement extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <div className={(this.props.dark && "dark") + " TextElement"}>
+        <div
+          className={
+            (this.props.dark && "dark ") + this.props.class + " TextElement"
+          }
+        >
+          <div className="container content">
+            <div
+              dangerouslySetInnerHTML={{
+                __html: converter.makeHtml(this.props.html)
+              }}
+            />
+          </div>
           <div
-            className="container content"
             dangerouslySetInnerHTML={{
-              __html: converter.makeHtml(this.props.html)
+              __html: converter.makeHtml(this.props.image)
             }}
           />
         </div>

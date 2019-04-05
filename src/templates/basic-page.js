@@ -61,6 +61,8 @@ export const BasicPageTemplate = ({
                     <AaTextElement
                       dark={element.dark}
                       html={element.paragraph}
+                      class={element.textClass}
+                      image={element.textImage}
                     />
                   </div>
                 )) ||
@@ -182,6 +184,8 @@ export const pageQuery = graphql`
           overlay
 
           paragraph
+          textImage
+          textClass
           dark
 
           galleryitem {
