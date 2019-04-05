@@ -48,6 +48,9 @@ elements:
       website you will work directly with a website developer. This cuts out
       anyone in the middle, saves on costs and gives you the website you
       actually want.
+
+
+      [Find out more](/our-personal-approach)
     textClass: personal
     textImage: >-
       <svg width="521" height="521" viewBox="0 0 521 521" fill="none"
