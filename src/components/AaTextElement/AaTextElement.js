@@ -23,16 +23,18 @@ class AaTextElement extends React.Component {
         >
           <div className="container content">
             <div
+              className="textText"
               dangerouslySetInnerHTML={{
                 __html: converter.makeHtml(this.props.html)
               }}
             />
+            <div
+              className="textImage"
+              dangerouslySetInnerHTML={{
+                __html: converter.makeHtml(this.props.image)
+              }}
+            />
           </div>
-          <div
-            dangerouslySetInnerHTML={{
-              __html: converter.makeHtml(this.props.image)
-            }}
-          />
         </div>
       </React.Fragment>
     );
