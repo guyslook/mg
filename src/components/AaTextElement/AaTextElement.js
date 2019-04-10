@@ -25,18 +25,22 @@ class AaTextElement extends React.Component {
           }
         >
           <div className="container content">
-            <div
-              className="textText"
-              dangerouslySetInnerHTML={{
-                __html: converter.makeHtml(this.props.html)
-              }}
-            />
-            <div
-              className="textImage"
-              dangerouslySetInnerHTML={{
-                __html: converter.makeHtml(this.props.image)
-              }}
-            />
+            <div className="columns is-vcentered">
+              <div
+                className="textText column"
+                dangerouslySetInnerHTML={{
+                  __html: converter.makeHtml(this.props.html)
+                }}
+              />
+              {this.props.image && (
+                <div
+                  className="textImage column"
+                  dangerouslySetInnerHTML={{
+                    __html: converter.makeHtml(this.props.image)
+                  }}
+                />
+              )}
+            </div>
           </div>
         </div>
       </React.Fragment>
