@@ -16,7 +16,7 @@ elements:
       accounts, provide you with all the details you need, and show you how you
       can make the most out of each of the platforms available.
     textImage: >-
-      <svg width="667" height="667" viewBox="0 0 667 667" fill="none"
+      <svg viewBox="0 0 667 667" fill="none"
       xmlns="http://www.w3.org/2000/svg"> <path d="M524 320C524 414.441 447.441
       491 353 491C258.559 491 182 414.441 182 320C182 225.559 258.559 149 353
       149C447.441 149 524 225.559 524 320Z" fill="#E68C27"/> <rect x="131"
@@ -99,7 +99,7 @@ elements:
       parameters for banner images, post images and profile images, we can help
       you create images for all sizes required for all your accounts.
     textImage: >-
-      <svg width="667" height="667" viewBox="0 0 667 667" fill="none"
+      <svg viewBox="0 0 667 667" fill="none"
       xmlns="http://www.w3.org/2000/svg"> <circle cx="333" cy="333" r="171"
       fill="#FC0D1B"/> <rect x="468" y="275" width="90" height="71" rx="2"
       stroke="white" stroke-width="4"/> <path d="M552.524 346H474.292C471.768
