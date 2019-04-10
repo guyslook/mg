@@ -16,7 +16,7 @@ elements:
       accounts, provide you with all the details you need, and show you how you
       can make the most out of each of the platforms available.
     textImage: >-
-      <svg width="667" height="667" viewBox="0 0 667 667" fill="none"
+      <svg viewBox="0 0 667 667" fill="none"
       xmlns="http://www.w3.org/2000/svg"> <path d="M524 320C524 414.441 447.441
       491 353 491C258.559 491 182 414.441 182 320C182 225.559 258.559 149 353
       149C447.441 149 524 225.559 524 320Z" fill="#E68C27"/> <rect x="131"
@@ -173,7 +173,7 @@ elements:
       work closely with content writers to make sure you're saying what you need
       to in the right way.
     textImage: >-
-      <svg width="667" height="667" viewBox="0 0 667 667" fill="none"
+      <svg viewBox="0 0 667 667" fill="none"
       xmlns="http://www.w3.org/2000/svg"> <circle cx="334" cy="333" r="171"
       fill="#E68C27"></circle> <path d="M166.53 210H499.986C504.405 210 507.986
       213.582 507.986 218V438.46H158.53V218C158.53 213.582 162.112 210 166.53
