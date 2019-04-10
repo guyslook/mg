@@ -73,22 +73,22 @@ elements:
       348.125 550.215 347.272 550.174 346.439C554.019 343.656 557.355 340.203
       560 336.242Z" stroke="#333333" stroke-width="4"/> <rect x="206" y="436"
       width="35" height="12" rx="6" transform="rotate(-90 206 436)"
-      fill="#333333" stroke="#333333" stroke-width="4"/> <rect x="128.571"
+      fill="#333333" stroke="#333333" stroke-width="4"></rect> <rect x="128.571"
       y="446.379" width="49.9225" height="11.6786" rx="5.83929"
       transform="rotate(-69.657 128.571 446.379)" fill="#333333"
-      stroke="#333333" stroke-width="4"/> <rect x="-2.57054" y="-1.17998"
+      stroke="#333333" stroke-width="4"></rect> <rect x="-2.57054" y="-1.17998"
       width="49.9225" height="11.6786" rx="5.83929" transform="matrix(-0.34764
       -0.937628 -0.937628 0.34764 293.609 444.379)" fill="#333333"
-      stroke="#333333" stroke-width="4"/> <rect x="112" y="255" width="206"
-      height="121" rx="14" stroke="#333333" stroke-width="12"/> <rect
+      stroke="#333333" stroke-width="4"></rect> <rect x="112" y="255" width="206"
+      height="121" rx="14" stroke="#333333" stroke-width="12"></rect> <rect
       x="300.824" y="335.726" width="70.8246" height="5.69948" rx="2.84974"
       transform="rotate(-180 300.824 335.726)" fill="#333333" stroke="#333333"
-      stroke-width="4"/> <rect x="300.824" y="317.713" width="48.6543"
+      stroke-width="4"></rect> <rect x="300.824" y="317.713" width="48.6543"
       height="5.69948" rx="2.84974" transform="rotate(-180 300.824 317.713)"
-      fill="#333333" stroke="#333333" stroke-width="4"/> <rect x="289.738"
+      fill="#333333" stroke="#333333" stroke-width="4"></rect> <rect x="289.738"
       y="299.7" width="54.1969" height="5.69948" rx="2.84974"
       transform="rotate(-180 289.738 299.7)" fill="#333333" stroke="#333333"
-      stroke-width="4"/> </svg>
+      stroke-width="4"></rect> </svg>
     type: text
   - dark: true
     paragraph: >-
@@ -99,69 +99,39 @@ elements:
       parameters for banner images, post images and profile images, we can help
       you create images for all sizes required for all your accounts.
     textImage: >-
-      <svg viewBox="0 0 667 667" fill="none"
-      xmlns="http://www.w3.org/2000/svg"> <circle cx="333" cy="333" r="171"
-      fill="#FC0D1B"/> <rect x="468" y="275" width="90" height="71" rx="2"
-      stroke="white" stroke-width="4"/> <path d="M552.524 346H474.292C471.768
-      346 470.372 343.072 471.961 341.111L481.776 329L491.819 315.903C492.989
-      314.377 495.272 314.33 496.503 315.807L500.024 320.031C501.279 321.535
-      503.616 321.454 504.762 319.865L521.558 296.581C522.798 294.863 525.379
-      294.936 526.519 296.722L555.052 341.385C556.327 343.382 554.893 346
-      552.524 346Z" fill="white" stroke="white" stroke-width="4"/> <path d="M506
-      291.75C506 294.869 503.512 297.351 500.5 297.351C497.488 297.351 495
-      294.869 495 291.75C495 288.631 497.488 286.148 500.5 286.148C503.512
-      286.148 506 288.631 506 291.75Z" stroke="white" stroke-width="4"/> <rect
-      x="470" y="365" width="86" height="17" rx="8.5" stroke="white"
-      stroke-width="4"/> <rect x="471" y="399" width="86" height="17" rx="8.5"
-      stroke="white" stroke-width="4"/> <path d="M443 251H584C585.105 251 586
-      251.895 586 253V456C586 460.418 582.418 464 578 464H449C444.582 464 441
-      460.418 441 456V253C441 251.895 441.895 251 443 251Z" stroke="white"
-      stroke-width="4"/> <path d="M443 251H584C585.105 251 586 251.895 586
-      253V444.95H441V253C441 251.895 441.895 251 443 251Z" stroke="white"
-      stroke-width="4"/> <circle cx="511.5" cy="454.5" r="3.5" stroke="white"
-      stroke-width="4"/> <rect x="219" y="397" width="73.2414" height="156"
-      rx="8" stroke="white" stroke-width="4"/> <rect x="219" y="410.793"
-      width="73.2414" height="128.414" stroke="white" stroke-width="4"/> <circle
-      cx="255.62" cy="546.724" r="2.13793" stroke="white" stroke-width="4"/>
-      <rect x="231" y="506" width="50" height="17" rx="8.5" stroke="white"
-      stroke-width="4"/> <rect x="230" y="422" width="51" height="66" rx="2"
-      stroke="white" stroke-width="4"/> <path d="M276.324
-      486.093H235.292C232.768 486.093 231.372 483.166 232.961 481.205L237.082
-      476.12L242.03 469.667C243.2 468.141 245.484 468.094 246.715
-      469.571L246.764 469.631C248.019 471.135 250.356 471.054 251.502
-      469.465L259.353 458.581C260.592 456.863 263.174 456.936 264.314
-      458.722L278.852 481.478C280.127 483.475 278.693 486.093 276.324 486.093Z"
-      fill="white" stroke="white" stroke-width="4"/> <path d="M248.8
-      451.459C248.8 452.843 247.7 453.919 246.4 453.919C245.1 453.919 244
-      452.843 244 451.459C244 450.076 245.1 449 246.4 449C247.7 449 248.8
-      450.076 248.8 451.459Z" stroke="white" stroke-width="4"/> <path
-      d="M43.5303 108H376.986C381.405 108 384.986 111.582 384.986
-      116V336.46H35.5303V116C35.5303 111.582 39.112 108 43.5303 108Z"
-      stroke="white" stroke-width="4"/> <mask id="path-18-inside-1"
-      fill="white"> <rect x="45.7812" y="118.673" width="328.999"
-      height="205.944" rx="2"/> </mask> <rect x="45.7812" y="118.673"
-      width="328.999" height="205.944" rx="2" stroke="white" stroke-width="8"
-      mask="url(#path-18-inside-1)"/> <mask id="path-19-inside-2" fill="white">
-      <path d="M0 336.282C0 335.593 0.55869 335.034 1.24787
-      335.034H420.664C421.353 335.034 421.912 335.593 421.912
-      336.282V336.282C421.912 346.62 413.532 355 403.194 355H18.718C8.38035 355
-      0 346.62 0 336.282V336.282Z"/> </mask> <path d="M0 336.282C0 335.593
-      0.55869 335.034 1.24787 335.034H420.664C421.353 335.034 421.912 335.593
-      421.912 336.282V336.282C421.912 346.62 413.532 355 403.194
-      355H18.718C8.38035 355 0 346.62 0 336.282V336.282Z" fill="white"
-      stroke="white" stroke-width="8" mask="url(#path-19-inside-2)"/> <rect
-      x="77" y="153" width="256" height="94" rx="2" stroke="white"
-      stroke-width="4"/> <path d="M275.035 245H135.975C133.341 245 131.985
-      241.849 133.797 239.937L138 235.5L152.265 220.302L170.935 199.358C172.094
-      198.057 174.115 198.015 175.328 199.267L184.951 209.196C186.19 210.474
-      188.261 210.399 189.404 209.036L221.376 170.912C222.621 169.426 224.927
-      169.494 226.083 171.051L277.444 240.211C278.914 242.191 277.501 245
-      275.035 245Z" fill="white" stroke="white" stroke-width="4"/> <circle
-      cx="160" cy="179" r="9" stroke="white" stroke-width="4"/> <rect x="77"
-      y="267" width="77" height="32" rx="16" stroke="white" stroke-width="4"/>
-      <rect x="167" y="267" width="76" height="32" rx="16" fill="white"
-      stroke="white" stroke-width="4"/> <rect x="256" y="267" width="77"
-      height="32" rx="16" stroke="white" stroke-width="4"/> </svg>
+      <svg viewBox="0 0 667 667" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="333" cy="333" r="171" fill="#FC0D1B"></circle>
+      <rect x="468" y="275" width="90" height="71" rx="2" stroke="white" stroke-width="4"></rect>
+      <path d="M552.524 346H474.292C471.768 346 470.372 343.072 471.961 341.111L481.776 329L491.819 315.903C492.989 314.377 495.272 314.33 496.503 315.807L500.024 320.031C501.279 321.535 503.616 321.454 504.762 319.865L521.558 296.581C522.798 294.863 525.379 294.936 526.519 296.722L555.052 341.385C556.327 343.382 554.893 346 552.524 346Z" fill="white" stroke="white" stroke-width="4"></path>
+      <path d="M506 291.75C506 294.869 503.512 297.351 500.5 297.351C497.488 297.351 495 294.869 495 291.75C495 288.631 497.488 286.148 500.5 286.148C503.512 286.148 506 288.631 506 291.75Z" stroke="white" stroke-width="4"></path>
+      <rect x="470" y="365" width="86" height="17" rx="8.5" stroke="white" stroke-width="4"></rect>
+      <rect x="471" y="399" width="86" height="17" rx="8.5" stroke="white" stroke-width="4"></rect>
+      <path d="M443 251H584C585.105 251 586 251.895 586 253V456C586 460.418 582.418 464 578 464H449C444.582 464 441 460.418 441 456V253C441 251.895 441.895 251 443 251Z" stroke="white" stroke-width="4"></path>
+      <path d="M443 251H584C585.105 251 586 251.895 586 253V444.95H441V253C441 251.895 441.895 251 443 251Z" stroke="white" stroke-width="4"></path>
+      <circle cx="511.5" cy="454.5" r="3.5" stroke="white" stroke-width="4"></circle>
+      <rect x="219" y="397" width="73.2414" height="156" rx="8" stroke="white" stroke-width="4"></rect>
+      <rect x="219" y="410.793" width="73.2414" height="128.414" stroke="white" stroke-width="4"></rect>
+      <circle cx="255.62" cy="546.724" r="2.13793" stroke="white" stroke-width="4"></circle>
+      <rect x="231" y="506" width="50" height="17" rx="8.5" stroke="white" stroke-width="4"></rect>
+      <rect x="230" y="422" width="51" height="66" rx="2" stroke="white" stroke-width="4"></rect>
+      <path d="M276.324 486.093H235.292C232.768 486.093 231.372 483.166 232.961 481.205L237.082 476.12L242.03 469.667C243.2 468.141 245.484 468.094 246.715 469.571L246.764 469.631C248.019 471.135 250.356 471.054 251.502 469.465L259.353 458.581C260.592 456.863 263.174 456.936 264.314 458.722L278.852 481.478C280.127 483.475 278.693 486.093 276.324 486.093Z" fill="white" stroke="white" stroke-width="4"></path>
+      <path d="M248.8 451.459C248.8 452.843 247.7 453.919 246.4 453.919C245.1 453.919 244 452.843 244 451.459C244 450.076 245.1 449 246.4 449C247.7 449 248.8 450.076 248.8 451.459Z" stroke="white" stroke-width="4"></path>
+      <path d="M43.5303 108H376.986C381.405 108 384.986 111.582 384.986 116V336.46H35.5303V116C35.5303 111.582 39.112 108 43.5303 108Z" stroke="white" stroke-width="4"></path>
+      <mask id="path-18-inside-1" fill="white">
+      <rect x="45.7812" y="118.673" width="328.999" height="205.944" rx="2"></rect>
+      </mask>
+      <rect x="45.7812" y="118.673" width="328.999" height="205.944" rx="2" stroke="white" stroke-width="8" mask="url(#path-18-inside-1)"></rect>
+      <mask id="path-19-inside-2" fill="white">
+      <path d="M0 336.282C0 335.593 0.55869 335.034 1.24787 335.034H420.664C421.353 335.034 421.912 335.593 421.912 336.282V336.282C421.912 346.62 413.532 355 403.194 355H18.718C8.38035 355 0 346.62 0 336.282V336.282Z"></path>
+      </mask>
+      <path d="M0 336.282C0 335.593 0.55869 335.034 1.24787 335.034H420.664C421.353 335.034 421.912 335.593 421.912 336.282V336.282C421.912 346.62 413.532 355 403.194 355H18.718C8.38035 355 0 346.62 0 336.282V336.282Z" fill="white" stroke="white" stroke-width="8" mask="url(#path-19-inside-2)"></path>
+      <rect x="77" y="153" width="256" height="94" rx="2" stroke="white" stroke-width="4"></rect>
+      <path d="M275.035 245H135.975C133.341 245 131.985 241.849 133.797 239.937L138 235.5L152.265 220.302L170.935 199.358C172.094 198.057 174.115 198.015 175.328 199.267L184.951 209.196C186.19 210.474 188.261 210.399 189.404 209.036L221.376 170.912C222.621 169.426 224.927 169.494 226.083 171.051L277.444 240.211C278.914 242.191 277.501 245 275.035 245Z" fill="white" stroke="white" stroke-width="4"></path>
+      <circle cx="160" cy="179" r="9" stroke="white" stroke-width="4"></circle>
+      <rect x="77" y="267" width="77" height="32" rx="16" stroke="white" stroke-width="4"></rect>
+      <rect x="167" y="267" width="76" height="32" rx="16" fill="white" stroke="white" stroke-width="4"></rect>
+      <rect x="256" y="267" width="77" height="32" rx="16" stroke="white" stroke-width="4"></rect>
+      </svg>
     type: text
   - paragraph: >-
       ## Words

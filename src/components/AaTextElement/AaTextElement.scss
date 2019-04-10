@@ -17,6 +17,9 @@
     &.dark {
         background-color: #333333;
         color: #FFFFFF;
+        .columns {
+            flex-direction: row-reverse;
+        }
         h2, p {
             color: #FFFFFF;
         }
@@ -53,6 +56,35 @@
             position: absolute;
             top: 0;
             left: 0;
+            animation: floatalso 3s ease-in-out infinite;
+
+            circle:first-child {
+                animation: float 6s ease-in-out infinite;
+            }
       }
     }
+}
+
+@keyframes float {
+	0% {
+        transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-20px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
+
+@keyframes floatalso {
+	0% {
+        transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-5px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
 }
