@@ -25,21 +25,21 @@
         }
     }
 
-    &.personal {
-        .textImage {
-            position: absolute;
-            right: 0;
-            opacity: 0.5;
-            align-self: center;
-            path {
-                fill: red;
-            }
-        }
-        .textText {
-            z-index: 100;
-            position: relative;
-        }
-    }
+    // &.personal {
+    //     .textImage {
+    //         position: absolute;
+    //         right: 0;
+    //         opacity: 0.5;
+    //         align-self: center;
+    //         path {
+    //             fill: red;
+    //         }
+    //     }
+    //     .textText {
+    //         z-index: 100;
+    //         position: relative;
+    //     }
+    // }
 
     .textImage {
         p {
