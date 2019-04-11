@@ -88,25 +88,24 @@ elements:
       [Find out more](/our-personal-approach)
     textClass: personal
     textImage: >-
-      <svg width="667" height="667" viewBox="0 0 667 667" fill="none"
-      xmlns="http://www.w3.org/2000/svg"> <path d="M504 333C504 427.441 427.441
-      504 333 504C238.559 504 162 427.441 162 333C162 238.559 238.559 162 333
-      162C427.441 162 504 238.559 504 333Z" fill="#FFFC3A"></path> <rect x="125"
-      y="274" width="73.2414" height="136" rx="8" stroke="#333333"
-      stroke-width="4"></rect> <rect x="125" y="286.069" width="73.2414"
-      height="111.862" stroke="#333333" stroke-width="4"></rect> <circle
-      cx="162" cy="404" r="2" stroke="#333333" stroke-width="2"></circle> <rect
-      x="137" y="303" width="50" height="51" rx="25" fill="#333333"
-      stroke="#333333" stroke-width="4"></rect> <circle cx="333.5" cy="332.5"
-      r="75.5" fill="white"></circle> <circle cx="333" cy="333" r="62"
-      stroke="#333333" stroke-width="4"></circle> <rect x="1" y="-1" width="2"
-      height="4" rx="1" transform="matrix(1 0 0 -1 311 314)" fill="black"
-      stroke="#333333" stroke-width="2"></rect> <rect x="1" y="-1" width="2"
-      height="4" rx="1" transform="matrix(1 0 0 -1 351 314)" fill="black"
-      stroke="#333333" stroke-width="2"></rect> <path d="M292.396 380C273.952
-      383.968 236.851 405.923 236 462M373.797 380C391.176 383.527 426.149
-      404.865 427 462" stroke="#333333" stroke-width="4"></path> <path d="M397.5
-      477.524C403.143 475.984 393.066 469.422 393.616 443.5M264.171
+      <svg viewBox="0 0 667 667" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M504 333C504 427.441 427.441 504 333 504C238.559 504 162 427.441
+      162 333C162 238.559 238.559 162 333 162C427.441 162 504 238.559 504 333Z"
+      fill="#FFFC3A"></path> <rect x="125" y="274" width="73.2414" height="136"
+      rx="8" stroke="#333333" stroke-width="4"></rect> <rect x="125" y="286.069"
+      width="73.2414" height="111.862" stroke="#333333" stroke-width="4"></rect>
+      <circle cx="162" cy="404" r="2" stroke="#333333"
+      stroke-width="2"></circle> <rect x="137" y="303" width="50" height="51"
+      rx="25" fill="#333333" stroke="#333333" stroke-width="4"></rect> <circle
+      cx="333.5" cy="332.5" r="75.5" fill="white"></circle> <circle cx="333"
+      cy="333" r="62" stroke="#333333" stroke-width="4"></circle> <rect x="1"
+      y="-1" width="2" height="4" rx="1" transform="matrix(1 0 0 -1 311 314)"
+      fill="black" stroke="#333333" stroke-width="2"></rect> <rect x="1" y="-1"
+      width="2" height="4" rx="1" transform="matrix(1 0 0 -1 351 314)"
+      fill="black" stroke="#333333" stroke-width="2"></rect> <path d="M292.396
+      380C273.952 383.968 236.851 405.923 236 462M373.797 380C391.176 383.527
+      426.149 404.865 427 462" stroke="#333333" stroke-width="4"></path> <path
+      d="M397.5 477.524C403.143 475.984 393.066 469.422 393.616 443.5M264.171
       477.559C258.528 476.018 268.605 469.456 268.055 443.534" stroke="#333333"
       stroke-width="4"></path> <rect x="462" y="284" width="53.4483"
       height="115" rx="8" stroke="#333333" stroke-width="4"></rect> <path
