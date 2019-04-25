@@ -35,6 +35,9 @@
 		font-size: 2.75em;
 		margin-bottom:20px;
 	}
+	svg {
+		
+	}
 	background-color: #20516D;
 	.homepageBox {
 		min-height: 25vw;
@@ -58,12 +61,19 @@
 		.homepageBox {
 			background-color: #359DD8;
 			text-align: center;
+			p {
+				font-size: 2em;
+			}
 		}
 	}
 
 	.homepageWebsite {
 		.homepageBox {
 			background-color: #3F1682;
+		}
+		.columns {
+			align-items: center;
+			height: 100%;
 		}
 		.homepageBackground {
 			width: 100%;
@@ -74,24 +84,23 @@
 		}
 	}
 
-	.homepageAudience {
-		.homepageAudiencePersonal {
-			.homepageBox {
-				background-color: #20516D;
-			}
+	.homepagePersonal {
+		.columns {
+			align-items: center;
+			height: 100%;
 		}
-		.homepageAudienceAudience {
-			@media (min-width: 768px) {
-				height: 600px;
-			}
-			background-size: cover;
-			.columns {
-				align-items: flex-end;
-				height: 100%;
-			}
-			.homepageBox {
-				background-color: #B40812;
-			}
+		.homepageBox {
+			background-color: #B40812;
+		}
+	}
+
+	.homepageAudience {
+		.columns {
+			align-items: center;
+			height: 100%;
+		}
+		.homepageBox {
+			background-color: #B40812;
 		}
 	}
 
@@ -102,7 +111,7 @@
 		background-position: center 40%;
 		background-size: cover;
 		.columns {
-			align-items: flex-end;
+			align-items: center;
 			height: 100%;
 		}
 		.homepageBox {

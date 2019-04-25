@@ -1,66 +1,50 @@
 import React from "react";
+import ReactVivus from "react-vivus";
+import Vivus from "vivus";
 import Card from "../Card/Card";
 import AniLink from "gatsby-plugin-transition-link/AniLink";
+import TrackVisibility from "react-on-screen"; // CommonJs : require('react-on-screen').default
 
 require("./Services.scss");
 
+const ComponentToTrack = props => {
+  const style = {
+    background: props.isVisible ? "red" : "blue"
+  };
+
+  return <div style={style}>Hello</div>;
+};
+
 class Services extends React.Component {
+  componentDidMount() {
+    new Vivus("my-svg", { duration: 200 });
+    new Vivus("my-svg1", { duration: 200 });
+  }
   render() {
     return (
       <React.Fragment>
-        {/* <div className="services-links">
-          <div className="service-links-inner container">
-            <div>
-              <h2>Our Services</h2>
-            </div>
-            <div className="columns">
-              <Card
-                title="Website Design and Development"
-                text="We create bespoke websites for you to show off what you do to your clients."
-                buttonText="ButtonText"
-                buttonLink="/website-design-and-development"
-              />
-              <Card
-                title="SEO and Marketing"
-                text="SEO jargon is everywhere. What does it even mean? Let us break it down nice and simply for you. We'll help people find you through google search."
-                buttonText="ButtonText"
-                buttonLink="/seo-and-marketing"
-              />
-              <Card
-                title="Social media setup & content creation"
-                text="Let us help you reach out to your customers with social media training and some bespoke content to catch their attention."
-                buttonText="ButtonText"
-                buttonLink="/social-media-setup-and-content-creation"
-              />
-              <Card
-                title="Training and workshops"
-                text="We can help you gain confidence working with your business online, we offer classes to help you with all aspects of the online world."
-                buttonText="ButtonText"
-                buttonLink="/training-and-workshops"
-              />
-            </div>
-          </div>
-        </div> */}
         <div className="homepage">
           <div className="homepageIntro">
-            <div className="columns is-gapless">
-              <div className="column is-half" />
-              <div className="column is-half">
+            <div className="columns">
+              <div className="column">
                 <div className="homepageBox">
                   <p>
                     Our aim is to give you the tools you need to make your
-                    business sucessful online. We build websites, help you with
-                    search engine optimisation, increase your confidence with
-                    social media, and provide training and support with all
-                    aspects of the internet, software and online resources.
+                    business sucessful online.{" "}
+                    <strong>We build websites</strong>, help you with
+                    <strong>search engine optimisation</strong>, increase your
+                    confidence with
+                    <strong>social media</strong>, and provide{" "}
+                    <strong>training</strong> and support with all aspects of
+                    the internet, software and online resources.
                   </p>
                 </div>
               </div>
             </div>
           </div>
           <div className="homepageWebsite">
-            <div className="columns is-gapless">
-              <div className="column is-one-quarter">
+            <div className="columns">
+              <div className="column is-one-third">
                 <div className="homepageBox">
                   <h2>Website design and development</h2>
                   <p>
@@ -75,10 +59,10 @@ class Services extends React.Component {
                   </AniLink>
                 </div>
               </div>
-              <div className="column is-one-quarter" />
-              <div className="column is-half">
+              <div className="column is-two-thirds">
                 <div className="homepageBackground">
                   <svg
+                    id="my-svg"
                     viewBox="0 0 667 667"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
@@ -316,35 +300,20 @@ class Services extends React.Component {
               </div>
             </div>
           </div>
-          <div className="homepageAudience">
-            <div className="columns is-gapless">
-              <div className="column is-one-quarter">
-                <div className="homepageAudiencePersonal">
-                  <div className="homepageBox">
-                    <h2>Making it personal</h2>
-                    <p>
-                      We spend time learning all about you and your brand. You
-                      work directly with a developer and we’re always around to
-                      help.
-                    </p>
-                    <AniLink cover bg="#22526c" to="/our-personal-approach">
-                      find out more →
-                    </AniLink>
-                  </div>
-                </div>
-              </div>
+          <div className="homepagePersonal">
+            <div className="columns">
               <div className="column is-three-quarter">
                 <div className="homepageAudienceAudience">
-                  <div className="columns is-gapless">
+                  <div className="columns">
                     <div className="column is-two-thirds">
                       <svg
+                        id="my-svg1"
                         viewBox="0 0 667 667"
                         fill="none"
                         xmlns="http://www.w3.org/2000/svg"
                       >
                         <path
-                          d="M504 333C504 427.441 427.441 504 333 504C238.559 504 162 427.441
-      162 333C162 238.559 238.559 162 333 162C427.441 162 504 238.559 504 333Z"
+                          d="M504 333C504 427.441 427.441 504 333 504C238.559 504 162 427.441 162 333C162 238.559 238.559 162 333 162C427.441 162 504 238.559 504 333Z"
                           fill="#FFFC3A"
                         />{" "}
                         <rect
@@ -502,20 +471,22 @@ class Services extends React.Component {
                       </svg>
                     </div>
                     <div className="column is-one-third">
-                      <div className="homepageBox">
-                        <h2>Reaching your audience</h2>
-                        <p>
-                          Let us help you reach out to your customers with
-                          social media training and content to catch their
-                          attention.
-                        </p>
-                        <AniLink
-                          cover
-                          bg="#b20e1b"
-                          to="/social-media-setup-and-content-creation"
-                        >
-                          find out more →
-                        </AniLink>
+                      <div className="homepageAudiencePersonal">
+                        <div className="homepageBox">
+                          <h2>Making it personal</h2>
+                          <p>
+                            We spend time learning all about you and your brand.
+                            You work directly with a developer and we’re always
+                            around to help.
+                          </p>
+                          <AniLink
+                            cover
+                            bg="#22526c"
+                            to="/our-personal-approach"
+                          >
+                            find out more →
+                          </AniLink>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -523,10 +494,299 @@ class Services extends React.Component {
               </div>
             </div>
           </div>
+          <div className="homepageAudience">
+            <div className="columns">
+              <div className="column is-one-third">
+                <div className="homepageBox">
+                  <h2>Reaching your audience</h2>
+                  <p>
+                    Let us help you reach out to your customers with social
+                    media training and content to catch their attention.
+                  </p>
+                  <AniLink
+                    cover
+                    bg="#b20e1b"
+                    to="/social-media-setup-and-content-creation"
+                  >
+                    find out more →
+                  </AniLink>
+                </div>
+              </div>
+              <div className="column is-two-thirds">
+                <svg
+                  viewBox="0 0 667 667"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M524 320C524 414.441 447.441 491 353 491C258.559 491 182 414.441
+      182 320C182 225.559 258.559 149 353 149C447.441 149 524 225.559 524 320Z"
+                    fill="#E68C27"
+                  />{" "}
+                  <rect
+                    x="131"
+                    y="274"
+                    width="87"
+                    height="82"
+                    rx="2"
+                    stroke="#333333"
+                    stroke-width="4"
+                  />{" "}
+                  <path
+                    d="M211.656
+      354.312H136.292C133.768 354.312 132.372 351.384 133.961 349.423L143.337
+      337.853L152.987 325.268C154.157 323.742 156.441 323.696 157.672
+      325.172L160.925 329.075C162.18 330.58 164.516 330.498 165.663
+      328.909L181.77 306.581C183.009 304.863 185.59 304.936 186.731
+      306.722L214.184 349.696C215.46 351.693 214.026 354.312 211.656 354.312Z"
+                    fill="#333333"
+                    stroke="#333333"
+                    stroke-width="4"
+                  />{" "}
+                  <path
+                    d="M167.522
+      289.359C167.522 292.344 165.141 294.718 162.261 294.718C159.381 294.718
+      157 292.344 157 289.359C157 286.374 159.381 284 162.261 284C165.141 284
+      167.522 286.374 167.522 289.359Z"
+                    stroke="#333333"
+                    stroke-width="4"
+                  />
+                  <path
+                    d="M436.136 449.855C432.681 446.422 428.095 444.5 423.25
+      444.5H390.75C385.915 444.5 381.3 446.396 377.855 449.864C374.422 453.319
+      372.5 457.905 372.5 462.75V495.25C372.5 500.085 374.396 504.7 377.864
+      508.145C381.319 511.578 385.905 513.5 390.75 513.5H423.25C428.085 513.5
+      432.7 511.604 436.145 508.136C439.578 504.681 441.5 500.095 441.5
+      495.25V462.75C441.5 457.915 439.604 453.3 436.136 449.855ZM390.75
+      442H423.25C434.658 442 444 451.342 444 462.75V495.25C444 506.658 434.658
+      516 423.25 516H390.75C379.342 516 370 506.658 370 495.25V462.75C370
+      451.342 379.342 442 390.75 442Z"
+                    stroke="#333333"
+                    stroke-width="4"
+                  />{" "}
+                  <path
+                    d="M428.125 460.75C426.528 460.75 425.25 459.472 425.25 457.875C425.25
+      456.278 426.528 455 428.125 455C429.707 455 431 456.283 431 457.875C431
+      459.467 429.707 460.75 428.125 460.75Z"
+                    stroke="#333333"
+                    stroke-width="4"
+                  />{" "}
+                  <path
+                    d="M422 479C422 470.725 415.275 464 407
+      464C398.725 464 392 470.725 392 479C392 487.275 398.725 494 407
+      494C415.275 494 422 487.275 422 479ZM389.5 479C389.5 469.339 397.339 461.5
+      407 461.5C416.661 461.5 424.5 469.339 424.5 479C424.5 488.661 416.661
+      496.5 407 496.5C397.339 496.5 389.5 488.661 389.5 479Z"
+                    stroke="#333333"
+                    stroke-width="4"
+                  />{" "}
+                  <path
+                    d="M471 192.75V187.498C471 185.873 471.248
+      185.072 471.61 184.642C471.906 184.29 472.645 183.77 474.83
+      183.77H482H484V181.77V171.248V169.495L482.262 169.266C481.07 169.108
+      476.346 168.781 471.986 168.781C467.089 168.781 462.577 170.276 459.268
+      173.308C455.933 176.363 454 180.813 454
+      186.341V192.75H446.677H444.677V194.75V206.125V208.125H446.677H454V235H421.306C420.034
+      235 419 233.966 419 232.694V163.306C419 162.034 420.034 161 421.306
+      161H490.694C491.966 161 493 162.034 493 163.306V232.694C493 233.966
+      491.966 235 490.694 235H471V208.125H479.136H480.886L481.118 206.39L482.642
+      195.015L482.945 192.75H480.659H471Z"
+                    stroke="#333333"
+                    stroke-width="4"
+                  />
+                  <path
+                    d="M560 336.242C556.46 337.806 552.676 338.863 548.689
+      339.35C552.758 336.913 555.891 333.053 557.355 328.462C553.551 330.717
+      549.34 332.362 544.844 333.236C541.243 329.397 536.117 327 530.462
+      327C519.578 327 510.769 335.816 510.769 346.683C510.769 348.227 510.932
+      349.73 511.278 351.172C494.901 350.359 480.376 342.519 470.673
+      330.595C468.984 333.5 468.008 336.892 468.008 340.487C468.008 347.312
+      471.507 353.345 476.796 356.88C473.541 356.798 470.49 355.905 467.845
+      354.422C467.845 354.503 467.845 354.584 467.845 354.666C467.845 364.212
+      474.64 372.155 483.652 373.963C482.004 374.409 480.254 374.653 478.464
+      374.653C477.203 374.653 475.962 374.531 474.762 374.287C477.264 382.108
+      484.547 387.795 493.172 387.958C486.439 393.239 477.935 396.388 468.699
+      396.388C467.113 396.388 465.546 396.286 464 396.103C472.687 401.75 483.041
+      405 494.149 405C530.421 405 550.235 374.998 550.235 348.978C550.235
+      348.125 550.215 347.272 550.174 346.439C554.019 343.656 557.355 340.203
+      560 336.242Z"
+                    stroke="#333333"
+                    stroke-width="4"
+                  />{" "}
+                  <rect
+                    x="206"
+                    y="436"
+                    width="35"
+                    height="12"
+                    rx="6"
+                    transform="rotate(-90 206 436)"
+                    fill="#333333"
+                    stroke="#333333"
+                    stroke-width="4"
+                  />{" "}
+                  <rect
+                    x="128.571"
+                    y="446.379"
+                    width="49.9225"
+                    height="11.6786"
+                    rx="5.83929"
+                    transform="rotate(-69.657 128.571 446.379)"
+                    fill="#333333"
+                    stroke="#333333"
+                    stroke-width="4"
+                  />{" "}
+                  <rect
+                    x="-2.57054"
+                    y="-1.17998"
+                    width="49.9225"
+                    height="11.6786"
+                    rx="5.83929"
+                    transform="matrix(-0.34764
+      -0.937628 -0.937628 0.34764 293.609 444.379)"
+                    fill="#333333"
+                    stroke="#333333"
+                    stroke-width="4"
+                  />{" "}
+                  <rect
+                    x="112"
+                    y="255"
+                    width="206"
+                    height="121"
+                    rx="14"
+                    stroke="#333333"
+                    stroke-width="12"
+                  />{" "}
+                  <rect
+                    x="300.824"
+                    y="335.726"
+                    width="70.8246"
+                    height="5.69948"
+                    rx="2.84974"
+                    transform="rotate(-180 300.824 335.726)"
+                    fill="#333333"
+                    stroke="#333333"
+                    stroke-width="4"
+                  />{" "}
+                  <rect
+                    x="300.824"
+                    y="317.713"
+                    width="48.6543"
+                    height="5.69948"
+                    rx="2.84974"
+                    transform="rotate(-180 300.824 317.713)"
+                    fill="#333333"
+                    stroke="#333333"
+                    stroke-width="4"
+                  />{" "}
+                  <rect
+                    x="289.738"
+                    y="299.7"
+                    width="54.1969"
+                    height="5.69948"
+                    rx="2.84974"
+                    transform="rotate(-180 289.738 299.7)"
+                    fill="#333333"
+                    stroke="#333333"
+                    stroke-width="4"
+                  />{" "}
+                </svg>
+              </div>
+            </div>
+          </div>
           <div className="homepageTraining">
-            <div className="columns is-gapless">
-              <div className="column is-half" />
-              <div className="column is-half">
+            <div className="columns">
+              <div className="column is-two-thirds">
+                <svg
+                  viewBox="0 0 667 667"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle cx="394" cy="335" r="171" fill="#E68C27" />
+                  <path
+                    d="M56 197h333c4 0 8 4 8 8v220H48V205c0-4 3-8 8-8z"
+                    stroke="#fff"
+                    stroke-width="4"
+                  />
+                  <mask id="a" fill="#fff">
+                    <rect x="58" y="208" width="329" height="206" rx="2" />
+                  </mask>
+                  <rect
+                    x="58"
+                    y="208"
+                    width="329"
+                    height="206"
+                    rx="2"
+                    stroke="#fff"
+                    stroke-width="8"
+                    mask="url(#a)"
+                  />
+                  <mask id="b" fill="#fff">
+                    <path d="M12 425l1-1h420l1 1c0 11-8 19-19 19H31c-11 0-19-8-19-19z" />
+                  </mask>
+                  <path
+                    d="M12 425l1-1h420l1 1c0 11-8 19-19 19H31c-11 0-19-8-19-19z"
+                    fill="#fff"
+                    stroke="#fff"
+                    stroke-width="8"
+                    mask="url(#b)"
+                  />
+                  <rect
+                    x="89"
+                    y="242"
+                    width="256"
+                    height="94"
+                    rx="2"
+                    stroke="#fff"
+                    stroke-width="4"
+                  />
+                  <path
+                    d="M287 334H148c-3 0-4-3-2-5l4-4 14-16 19-21h4l10 10h4l32-38c2-2 4-2 5 0l51 69c2 2 1 5-2 5z"
+                    fill="#fff"
+                    stroke="#fff"
+                    stroke-width="4"
+                  />
+                  <circle
+                    cx="172"
+                    cy="268"
+                    r="9"
+                    stroke="#fff"
+                    stroke-width="4"
+                  />
+                  <rect
+                    x="89"
+                    y="356"
+                    width="77"
+                    height="32"
+                    rx="16"
+                    stroke="#fff"
+                    stroke-width="4"
+                  />
+                  <rect
+                    x="179"
+                    y="356"
+                    width="76"
+                    height="32"
+                    rx="16"
+                    fill="#fff"
+                    stroke="#fff"
+                    stroke-width="4"
+                  />
+                  <rect
+                    x="268"
+                    y="356"
+                    width="77"
+                    height="32"
+                    rx="16"
+                    stroke="#fff"
+                    stroke-width="4"
+                  />
+                  <path
+                    d="M639 382c3-2 7-6 7-13 0-5-2-9-5-12v-2c-1-1 0-3 1-4 1-2 2-5 2-11 0-4-2-7-4-9s-3-6-2-8c2-6 0-12-3-16-5-5-9-5-20-5l-33 5-9 1c-6 1-7 0-7-2-1-1 0-3 2-5l6-15c4-14 4-29-1-38-3-4-7-8-11-8-5 0-10 1-12 3l-3 12-5 17a120 120 0 0 1-28 29l-11 14-5 8c-3 3-7 4-10 4l-3 3v67c0 2 2 4 3 4 15 0 22 2 28 5a404 404 0 0 0 90 7c14-2 28-5 32-16 2-4 1-7 0-10v-1l1-4z"
+                    fill="#fff"
+                  />
+                </svg>
+              </div>
+              <div className="column is-one-third">
                 <div className="homepageBox">
                   <h2>Training and workshops</h2>
                   <p>
