@@ -16,7 +16,7 @@ elements:
     textImage: >-
       <svg viewBox="0 0 667 667" fill="none"
       xmlns="http://www.w3.org/2000/svg"><circle cx="328" cy="353" r="171"
-      fill="#E68C27"/><path stroke="#333" stroke-width="4" d="M467
+      fill="#2D9CDB"/><path stroke="#333" stroke-width="4" d="M467
       157h90v90h-90zM467 247h90v90h-90z"/><path d="M513 156h-46v44l46-44zM513
       248h-46v44l46-44z" fill="#333"/><path d="M301 192h41c3 0 4 2 4 4v181c0 2-1
       4-4 4H57c-2 0-4-2-4-4V196c0-2 2-4 4-4h42" stroke="#333"
@@ -56,6 +56,8 @@ elements:
 
       Our websites are built with a simple drag and drop content management
       system, allowing you to simply create pages that fit your needs.
+    textImage: >-
+      <svg viewBox="0 0 667 667" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="353" cy="333" r="171" fill="#E68C27"></circle><rect x="326" y="412" width="320" height="10" rx="5" transform="rotate(-180 326 412)" fill="#fff" stroke="#fff" stroke-width="4"></rect><rect x="310" y="378" width="212" height="10" rx="5" transform="rotate(-180 310 378)" fill="#fff" stroke="#fff" stroke-width="4"></rect><rect x="326" y="342" width="290" height="11" rx="5" transform="rotate(-180 326 342)" stroke="#fff" stroke-width="4"></rect><rect x="310" y="305" width="308" height="10" rx="5" transform="rotate(-180 310 305)" fill="#fff" stroke="#fff" stroke-width="4"></rect><rect x="326" y="271" width="157" height="10" rx="5" transform="rotate(-180 326 271)" fill="#fff" stroke="#fff" stroke-width="4"></rect><path d="M407 246h231c5 0 8 4 8 8v153H399V254c0-4 3-8 8-8z" stroke="#fff" stroke-width="4"></path><mask id="a" fill="#fff"><rect x="406" y="253" width="234" height="146" rx="2"/></mask><rect x="406" y="253" width="234" height="146" rx="2" stroke="#fff" stroke-width="8" mask="url(#a)"></rect><mask id="b" fill="#fff"><path d="M373 408l1-1h298l1 1c0 7-6 13-13 13H386c-7 0-13-6-13-13z"></path></mask><path d="M373 408l1-1h298l1 1c0 7-6 13-13 13H386c-7 0-13-6-13-13z" fill="#fff" stroke="#fff" stroke-width="8" mask="url(#b)"></path><rect x="428" y="278" width="181" height="66" rx="2" stroke="#fff" stroke-width="4"></rect><path d="M567 343h-95c-3 0-4-3-2-5l1-2 10-11 13-14h4l6 6h4l22-26h4l35 47c2 2 0 5-2 5z" fill="#fff" stroke="#fff" stroke-width="4"></path><circle cx="487" cy="296" r="6" stroke="#fff" stroke-width="4"/><rect x="428" y="359" width="54" height="22" rx="11" stroke="#fff" stroke-width="4"/><rect x="492" y="359" width="53" height="22" rx="11" stroke="#fff" stroke-width="4"/><rect x="556" y="359" width="54" height="22" rx="11" stroke="#fff" stroke-width="4"/></svg>
     type: text
   - dark: false
     paragraph: >-
@@ -65,6 +67,63 @@ elements:
       If you want to improve your current website rather than starting again, we
       can provide an audit that will give you an insight to how things can be
       improved.
+    textImage: >-
+      <svg viewBox="0 0 667 667" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="334" cy="334" r="171" fill="#FC0D1B"></circle> <path
+      d="M166.531 211H499.987C504.406 211 507.987 214.582 507.987
+      219V439.46H158.531V219C158.531 214.582 162.113 211 166.531 211Z"
+      stroke="#333" stroke-width="4"></path> <mask id="path-3-inside-1"
+      fill="white"> <rect x="168.781" y="221.673" width="328.999"
+      height="205.944" rx="2"></rect> </mask> <rect x="168.781" y="221.673"
+      width="328.999" height="205.944" rx="2" stroke="#333" stroke-width="8"
+      mask="url(#path-3-inside-1)"></rect> <mask id="path-4-inside-2"
+      fill="white"> <path d="M123 439.282C123 438.593 123.559 438.034 124.248
+      438.034H543.664C544.353 438.034 544.912 438.593 544.912
+      439.282V439.282C544.912 449.62 536.532 458 526.194 458H141.718C131.38 458
+      123 449.62 123 439.282V439.282Z"></path> </mask> <path d="M123 439.282C123
+      438.593 123.559 438.034 124.248 438.034H543.664C544.353 438.034 544.912
+      438.593 544.912 439.282V439.282C544.912 449.62 536.532 458 526.194
+      458H141.718C131.38 458 123 449.62 123 439.282V439.282Z" fill="#333"
+      stroke="#333" stroke-width="8" mask="url(#path-4-inside-2)"></path>
+      <rect x="303.25" y="268.25" width="159.5" height="2.5" rx="1.25"
+      fill="#333" stroke="#333" stroke-width="2.5"></rect> <rect
+      x="303.25" y="331.25" width="119.5" height="2.5" rx="1.25" fill="#333"
+      stroke="#333" stroke-width="2.5"></rect> <rect x="366" y="331"
+      width="72" height="12" rx="6" fill="#333" stroke="#333"
+      stroke-width="4"></rect> <rect x="369" y="357" width="45" height="12"
+      rx="6" fill="#333" stroke="#333" stroke-width="4"></rect> <rect
+      x="370" y="310" width="26" height="12" rx="6" fill="#333"
+      stroke="#333" stroke-width="4"></rect> <rect x="303.25" y="280.25"
+      width="105.5" height="2.5" rx="1.25" fill="#333" stroke="#333"
+      stroke-width="2.5"></rect> <rect x="303.25" y="293.25" width="144.5"
+      height="2.5" rx="1.25" fill="#333" stroke="#333"
+      stroke-width="2.5"></rect> <rect x="303.25" y="306.25" width="74.5"
+      height="2.5" rx="1.25" fill="#333" stroke="#333"
+      stroke-width="2.5"></rect> <rect x="303.25" y="318.25" width="67.5"
+      height="2.5" rx="1.25" fill="#333" stroke="#333"
+      stroke-width="2.5"></rect> <rect x="303.25" y="344.25" width="62.5"
+      height="2.5" rx="1.25" fill="#333" stroke="#333"
+      stroke-width="2.5"></rect> <rect x="200" y="263" width="87" height="127"
+      rx="2" stroke="#333" stroke-width="4"></rect> <path d="M280.656
+      388.312H205.292C202.768 388.312 201.372 385.384 202.961 383.423L212.337
+      371.853L221.987 359.268C223.157 357.742 225.441 357.696 226.672
+      359.172L229.925 363.075C231.18 364.58 233.516 364.498 234.663
+      362.909L250.77 340.581C252.009 338.863 254.59 338.936 255.731
+      340.722L283.184 383.696C284.46 385.693 283.026 388.312 280.656 388.312Z"
+      fill="#333" stroke="#333" stroke-width="4"></path> <path d="M236.522
+      323.359C236.522 326.344 234.141 328.718 231.261 328.718C228.381 328.718
+      226 326.344 226 323.359C226 320.374 228.381 318 231.261 318C234.141 318
+      236.522 320.374 236.522 323.359Z" stroke="#333"
+      stroke-width="4"></path> <path d="M484.609 405.606L456.229 377.225C464.192
+      367.68 468.979 355.41 468.979 341.997C468.993 311.597 444.382 287 413.997
+      287C383.597 287 359 311.597 359 341.997C359 372.382 383.597 396.993
+      413.997 396.993C422.624 396.993 430.799 395.002 438.071 391.472C438.494
+      392.136 439.003 392.757 439.582 393.336L468.245 421.999C472.763 426.517
+      480.105 426.517 484.624 421.999C489.128 417.467 489.128 410.124 484.609
+      405.606ZM370.578 341.997C370.578 318.021 390.021 298.578 413.997
+      298.578C437.972 298.578 457.415 318.021 457.415 341.997C457.415 365.972
+      437.958 385.415 413.997 385.415C390.021 385.415 370.578 365.972 370.578
+      341.997Z" fill="#333"></path> </svg>
     type: text
   - dark: true
     paragraph: >-
@@ -74,6 +133,8 @@ elements:
       Your website needs to be fast, if it's not people will just go elsewhere.
       We pride ourselves in using the latest techniques to ensure your website
       loads quickly wherever your customer is loading in from.
+    textImage: >-
+      <svg viewBox="0 0 667 667" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M576 342a171 171 0 1 1-342 0 171 171 0 0 1 342 0z" fill="#6D25E4"/><rect x="284" y="306" width="192" height="24" rx="12" transform="rotate(-180 284 306)" fill="#fff" stroke="#fff" stroke-width="4"/><rect x="284" y="355" width="128" height="24" rx="12" transform="rotate(-180 284 355)" fill="#fff" stroke="#fff" stroke-width="4"/><rect x="284" y="403" width="71" height="24" rx="12" transform="rotate(-180 284 403)" fill="#fff" stroke="#fff" stroke-width="4"/><rect x="456" y="307" width="72" height="23" rx="11" transform="rotate(135 456 307)" fill="#fff" stroke="#fff" stroke-width="4"/><ellipse cx="406" cy="342" rx="25" ry="24" fill="#fff"/><path d="M286 257a146 146 0 1 1 0 170M405 190v-37h-33" stroke="#fff" stroke-width="15" stroke-linecap="round"/><path d="M405 190v-37h34" stroke="#fff" stroke-width="15" stroke-linecap="round"/></svg>
     type: text
   - paragraph: >-
       ## Our personal approach
