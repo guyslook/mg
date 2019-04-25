@@ -47,13 +47,13 @@ class Services extends React.Component {
               <div className="column is-half" />
               <div className="column is-half">
                 <div className="homepageBox">
-                  <h2>
+                  <p>
                     Our aim is to give you the tools you need to make your
                     business sucessful online. We build websites, help you with
                     search engine optimisation, increase your confidence with
                     social media, and provide training and support with all
                     aspects of the internet, software and online resources.
-                  </h2>
+                  </p>
                 </div>
               </div>
             </div>
