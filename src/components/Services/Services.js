@@ -479,7 +479,7 @@ class Services extends React.Component {
                           </p>
                           <AniLink
                             cover
-                            bg="#22526c"
+                            bg="#B40812"
                             to="/our-personal-approach"
                           >
                             find out more →
@@ -503,7 +503,7 @@ class Services extends React.Component {
                   </p>
                   <AniLink
                     cover
-                    bg="#b20e1b"
+                    bg="#AD691D"
                     to="/social-media-setup-and-content-creation"
                   >
                     find out more →
@@ -699,7 +699,7 @@ class Services extends React.Component {
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
                 >
-                  <circle cx="394" cy="335" r="171" fill="#AD691D" />
+                  <circle cx="394" cy="335" r="171" fill="#939006" />
                   <path
                     d="M56 197h333c4 0 8 4 8 8v220H48V205c0-4 3-8 8-8z"
                     stroke="#fff"
@@ -792,7 +792,7 @@ class Services extends React.Component {
                     offer classes to help you with all aspects of the online
                     world.
                   </p>
-                  <AniLink cover bg="#e48c35" to="/training-and-workshops">
+                  <AniLink cover bg="#939006" to="/training-and-workshops">
                     find out more →
                   </AniLink>
                 </div>
