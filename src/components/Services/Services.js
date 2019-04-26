@@ -19,6 +19,8 @@ class Services extends React.Component {
   componentDidMount() {
     new Vivus("my-svg", { duration: 200 });
     new Vivus("my-svg1", { duration: 200 });
+    new Vivus("my-svg2", { duration: 200 });
+    new Vivus("my-svg3", { duration: 200 });
   }
   render() {
     return (
@@ -31,11 +33,11 @@ class Services extends React.Component {
                   <p>
                     Our aim is to give you the tools you need to make your
                     business sucessful online.
-                    <strong>We build websites</strong>, help you with
-                    <strong>search engine optimisation</strong>, increase your
+                    <strong> We build websites</strong>, help you with
+                    <strong> search engine optimisation</strong>, increase your
                     confidence with
-                    <strong>social media</strong>, and provide
-                    <strong>training</strong> and support with all aspects of
+                    <strong> social media</strong>, and provide
+                    <strong> training</strong> and support with all aspects of
                     the internet, software and online resources.
                   </p>
                 </div>
@@ -512,6 +514,7 @@ class Services extends React.Component {
               </div>
               <div className="column is-half">
                 <svg
+                  id="my-svg2"
                   viewBox="0 0 667 667"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
@@ -695,6 +698,7 @@ class Services extends React.Component {
             <div className="columns">
               <div className="column is-half">
                 <svg
+                  id="my-svg3"
                   viewBox="0 0 667 667"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
