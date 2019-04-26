@@ -2,7 +2,7 @@
 templateKey: basic-page
 title: Social media setup and content creation
 elements:
-  - heroimage: /img/accounts-applications-apps-267350.jpg
+  - heroimage: /img/screen-shot-2019-04-26-at-01.29.19.png
     herotitle: Social media setup & content creation
     overlay: true
     top: true
