@@ -335,7 +335,7 @@ class Services extends React.Component {
                           cx="162"
                           cy="404"
                           r="2"
-                          stroke="#ffffff"
+                          stroke="#333333"
                           stroke-width="2"
                         />
                         <rect
@@ -348,7 +348,7 @@ class Services extends React.Component {
                           stroke="#ffffff"
                           stroke-width="4"
                         />
-                        <circle cx="333.5" cy="332.5" r="75.5" fill="#ffffff" />
+                        <circle cx="333.5" cy="332.5" r="75.5" fill="#333333" />
                         <circle
                           cx="333"
                           cy="333"
