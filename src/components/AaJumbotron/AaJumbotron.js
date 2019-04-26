@@ -2,6 +2,7 @@ import React from "react";
 import Jumbotron from "react-bootstrap/lib/Jumbotron";
 import Button from "react-bootstrap/lib/Button";
 import AniLink from "gatsby-plugin-transition-link/AniLink";
+import ScrollAnimation from "react-animate-on-scroll";
 
 require("./AaJumbotron.scss");
 
@@ -24,7 +25,9 @@ class AaJumbotron extends React.Component {
       <Jumbotron className="aaJumbotron" style={jumbotronstyles}>
         <div className="jumbotron-container">
           <div className="container">
-            <h1>{this.props.title}</h1>
+            <ScrollAnimation animateIn="bounceInRight">
+              <h1>{this.props.title}</h1>
+            </ScrollAnimation>
             <p>{this.props.description}</p>
             {this.props.link ? (
               <p>
