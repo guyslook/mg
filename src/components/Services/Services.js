@@ -30,11 +30,11 @@ class Services extends React.Component {
                 <div className="homepageBox">
                   <p>
                     Our aim is to give you the tools you need to make your
-                    business sucessful online.{" "}
+                    business sucessful online.
                     <strong>We build websites</strong>, help you with
                     <strong>search engine optimisation</strong>, increase your
                     confidence with
-                    <strong>social media</strong>, and provide{" "}
+                    <strong>social media</strong>, and provide
                     <strong>training</strong> and support with all aspects of
                     the internet, software and online resources.
                   </p>
@@ -52,14 +52,14 @@ class Services extends React.Component {
                   </p>
                   <AniLink
                     cover
-                    bg="#3f1c80"
+                    bg="#6D25E4"
                     to="/website-design-and-development"
                   >
                     find out more →
                   </AniLink>
                 </div>
               </div>
-              <div className="column is-two-thirds">
+              <div className="column is-half">
                 <div className="homepageBackground">
                   <svg
                     id="my-svg"
@@ -67,7 +67,7 @@ class Services extends React.Component {
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
                   >
-                    <circle cx="333" cy="333" r="171" fill="#FC0D1B" />{" "}
+                    <circle cx="333" cy="333" r="171" fill="#3F1682" />
                     <rect
                       x="468"
                       y="275"
@@ -76,7 +76,7 @@ class Services extends React.Component {
                       rx="2"
                       stroke="white"
                       stroke-width="4"
-                    />{" "}
+                    />
                     <path
                       d="M552.524 346H474.292C471.768 346 470.372
       343.072 471.961 341.111L481.776 329L491.819 315.903C492.989 314.377
@@ -86,7 +86,7 @@ class Services extends React.Component {
                       fill="white"
                       stroke="white"
                       stroke-width="4"
-                    />{" "}
+                    />
                     <path
                       d="M506
       291.75C506 294.869 503.512 297.351 500.5 297.351C497.488 297.351 495
@@ -103,7 +103,7 @@ class Services extends React.Component {
                       rx="8.5"
                       stroke="white"
                       stroke-width="4"
-                    />{" "}
+                    />
                     <rect
                       x="471"
                       y="399"
@@ -112,7 +112,7 @@ class Services extends React.Component {
                       rx="8.5"
                       stroke="white"
                       stroke-width="4"
-                    />{" "}
+                    />
                     <path
                       d="M443
       251H584C585.105 251 586 251.895 586 253V456C586 460.418 582.418 464 578
@@ -120,21 +120,21 @@ class Services extends React.Component {
       251Z"
                       stroke="white"
                       stroke-width="4"
-                    />{" "}
+                    />
                     <path
                       d="M443
       251H584C585.105 251 586 251.895 586 253V444.95H441V253C441 251.895 441.895
       251 443 251Z"
                       stroke="white"
                       stroke-width="4"
-                    />{" "}
+                    />
                     <circle
                       cx="511.5"
                       cy="454.5"
                       r="3.5"
                       stroke="white"
                       stroke-width="4"
-                    />{" "}
+                    />
                     <rect
                       x="219"
                       y="397"
@@ -143,7 +143,7 @@ class Services extends React.Component {
                       rx="8"
                       stroke="white"
                       stroke-width="4"
-                    />{" "}
+                    />
                     <rect
                       x="219"
                       y="410.793"
@@ -151,14 +151,14 @@ class Services extends React.Component {
                       height="128.414"
                       stroke="white"
                       stroke-width="4"
-                    />{" "}
+                    />
                     <circle
                       cx="255.62"
                       cy="546.724"
                       r="2.13793"
                       stroke="white"
                       stroke-width="4"
-                    />{" "}
+                    />
                     <rect
                       x="231"
                       y="506"
@@ -167,7 +167,7 @@ class Services extends React.Component {
                       rx="8.5"
                       stroke="white"
                       stroke-width="4"
-                    />{" "}
+                    />
                     <rect
                       x="230"
                       y="422"
@@ -186,7 +186,7 @@ class Services extends React.Component {
                       fill="white"
                       stroke="white"
                       stroke-width="4"
-                    />{" "}
+                    />
                     <path
                       d="M248.8
       451.459C248.8 452.843 247.7 453.919 246.4 453.919C245.1 453.919 244
@@ -194,23 +194,22 @@ class Services extends React.Component {
       450.076 248.8 451.459Z"
                       stroke="white"
                       stroke-width="4"
-                    />{" "}
+                    />
                     <path
                       d="M43.5303 108H376.986C381.405 108 384.986 111.582 384.986
       116V336.46H35.5303V116C35.5303 111.582 39.112 108 43.5303 108Z"
                       stroke="white"
                       stroke-width="4"
-                    />{" "}
+                    />
                     <mask id="path-18-inside-1" fill="white">
-                      {" "}
                       <rect
                         x="45.7812"
                         y="118.673"
                         width="328.999"
                         height="205.944"
                         rx="2"
-                      />{" "}
-                    </mask>{" "}
+                      />
+                    </mask>
                     <rect
                       x="45.7812"
                       y="118.673"
@@ -220,16 +219,15 @@ class Services extends React.Component {
                       stroke="white"
                       stroke-width="8"
                       mask="url(#path-18-inside-1)"
-                    />{" "}
+                    />
                     <mask id="path-19-inside-2" fill="white">
-                      {" "}
                       <path
                         d="M0 336.282C0 335.593 0.55869 335.034 1.24787
       335.034H420.664C421.353 335.034 421.912 335.593 421.912
       336.282V336.282C421.912 346.62 413.532 355 403.194 355H18.718C8.38035 355
       0 346.62 0 336.282V336.282Z"
-                      />{" "}
-                    </mask>{" "}
+                      />
+                    </mask>
                     <path
                       d="M0 336.282C0 335.593
       0.55869 335.034 1.24787 335.034H420.664C421.353 335.034 421.912 335.593
@@ -248,7 +246,7 @@ class Services extends React.Component {
                       rx="2"
                       stroke="white"
                       stroke-width="4"
-                    />{" "}
+                    />
                     <path
                       d="M275.035 245H135.975C133.341 245 131.985
       241.849 133.797 239.937L138 235.5L152.265 220.302L170.935 199.358C172.094
@@ -259,14 +257,14 @@ class Services extends React.Component {
                       fill="white"
                       stroke="white"
                       stroke-width="4"
-                    />{" "}
+                    />
                     <circle
                       cx="160"
                       cy="179"
                       r="9"
                       stroke="white"
                       stroke-width="4"
-                    />{" "}
+                    />
                     <rect
                       x="77"
                       y="267"
@@ -275,7 +273,7 @@ class Services extends React.Component {
                       rx="16"
                       stroke="white"
                       stroke-width="4"
-                    />{" "}
+                    />
                     <rect
                       x="167"
                       y="267"
@@ -285,7 +283,7 @@ class Services extends React.Component {
                       fill="white"
                       stroke="white"
                       stroke-width="4"
-                    />{" "}
+                    />
                     <rect
                       x="256"
                       y="267"
@@ -294,7 +292,7 @@ class Services extends React.Component {
                       rx="16"
                       stroke="white"
                       stroke-width="4"
-                    />{" "}
+                    />
                   </svg>
                 </div>
               </div>
@@ -305,7 +303,7 @@ class Services extends React.Component {
               <div className="column is-three-quarter">
                 <div className="homepageAudienceAudience">
                   <div className="columns">
-                    <div className="column is-two-thirds">
+                    <div className="column is-half">
                       <svg
                         id="my-svg1"
                         viewBox="0 0 667 667"
@@ -314,50 +312,50 @@ class Services extends React.Component {
                       >
                         <path
                           d="M504 333C504 427.441 427.441 504 333 504C238.559 504 162 427.441 162 333C162 238.559 238.559 162 333 162C427.441 162 504 238.559 504 333Z"
-                          fill="#FFFC3A"
-                        />{" "}
+                          fill="#B40812"
+                        />
                         <rect
                           x="125"
                           y="274"
                           width="73.2414"
                           height="136"
                           rx="8"
-                          stroke="#333333"
+                          stroke="#ffffff"
                           stroke-width="4"
-                        />{" "}
+                        />
                         <rect
                           x="125"
                           y="286.069"
                           width="73.2414"
                           height="111.862"
-                          stroke="#333333"
+                          stroke="#ffffff"
                           stroke-width="4"
                         />
                         <circle
                           cx="162"
                           cy="404"
                           r="2"
-                          stroke="#333333"
+                          stroke="#ffffff"
                           stroke-width="2"
-                        />{" "}
+                        />
                         <rect
                           x="137"
                           y="303"
                           width="50"
                           height="51"
                           rx="25"
-                          fill="#333333"
-                          stroke="#333333"
+                          fill="#ffffff"
+                          stroke="#ffffff"
                           stroke-width="4"
-                        />{" "}
-                        <circle cx="333.5" cy="332.5" r="75.5" fill="white" />{" "}
+                        />
+                        <circle cx="333.5" cy="332.5" r="75.5" fill="#333333" />
                         <circle
                           cx="333"
                           cy="333"
                           r="62"
-                          stroke="#333333"
+                          stroke="#ffffff"
                           stroke-width="4"
-                        />{" "}
+                        />
                         <rect
                           x="1"
                           y="-1"
@@ -365,10 +363,10 @@ class Services extends React.Component {
                           height="4"
                           rx="1"
                           transform="matrix(1 0 0 -1 311 314)"
-                          fill="black"
-                          stroke="#333333"
+                          fill="white"
+                          stroke="#ffffff"
                           stroke-width="2"
-                        />{" "}
+                        />
                         <rect
                           x="1"
                           y="-1"
@@ -376,32 +374,32 @@ class Services extends React.Component {
                           height="4"
                           rx="1"
                           transform="matrix(1 0 0 -1 351 314)"
-                          fill="black"
-                          stroke="#333333"
+                          fill="white"
+                          stroke="#ffffff"
                           stroke-width="2"
-                        />{" "}
+                        />
                         <path
                           d="M292.396
       380C273.952 383.968 236.851 405.923 236 462M373.797 380C391.176 383.527
       426.149 404.865 427 462"
-                          stroke="#333333"
+                          stroke="#ffffff"
                           stroke-width="4"
-                        />{" "}
+                        />
                         <path
                           d="M397.5 477.524C403.143 475.984 393.066 469.422 393.616 443.5M264.171
       477.559C258.528 476.018 268.605 469.456 268.055 443.534"
-                          stroke="#333333"
+                          stroke="#ffffff"
                           stroke-width="4"
-                        />{" "}
+                        />
                         <rect
                           x="462"
                           y="284"
                           width="53.4483"
                           height="115"
                           rx="8"
-                          stroke="#333333"
+                          stroke="#ffffff"
                           stroke-width="4"
-                        />{" "}
+                        />
                         <path
                           d="M485.678 313.73L481.588 310.755C478.91 309.863 478.489 312.367 478.613
       313.73C479.976 314.97 483.15 317.821 484.935 319.309C486.72 320.796
@@ -410,8 +408,8 @@ class Services extends React.Component {
       498.025 304.954 496.835 304.062C495.645 303.169 494.603 303.69 494.232
       304.062C492.124 306.665 487.761 312.094 487.166 312.987C486.571 313.879
       485.926 313.854 485.678 313.73Z"
-                          fill="black"
-                          stroke="#333333"
+                          fill="#ffffff"
+                          stroke="#ffffff"
                         />
                         <path
                           d="M485.678 343.48L481.588 340.505C478.91 339.613 478.489 342.117
@@ -421,9 +419,9 @@ class Services extends React.Component {
       335.175 498.025 334.704 496.835 333.812C495.645 332.919 494.603 333.44
       494.232 333.812C492.124 336.415 487.761 341.844 487.166 342.737C486.571
       343.629 485.926 343.604 485.678 343.48Z"
-                          fill="black"
-                          stroke="#333333"
-                        />{" "}
+                          fill="#ffffff"
+                          stroke="#ffffff"
+                        />
                         <path
                           d="M485.678 373.23L481.588 370.255C478.91
       369.363 478.489 371.867 478.613 373.23C479.976 374.47 483.15 377.321
@@ -432,9 +430,9 @@ class Services extends React.Component {
       498.694 365.049C498.57 364.925 498.025 364.454 496.835 363.562C495.645
       362.669 494.603 363.19 494.232 363.562C492.124 366.165 487.761 371.594
       487.166 372.487C486.571 373.379 485.926 373.354 485.678 373.23Z"
-                          fill="black"
-                          stroke="#333333"
-                        />{" "}
+                          fill="#ffffff"
+                          stroke="#ffffff"
+                        />
                         <path
                           d="M307.686 349.924C307.092
       348.993 305.855 348.72 304.924 349.314C303.993 349.908 303.72 351.145
@@ -443,15 +441,15 @@ class Services extends React.Component {
       349.671L365.495 352.329ZM304.314 352.076C315.028 368.861 344.613 375.821
       365.495 352.329L362.505 349.671C343.387 371.179 316.972 364.472 307.686
       349.924L304.314 352.076Z"
-                          fill="#333333"
-                        />{" "}
+                          fill="#ffffff"
+                        />
                         <path
                           d="M216 443C245.211
       474.376 286.878 494 333.129 494C379.38 494 421.047 474.376 450.258 443"
-                          stroke="#333333"
+                          stroke="#ffffff"
                           stroke-width="4"
                           stroke-linecap="round"
-                        />{" "}
+                        />
                         <path
                           d="M431.753 248.563C430.605 249.457 429.669 250.167 429 250.668C428.331
       250.167 427.395 249.457 426.247 248.563C423.79 246.649 420.361 243.89
@@ -465,7 +463,7 @@ class Services extends React.Component {
       159.139 477 170.34 477 184.163C477 192.587 473.27 204.8 465.895
       214.882C458.788 224.599 449.287 233.759 441.516 240.518C437.639 243.89
       434.21 246.649 431.753 248.563Z"
-                          stroke="#333333"
+                          stroke="#ffffff"
                           stroke-width="4"
                         />
                       </svg>
@@ -512,7 +510,7 @@ class Services extends React.Component {
                   </AniLink>
                 </div>
               </div>
-              <div className="column is-two-thirds">
+              <div className="column is-half">
                 <svg
                   viewBox="0 0 667 667"
                   fill="none"
@@ -521,8 +519,8 @@ class Services extends React.Component {
                   <path
                     d="M524 320C524 414.441 447.441 491 353 491C258.559 491 182 414.441
       182 320C182 225.559 258.559 149 353 149C447.441 149 524 225.559 524 320Z"
-                    fill="#E68C27"
-                  />{" "}
+                    fill="#AD691D"
+                  />
                   <rect
                     x="131"
                     y="274"
@@ -531,7 +529,7 @@ class Services extends React.Component {
                     rx="2"
                     stroke="#333333"
                     stroke-width="4"
-                  />{" "}
+                  />
                   <path
                     d="M211.656
       354.312H136.292C133.768 354.312 132.372 351.384 133.961 349.423L143.337
@@ -542,7 +540,7 @@ class Services extends React.Component {
                     fill="#333333"
                     stroke="#333333"
                     stroke-width="4"
-                  />{" "}
+                  />
                   <path
                     d="M167.522
       289.359C167.522 292.344 165.141 294.718 162.261 294.718C159.381 294.718
@@ -563,14 +561,14 @@ class Services extends React.Component {
       451.342 379.342 442 390.75 442Z"
                     stroke="#333333"
                     stroke-width="4"
-                  />{" "}
+                  />
                   <path
                     d="M428.125 460.75C426.528 460.75 425.25 459.472 425.25 457.875C425.25
       456.278 426.528 455 428.125 455C429.707 455 431 456.283 431 457.875C431
       459.467 429.707 460.75 428.125 460.75Z"
                     stroke="#333333"
                     stroke-width="4"
-                  />{" "}
+                  />
                   <path
                     d="M422 479C422 470.725 415.275 464 407
       464C398.725 464 392 470.725 392 479C392 487.275 398.725 494 407
@@ -579,7 +577,7 @@ class Services extends React.Component {
       496.5 407 496.5C397.339 496.5 389.5 488.661 389.5 479Z"
                     stroke="#333333"
                     stroke-width="4"
-                  />{" "}
+                  />
                   <path
                     d="M471 192.75V187.498C471 185.873 471.248
       185.072 471.61 184.642C471.906 184.29 472.645 183.77 474.83
@@ -612,7 +610,7 @@ class Services extends React.Component {
       560 336.242Z"
                     stroke="#333333"
                     stroke-width="4"
-                  />{" "}
+                  />
                   <rect
                     x="206"
                     y="436"
@@ -623,7 +621,7 @@ class Services extends React.Component {
                     fill="#333333"
                     stroke="#333333"
                     stroke-width="4"
-                  />{" "}
+                  />
                   <rect
                     x="128.571"
                     y="446.379"
@@ -634,7 +632,7 @@ class Services extends React.Component {
                     fill="#333333"
                     stroke="#333333"
                     stroke-width="4"
-                  />{" "}
+                  />
                   <rect
                     x="-2.57054"
                     y="-1.17998"
@@ -646,7 +644,7 @@ class Services extends React.Component {
                     fill="#333333"
                     stroke="#333333"
                     stroke-width="4"
-                  />{" "}
+                  />
                   <rect
                     x="112"
                     y="255"
@@ -655,7 +653,7 @@ class Services extends React.Component {
                     rx="14"
                     stroke="#333333"
                     stroke-width="12"
-                  />{" "}
+                  />
                   <rect
                     x="300.824"
                     y="335.726"
@@ -666,7 +664,7 @@ class Services extends React.Component {
                     fill="#333333"
                     stroke="#333333"
                     stroke-width="4"
-                  />{" "}
+                  />
                   <rect
                     x="300.824"
                     y="317.713"
@@ -677,7 +675,7 @@ class Services extends React.Component {
                     fill="#333333"
                     stroke="#333333"
                     stroke-width="4"
-                  />{" "}
+                  />
                   <rect
                     x="289.738"
                     y="299.7"
@@ -688,20 +686,20 @@ class Services extends React.Component {
                     fill="#333333"
                     stroke="#333333"
                     stroke-width="4"
-                  />{" "}
+                  />
                 </svg>
               </div>
             </div>
           </div>
           <div className="homepageTraining">
             <div className="columns">
-              <div className="column is-two-thirds">
+              <div className="column is-half">
                 <svg
                   viewBox="0 0 667 667"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
                 >
-                  <circle cx="394" cy="335" r="171" fill="#E68C27" />
+                  <circle cx="394" cy="335" r="171" fill="#AD691D" />
                   <path
                     d="M56 197h333c4 0 8 4 8 8v220H48V205c0-4 3-8 8-8z"
                     stroke="#fff"
