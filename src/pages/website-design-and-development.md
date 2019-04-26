@@ -4,7 +4,7 @@ title: Website Design and Development
 elements:
   - heroimage: /img/screen-shot-2019-04-26-at-01.28.56.png
     herotitle: Website Design & Development
-    overlay: true
+    overlay: false
     top: true
     type: hero
   - paragraph: >-

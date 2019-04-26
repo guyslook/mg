@@ -52,7 +52,7 @@ class Services extends React.Component {
                   </p>
                   <AniLink
                     cover
-                    bg="#6D25E4"
+                    bg="#3f1682"
                     to="/website-design-and-development"
                   >
                     find out more →
@@ -348,7 +348,7 @@ class Services extends React.Component {
                           stroke="#ffffff"
                           stroke-width="4"
                         />
-                        <circle cx="333.5" cy="332.5" r="75.5" fill="#333333" />
+                        <circle cx="333.5" cy="332.5" r="75.5" fill="#ffffff" />
                         <circle
                           cx="333"
                           cy="333"
@@ -527,7 +527,7 @@ class Services extends React.Component {
                     width="87"
                     height="82"
                     rx="2"
-                    stroke="#333333"
+                    stroke="#ffffff"
                     stroke-width="4"
                   />
                   <path
@@ -537,8 +537,8 @@ class Services extends React.Component {
       325.172L160.925 329.075C162.18 330.58 164.516 330.498 165.663
       328.909L181.77 306.581C183.009 304.863 185.59 304.936 186.731
       306.722L214.184 349.696C215.46 351.693 214.026 354.312 211.656 354.312Z"
-                    fill="#333333"
-                    stroke="#333333"
+                    fill="#ffffff"
+                    stroke="#ffffff"
                     stroke-width="4"
                   />
                   <path
@@ -546,7 +546,7 @@ class Services extends React.Component {
       289.359C167.522 292.344 165.141 294.718 162.261 294.718C159.381 294.718
       157 292.344 157 289.359C157 286.374 159.381 284 162.261 284C165.141 284
       167.522 286.374 167.522 289.359Z"
-                    stroke="#333333"
+                    stroke="#ffffff"
                     stroke-width="4"
                   />
                   <path
@@ -559,14 +559,14 @@ class Services extends React.Component {
       442H423.25C434.658 442 444 451.342 444 462.75V495.25C444 506.658 434.658
       516 423.25 516H390.75C379.342 516 370 506.658 370 495.25V462.75C370
       451.342 379.342 442 390.75 442Z"
-                    stroke="#333333"
+                    stroke="#ffffff"
                     stroke-width="4"
                   />
                   <path
                     d="M428.125 460.75C426.528 460.75 425.25 459.472 425.25 457.875C425.25
       456.278 426.528 455 428.125 455C429.707 455 431 456.283 431 457.875C431
       459.467 429.707 460.75 428.125 460.75Z"
-                    stroke="#333333"
+                    stroke="#ffffff"
                     stroke-width="4"
                   />
                   <path
@@ -575,7 +575,7 @@ class Services extends React.Component {
       494C415.275 494 422 487.275 422 479ZM389.5 479C389.5 469.339 397.339 461.5
       407 461.5C416.661 461.5 424.5 469.339 424.5 479C424.5 488.661 416.661
       496.5 407 496.5C397.339 496.5 389.5 488.661 389.5 479Z"
-                    stroke="#333333"
+                    stroke="#ffffff"
                     stroke-width="4"
                   />
                   <path
@@ -589,7 +589,7 @@ class Services extends React.Component {
       161H490.694C491.966 161 493 162.034 493 163.306V232.694C493 233.966
       491.966 235 490.694 235H471V208.125H479.136H480.886L481.118 206.39L482.642
       195.015L482.945 192.75H480.659H471Z"
-                    stroke="#333333"
+                    stroke="#ffffff"
                     stroke-width="4"
                   />
                   <path
@@ -608,7 +608,7 @@ class Services extends React.Component {
       405 494.149 405C530.421 405 550.235 374.998 550.235 348.978C550.235
       348.125 550.215 347.272 550.174 346.439C554.019 343.656 557.355 340.203
       560 336.242Z"
-                    stroke="#333333"
+                    stroke="#ffffff"
                     stroke-width="4"
                   />
                   <rect
@@ -618,8 +618,8 @@ class Services extends React.Component {
                     height="12"
                     rx="6"
                     transform="rotate(-90 206 436)"
-                    fill="#333333"
-                    stroke="#333333"
+                    fill="#ffffff"
+                    stroke="#ffffff"
                     stroke-width="4"
                   />
                   <rect
@@ -629,8 +629,8 @@ class Services extends React.Component {
                     height="11.6786"
                     rx="5.83929"
                     transform="rotate(-69.657 128.571 446.379)"
-                    fill="#333333"
-                    stroke="#333333"
+                    fill="#ffffff"
+                    stroke="#ffffff"
                     stroke-width="4"
                   />
                   <rect
@@ -641,8 +641,8 @@ class Services extends React.Component {
                     rx="5.83929"
                     transform="matrix(-0.34764
       -0.937628 -0.937628 0.34764 293.609 444.379)"
-                    fill="#333333"
-                    stroke="#333333"
+                    fill="#ffffff"
+                    stroke="#ffffff"
                     stroke-width="4"
                   />
                   <rect
@@ -651,7 +651,7 @@ class Services extends React.Component {
                     width="206"
                     height="121"
                     rx="14"
-                    stroke="#333333"
+                    stroke="#ffffff"
                     stroke-width="12"
                   />
                   <rect
@@ -661,8 +661,8 @@ class Services extends React.Component {
                     height="5.69948"
                     rx="2.84974"
                     transform="rotate(-180 300.824 335.726)"
-                    fill="#333333"
-                    stroke="#333333"
+                    fill="#ffffff"
+                    stroke="#ffffff"
                     stroke-width="4"
                   />
                   <rect
@@ -672,8 +672,8 @@ class Services extends React.Component {
                     height="5.69948"
                     rx="2.84974"
                     transform="rotate(-180 300.824 317.713)"
-                    fill="#333333"
-                    stroke="#333333"
+                    fill="#ffffff"
+                    stroke="#ffffff"
                     stroke-width="4"
                   />
                   <rect
@@ -683,8 +683,8 @@ class Services extends React.Component {
                     height="5.69948"
                     rx="2.84974"
                     transform="rotate(-180 289.738 299.7)"
-                    fill="#333333"
-                    stroke="#333333"
+                    fill="#ffffff"
+                    stroke="#ffffff"
                     stroke-width="4"
                   />
                 </svg>

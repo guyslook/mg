@@ -4,7 +4,7 @@ title: Social media setup and content creation
 elements:
   - heroimage: /img/screen-shot-2019-04-26-at-01.29.19.png
     herotitle: Social media setup & content creation
-    overlay: true
+    overlay: false
     top: true
     type: hero
   - paragraph: >-
