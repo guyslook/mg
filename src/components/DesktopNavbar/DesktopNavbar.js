@@ -5,7 +5,7 @@ import TransitionLink from "gatsby-plugin-transition-link";
 import AniLink from "gatsby-plugin-transition-link/AniLink";
 import { Nav, Dropdown } from "rsuite";
 
-import "rsuite/dist/styles/rsuite.min.css";
+require("rsuite/dist/styles/rsuite.min.css");
 require("./DesktopNavbar.scss");
 
 class Navbar extends React.Component {
