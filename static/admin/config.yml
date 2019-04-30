@@ -103,6 +103,7 @@ collections:
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "menu"}
       - {label: "Menu Title", name: "title", widget: "string"}
+      - {label: "Menu Small Title", name: "smalltitle", widget: "string"}
       - {label: "Menu path", name: "menupath", widget: "string"}
       - label: "Order"
         name: "menuorder"
