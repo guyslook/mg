@@ -7,6 +7,7 @@ import { StaticQuery, graphql } from "gatsby";
 import AaFooter from "./AaFooter/AaFooter";
 
 import Navbar from "../components/Navbar/Navbar";
+import DesktopNavbar from "../components/DesktopNavbar/DesktopNavbar";
 import Services from "../components/Services/Services";
 import "./all.sass";
 
@@ -40,6 +41,7 @@ const TemplateWrapper = ({ children }) => (
         {data.allMarkdownRemark.edges.map(({ node }) => (
           <div>
             <Helmet title={node.frontmatter.title} />
+            <DesktopNavbar />
             <Navbar />
             <div id="page-wrap">
               <div className="top">
@@ -55,7 +57,6 @@ const TemplateWrapper = ({ children }) => (
 
               {children}
             </div>
-
             <AaFooter
               socialLinks={node.frontmatter.sociallinks}
               address={node.frontmatter.companyaddress}

@@ -2965,7 +2965,7 @@ class-utils@^0.3.5:
     isobject "^3.0.0"
     static-extend "^0.1.1"
 
-classnames@^2.1.1, classnames@^2.2.5:
+classnames@>=2.0.0, classnames@^2.1.1, classnames@^2.2.3, classnames@^2.2.5:
   version "2.2.6"
   resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.2.6.tgz#43935bffdd291f326dad0a205309b38d00f650ce"
 
@@ -3803,6 +3803,11 @@ dashdash@^1.12.0:
   dependencies:
     assert-plus "^1.0.0"
 
+date-fns@^1.30.1:
+  version "1.30.1"
+  resolved "https://registry.yarnpkg.com/date-fns/-/date-fns-1.30.1.tgz#2e71bf0b119153dbb4cc4e88d9ea5acfb50dc05c"
+  integrity sha512-hBSVCvSmWC+QypYObzwGOd9wqdDpOt+0wl0KbU+R+uuZBS1jN8VsD1ss3irQDknRj5NvxiTF6oj/nDRnN/UQNw==
+
 date-now@^0.1.4:
   version "0.1.4"
   resolved "https://registry.yarnpkg.com/date-now/-/date-now-0.1.4.tgz#eaf439fd4d4848ad74e5cc7dbef200672b9e345b"
@@ -4228,9 +4233,21 @@ dom-converter@~0.2:
   dependencies:
     utila "~0.4"
 
+"dom-helpers@^2.4.0 || ^3.0.0":
+  version "3.4.0"
+  resolved "https://registry.yarnpkg.com/dom-helpers/-/dom-helpers-3.4.0.tgz#e9b369700f959f62ecde5a6babde4bccd9169af8"
+  integrity sha512-LnuPJ+dwqKDIyotW1VzmOZ5TONUN7CwkCR5hrgawTUbkBGYdeoNLZo6nNfGkCrjtE1nXXaj7iMMpDa8/d9WoIA==
+  dependencies:
+    "@babel/runtime" "^7.1.2"
+
 dom-helpers@^3.2.0, dom-helpers@^3.2.1, dom-helpers@^3.3.1:
   version "3.3.1"
   resolved "https://registry.yarnpkg.com/dom-helpers/-/dom-helpers-3.3.1.tgz#fc1a4e15ffdf60ddde03a480a9c0fece821dd4a6"
+
+dom-lib@^1.1.0:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/dom-lib/-/dom-lib-1.1.1.tgz#68eba0f68d357a854800e3713f7e4c32b06441d7"
+  integrity sha512-5eKdAoOvokZ5KmkSlW+qLGqXzFJYO1MQrjF9LmxYNvUG5CTXIrc1TbUNfGNJcrsRQ9Ulj2I7ORqFngPP3UdJSQ==
 
 dom-serializer@0, dom-serializer@~0.1.0:
   version "0.1.0"
@@ -4429,6 +4446,11 @@ ee-first@1.1.1:
 electron-to-chromium@^1.2.7, electron-to-chromium@^1.3.47, electron-to-chromium@^1.3.73:
   version "1.3.75"
   resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.75.tgz#dd04551739e7371862b0ac7f4ddaa9f3f95b7e68"
+
+element-resize-event@^3.0.2:
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/element-resize-event/-/element-resize-event-3.0.3.tgz#3f59facef6b8f23fbd678a5f364ee5723af98a2a"
+  integrity sha512-vhGNxT87PdZA6Ak4E0QhArwGzNcSPUwSN7n9wCFLeBlY2NNuuiwguQuQIp7P5oB65PLJ892yKcHiqz1xLWeiug==
 
 elliptic@^6.0.0:
   version "6.4.1"
@@ -8464,7 +8486,7 @@ longest@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/longest/-/longest-1.0.1.tgz#30a0b2da38f73770e8294a0d22e6625ed77d0097"
 
-loose-envify@^1.0.0, loose-envify@^1.1.0, loose-envify@^1.2.0, loose-envify@^1.3.1, loose-envify@^1.4.0:
+loose-envify@^1.0.0, loose-envify@^1.1.0, loose-envify@^1.2.0, loose-envify@^1.3.0, loose-envify@^1.3.1, loose-envify@^1.4.0:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/loose-envify/-/loose-envify-1.4.0.tgz#71ee51fa7be4caec1a63839f7e682d8132d30caf"
   dependencies:
@@ -11356,6 +11378,11 @@ react-error-overlay@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-3.0.0.tgz#c2bc8f4d91f1375b3dad6d75265d51cd5eeaf655"
 
+react-flow-types@^0.2.0-beta.6:
+  version "0.2.0-beta.6"
+  resolved "https://registry.yarnpkg.com/react-flow-types/-/react-flow-types-0.2.0-beta.6.tgz#bf49c8b7864fcd0951b03286c63a80d66ce9fae4"
+  integrity sha512-I4f8oJFGxVJYrJLxG4sCPW7vWedNB8Eee1U2v+xBzRPlF7X5IBelqaDIKxBDLzDFb++AzpoU+uu1jFaKy1QssQ==
+
 react-frame-component@^4.0.2:
   version "4.0.2"
   resolved "https://registry.yarnpkg.com/react-frame-component/-/react-frame-component-4.0.2.tgz#408f137ab4ba14cd13a5844b86ac972903dda021"
@@ -11696,6 +11723,18 @@ react-transition-group@^2.5.0:
     prop-types "^15.6.2"
     react-lifecycles-compat "^3.0.4"
 
+react-virtualized@^9.21.0:
+  version "9.21.0"
+  resolved "https://registry.yarnpkg.com/react-virtualized/-/react-virtualized-9.21.0.tgz#8267c40ffb48db35b242a36dea85edcf280a6506"
+  integrity sha512-duKD2HvO33mqld4EtQKm9H9H0p+xce1c++2D5xn59Ma7P8VT7CprfAe5hwjd1OGkyhqzOZiTMlTal7LxjH5yBQ==
+  dependencies:
+    babel-runtime "^6.26.0"
+    classnames "^2.2.3"
+    dom-helpers "^2.4.0 || ^3.0.0"
+    loose-envify "^1.3.0"
+    prop-types "^15.6.0"
+    react-lifecycles-compat "^3.0.4"
+
 react-vivus@^0.0.2:
   version "0.0.2"
   resolved "https://registry.yarnpkg.com/react-vivus/-/react-vivus-0.0.2.tgz#5afc7f0804c5b038a543a1f2358be9149f769ebb"
@@ -11838,6 +11877,16 @@ readdirp@^2.0.0:
     graceful-fs "^4.1.11"
     micromatch "^3.1.10"
     readable-stream "^2.0.2"
+
+recompose@^0.26.0:
+  version "0.26.0"
+  resolved "https://registry.yarnpkg.com/recompose/-/recompose-0.26.0.tgz#9babff039cb72ba5bd17366d55d7232fbdfb2d30"
+  integrity sha512-KwOu6ztO0mN5vy3+zDcc45lgnaUoaQse/a5yLVqtzTK13czSWnFGmXbQVmnoMgDkI5POd1EwIKSbjU1V7xdZog==
+  dependencies:
+    change-emitter "^0.1.2"
+    fbjs "^0.8.1"
+    hoist-non-react-statics "^2.3.1"
+    symbol-observable "^1.0.4"
 
 recompose@^0.30.0:
   version "0.30.0"
@@ -12380,6 +12429,63 @@ ripemd160@^2.0.0, ripemd160@^2.0.1:
     hash-base "^3.0.0"
     inherits "^2.0.1"
 
+rsuite-intl@~1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/rsuite-intl/-/rsuite-intl-1.0.4.tgz#182451286ad39bf0099a16490d01b9a4b4a89c16"
+  integrity sha512-PCM1p+Owr+sc/JJgZDZffYOKwosRNDe4nHrDSTB8d7i91hD7z27v9IQd1A3ONJ3RJ+4p49/VZ8aghWEcuU+J8g==
+  dependencies:
+    prop-types "^15.5.10"
+
+rsuite-notification@^3.0.4:
+  version "3.0.4"
+  resolved "https://registry.yarnpkg.com/rsuite-notification/-/rsuite-notification-3.0.4.tgz#fa6bac555aff0ef544b99880fb5ea2993397d4dc"
+  integrity sha512-sozpJsjn6Lb3TlCzZO9+Cafz/j9EgrFCThpN9wNtMAbZXop2PUXJjUP66exltRevtb/Kn2XH/0C7mrvhOGEQSA==
+  dependencies:
+    classnames "^2.2.5"
+
+rsuite-table@^3.5.3:
+  version "3.5.3"
+  resolved "https://registry.yarnpkg.com/rsuite-table/-/rsuite-table-3.5.3.tgz#b71e1e41706e6ff36123015d1062b808b4ae843d"
+  integrity sha512-H1fR8ATWjPFB0ruD2JuWkgCXziWQ/vmrnKE6FaHOdTEX5ZHQVCDvXY3pV7HBKJ4sxwmPy67s1kwywW218TxPFA==
+  dependencies:
+    classnames "^2.2.5"
+    dom-lib "^1.1.0"
+    element-resize-event "^3.0.2"
+    lodash "^4.17.5"
+    react-lifecycles-compat "^3.0.4"
+
+rsuite-utils@^1.6.0:
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/rsuite-utils/-/rsuite-utils-1.6.0.tgz#e13ddec5ba8893fe417568d8f53158160d79e4e3"
+  integrity sha512-vGcsCsg9wfeD656812jI8URilCcrMw602dDcvrVYKRGmFJTlXI40hqS2/XZJIjbyLgHwLKCn5NRDPzxa4hVdsg==
+  dependencies:
+    classnames "^2.2.5"
+    dom-lib "^1.1.0"
+    lodash "^4.17.5"
+    react-lifecycles-compat "^3.0.4"
+
+rsuite@^3.8.3:
+  version "3.8.3"
+  resolved "https://registry.yarnpkg.com/rsuite/-/rsuite-3.8.3.tgz#b5f7cb04fb8431dfe1be8d9db8837bdf727ea427"
+  integrity sha512-z0t0155fMTrAPFTyXPxQRXBL1g8hCEoVnaGwOg9S7I+GCgiK/WKmYrjTlG5kgFoQotnfRVq6Grkbh1obzTCAAg==
+  dependencies:
+    "@babel/runtime" "^7.0.0"
+    classnames ">=2.0.0"
+    date-fns "^1.30.1"
+    dom-lib "^1.1.0"
+    element-resize-event "^3.0.2"
+    lodash "^4.17.5"
+    prop-types "^15.6.0"
+    react-flow-types "^0.2.0-beta.6"
+    react-lifecycles-compat "^3.0.4"
+    react-virtualized "^9.21.0"
+    recompose "^0.26.0"
+    rsuite-intl "~1.0.4"
+    rsuite-notification "^3.0.4"
+    rsuite-table "^3.5.3"
+    rsuite-utils "^1.6.0"
+    schema-typed "~0.2.1"
+
 run-async@^2.2.0:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/run-async/-/run-async-2.3.0.tgz#0371ab4ae0bdd720d4166d7dfda64ff7a445a6c0"
@@ -12490,6 +12596,11 @@ scheduler@^0.13.3:
   dependencies:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
+
+schema-typed@~0.2.1:
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/schema-typed/-/schema-typed-0.2.1.tgz#af31f3543c3c294529923c450b66d9d7b4266c21"
+  integrity sha512-DcznP2ViGsOPqV0nKyvnh6Mmj7tw/vBl076ek96NkVz6XzVPqL4XBN7fiQY+YTCdu+0nO7hEvfuUc0YDflopmA==
 
 schema-utils@^0.4.0, schema-utils@^0.4.4, schema-utils@^0.4.5:
   version "0.4.7"
