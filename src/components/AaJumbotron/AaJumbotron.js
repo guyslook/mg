@@ -1,6 +1,6 @@
 import React from "react";
 import Jumbotron from "react-bootstrap/lib/Jumbotron";
-import Button from "react-bootstrap/lib/Button";
+import { Button } from "rsuite";
 import AniLink from "gatsby-plugin-transition-link/AniLink";
 import ScrollAnimation from "react-animate-on-scroll";
 
@@ -32,7 +32,9 @@ class AaJumbotron extends React.Component {
             {this.props.link ? (
               <p>
                 <AniLink cover bg="#359dd9" to={this.props.link}>
-                  <Button bsStyle="primary">Learn more →</Button>
+                  <Button className="btn" bsStyle="primary">
+                    Learn more →
+                  </Button>
                 </AniLink>
               </p>
             ) : (
