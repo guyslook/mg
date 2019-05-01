@@ -33,7 +33,7 @@ class Navbar extends React.Component {
 
   render() {
     return (
-      <nav className="is-transparent">
+      <nav className="desktop-nav is-transparent is-hidden-touch">
         <StaticQuery
           query={graphql`
             query {
@@ -47,6 +47,7 @@ class Navbar extends React.Component {
                     id
                     frontmatter {
                       title
+                      smalltitle
                       menupath
                       menuorder
                     }
@@ -62,7 +63,7 @@ class Navbar extends React.Component {
               </AniLink>
               {data.allMarkdownRemark.edges.map(({ node }) => (
                 <AniLink cover bg="#359dd9" to={node.frontmatter.menupath}>
-                  <Nav.Item>{node.frontmatter.title}</Nav.Item>
+                  <Nav.Item>{node.frontmatter.smalltitle}</Nav.Item>
                 </AniLink>
               ))}
             </Nav>

@@ -33,7 +33,7 @@ class Navbar extends React.Component {
 
   render() {
     return (
-      <nav className="is-transparent">
+      <nav className="is-transparent is-hidden-desktop">
         <Menu
           pageWrapId={"page-wrap"}
           outerContainerId={"outer-container"}
