@@ -17,10 +17,10 @@ const ComponentToTrack = props => {
 
 class Services extends React.Component {
   componentDidMount() {
-    new Vivus("my-svg", { duration: 200 });
-    new Vivus("my-svg1", { duration: 200 });
-    new Vivus("my-svg2", { duration: 200 });
-    new Vivus("my-svg3", { duration: 200 });
+    new Vivus("my-svg", { duration: 50 });
+    new Vivus("my-svg1", { duration: 50 });
+    new Vivus("my-svg2", { duration: 50 });
+    new Vivus("my-svg3", { duration: 50 });
   }
   render() {
     return (
