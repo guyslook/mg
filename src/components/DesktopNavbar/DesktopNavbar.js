@@ -50,6 +50,7 @@ class Navbar extends React.Component {
                       smalltitle
                       menupath
                       menuorder
+                      menucolour
                     }
                   }
                 }
@@ -62,7 +63,11 @@ class Navbar extends React.Component {
                 <Nav.Item>Home</Nav.Item>
               </AniLink>
               {data.allMarkdownRemark.edges.map(({ node }) => (
-                <AniLink cover bg="#359dd9" to={node.frontmatter.menupath}>
+                <AniLink
+                  cover
+                  bg={node.frontmatter.menucolor}
+                  to={node.frontmatter.menupath}
+                >
                   <Nav.Item>{node.frontmatter.smalltitle}</Nav.Item>
                 </AniLink>
               ))}
