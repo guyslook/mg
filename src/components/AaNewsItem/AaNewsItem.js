@@ -1,5 +1,5 @@
 import React from "react";
-import Button from "react-bootstrap/lib/Button";
+import { Button } from "rsuite";
 import { Link } from "gatsby";
 
 require("./AaNewsItem.scss");

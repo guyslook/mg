@@ -1,5 +1,5 @@
 import React from "react";
-import Button from "react-bootstrap/lib/Button";
+import { Button } from "rsuite";
 import AniLink from "gatsby-plugin-transition-link/AniLink";
 
 require("./Card.scss");

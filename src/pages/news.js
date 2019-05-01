@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import { Link, graphql } from "gatsby";
 import Layout from "../components/Layout";
-import Button from "react-bootstrap/lib/Button";
+import { Button } from "rsuite";
 import Card from "../components/Card/Card";
 
 export default class Infos extends React.Component {
