@@ -41,8 +41,8 @@ const TemplateWrapper = ({ children }) => (
         {data.allMarkdownRemark.edges.map(({ node }) => (
           <div>
             <Helmet title={node.frontmatter.title} />
-            <DesktopNavbar className="is-hidden-touch" />
-            <Navbar className="is-hidden-desktop" />
+            <DesktopNavbar />
+            <Navbar />
             <div id="page-wrap">
               <div className="top">
                 <AniLink cover bg="#359dd9" to="/">
