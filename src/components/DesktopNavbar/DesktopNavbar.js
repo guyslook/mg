@@ -65,7 +65,7 @@ class Navbar extends React.Component {
               {data.allMarkdownRemark.edges.map(({ node }) => (
                 <AniLink
                   cover
-                  bg={node.frontmatter.menucolor}
+                  bg={node.frontmatter.menucolour}
                   to={node.frontmatter.menupath}
                 >
                   <Nav.Item>{node.frontmatter.smalltitle}</Nav.Item>
