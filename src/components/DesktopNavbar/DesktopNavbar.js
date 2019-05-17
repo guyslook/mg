@@ -59,9 +59,6 @@ class Navbar extends React.Component {
           `}
           render={data => (
             <Nav>
-              <AniLink cover bg="#359dd9" to="/">
-                <Nav.Item>Home</Nav.Item>
-              </AniLink>
               {data.allMarkdownRemark.edges.map(({ node }) => (
                 <AniLink
                   cover

@@ -4,9 +4,17 @@
 .aaJumbotron {
     padding: 0;
     margin-bottom: 0;
+    height: auto;
+    padding-top: 150px;
     p {
         margin: 10px 0 50px 0;
         max-width: 450px;
+    }
+    @media (min-width: 768px) {
+        padding: 0;
+        margin-bottom: 0;
+        height: 100vh;
+        padding-top: 0;
     }
 }
 
@@ -46,7 +54,7 @@
 .heroimage.tophero {
     // margin-top: -115px;
     h1 {
-        font-size: 4em;
+        font-size: 3em;
         @media (min-width: 768px) {
             margin-top: 70px;
             margin-left: -8px;

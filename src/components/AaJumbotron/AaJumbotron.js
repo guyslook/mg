@@ -19,7 +19,6 @@ class AaJumbotron extends React.Component {
       backgroundImage: `url(${this.props.featuredimage})`,
       backgroundSize: "cover",
       backgroundPosition: "bottom",
-      height: "100vh"
     };
     return (
       <Jumbotron className="aaJumbotron" style={jumbotronstyles}>
