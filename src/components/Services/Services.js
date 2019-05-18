@@ -48,7 +48,7 @@ class Services extends React.Component {
             <div className="columns">
               <div className="column is-one-third">
                 <div className="homepageBox">
-                  <h2>Website design and development</h2>
+                  <h2>Website design &amp; development</h2>
                   <p>
                     Let's get that website working for you and your customers
                   </p>
