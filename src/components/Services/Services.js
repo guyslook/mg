@@ -65,11 +65,11 @@ class Services extends React.Component {
                 <div className="homepageBackground">
                   <svg
                     id="my-svg"
-                    viewBox="0 0 667 667"
+                    viewBox="0 67 667 500"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
                   >
-                    <circle cx="333" cy="333" r="171" fill="#3F1682" />
+                    <circle cx="333" cy="333" r="171" fill="#3F1682" stroke="#333333" stroke-width="6" />
                     <rect
                       x="468"
                       y="275"
@@ -308,13 +308,15 @@ class Services extends React.Component {
                     <div className="column is-half">
                       <svg
                         id="my-svg1"
-                        viewBox="0 0 667 667"
+                        viewBox="0 67 667 500"
                         fill="none"
                         xmlns="http://www.w3.org/2000/svg"
                       >
                         <path
                           d="M504 333C504 427.441 427.441 504 333 504C238.559 504 162 427.441 162 333C162 238.559 238.559 162 333 162C427.441 162 504 238.559 504 333Z"
                           fill="#B40812"
+                          stroke="#333333" 
+                          stroke-width="6"
                         />
                         <rect
                           x="125"
@@ -515,7 +517,7 @@ class Services extends React.Component {
               <div className="column is-half">
                 <svg
                   id="my-svg2"
-                  viewBox="0 0 667 667"
+                  viewBox="0 67 667 500"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
                 >
@@ -523,6 +525,8 @@ class Services extends React.Component {
                     d="M524 320C524 414.441 447.441 491 353 491C258.559 491 182 414.441
       182 320C182 225.559 258.559 149 353 149C447.441 149 524 225.559 524 320Z"
                     fill="#AD691D"
+                    stroke="#333333"
+                    stroke-width="6"
                   />
                   <rect
                     x="131"
@@ -699,11 +703,11 @@ class Services extends React.Component {
               <div className="column is-half">
                 <svg
                   id="my-svg3"
-                  viewBox="0 0 667 667"
+                  viewBox="0 67 667 500"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
                 >
-                  <circle cx="394" cy="335" r="171" fill="#939006" />
+                  <circle cx="394" cy="335" r="171" fill="#939006" stroke="#333333" stroke-width="6" />
                   <path
                     d="M56 197h333c4 0 8 4 8 8v220H48V205c0-4 3-8 8-8z"
                     stroke="#fff"

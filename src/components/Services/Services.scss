@@ -35,13 +35,9 @@
 		font-size: 2.75em;
 		margin-bottom:20px;
 	}
-	svg {
-		
-	}
 	background-color: #333333;
 	.homepageBox {
 		min-height: 25vw;
-		padding: 40px;
 		color: #FFFFFF;
 		display: flex;
 		flex-direction: column;
@@ -55,10 +51,14 @@
 			color: #FFFFFF;
 			margin-top: 20px;
 		}
+		@media (min-width: 768px) {
+			padding: 40px;
+		}
 	}
 
 	.homepageIntro {
 		.homepageBox {
+			padding: 40px;
 			background-color: #359DD8;
 			text-align: center;
 			p {
@@ -68,17 +68,23 @@
 	}
 
 	.homepageWebsite {
+		background-color: #3F1682;
+		padding: 40px;
+		@media (min-width: 768px) {
+			padding: 0;
+			background-color: inherit;
+		}
 		.homepageBox {
 			background-color: #3F1682;
 		}
 		.columns {
 			align-items: center;
-			height: 100%;
 			justify-content: space-between;
+			@media (min-width: 768px) {
+				flex-direction: row;
+			}
 		}
 		.homepageBackground {
-			width: 100%;
-			height: 100%;
 			background-position: center 40%;
 			background-size: 80%;
 			min-height: 190px;
@@ -86,9 +92,14 @@
 	}
 
 	.homepagePersonal {
+		background-color: #B40812;
+		padding: 40px;
+		@media (min-width: 768px) {
+			background-color: inherit;
+			padding: 0;
+		}
 		.columns {
 			align-items: center;
-			height: 100%;
 			justify-content: space-between;
 		}
 		.homepageBox {
@@ -97,9 +108,14 @@
 	}
 
 	.homepageAudience {
+		background-color: #AD691D;
+		padding: 40px;
+		@media (min-width: 768px) {
+			background-color: inherit;
+			padding: 0;
+		}
 		.columns {
 			align-items: center;
-			height: 100%;
 			justify-content: space-between;
 		}
 		.homepageBox {
@@ -108,14 +124,17 @@
 	}
 
 	.homepageTraining {
+		background-color: #939006;
+		padding: 40px;
 		@media (min-width: 768px) {
+			padding: 0;
+			background-color: inherit;
 			height: 800px;
 		}
 		background-position: center 40%;
 		background-size: cover;
 		.columns {
 			align-items: center;
-			height: 100%;
 			justify-content: space-between;
 		}
 		.homepageBox {
