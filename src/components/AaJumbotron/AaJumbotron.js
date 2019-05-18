@@ -24,9 +24,9 @@ class AaJumbotron extends React.Component {
       <Jumbotron className="aaJumbotron" style={jumbotronstyles}>
         <div className="jumbotron-container">
           <div className="container">
-            <ScrollAnimation animateIn="bounceInRight">
+            {/* <ScrollAnimation animateIn="bounceInRight"> */}
               <h1>{this.props.title}</h1>
-            </ScrollAnimation>
+            {/* </ScrollAnimation> */}
             <p>{this.props.description}</p>
             {this.props.link ? (
               <p>

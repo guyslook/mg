@@ -13,10 +13,9 @@ class Card extends React.Component {
   }
   render() {
     return (
-      <div className="column">
-        <div className="card">
+        <div className="AaCard">
           <img src="" />
-          <div class="card-content">
+          <div class="AaCardContent">
             <div class="content">
               <h4>{this.props.title}</h4>
               <h5>{this.props.date}</h5>
@@ -27,7 +26,6 @@ class Card extends React.Component {
             </div>
           </div>
         </div>
-      </div>
     );
   }
 }

@@ -808,7 +808,7 @@ class Services extends React.Component {
               </div>
             </div>
           </div>
-          <Banner colour="3b9ed5" bannerText="Start a new project with us today" bannerButtonText="Get in touch" bannerButtonLink="/contact-us" />
+          <Banner bannerColour="3b9ed5" bannerText="Start a new project with us today" bannerButtonText="Get in touch" bannerButtonLink="/contact-us" />
         </div>
       </React.Fragment>
     );

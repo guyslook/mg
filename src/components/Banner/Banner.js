@@ -8,13 +8,13 @@ class Banner extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      
+      bannercolor: "#" + props.bannerColour
     };
   }
 
   render() {
     return (
-      <div className="banner">
+      <div className="banner" style={{backgroundColor: this.state.bannercolor}}>
       <div className="container">
         <div class="columns">
           <div class="column is-4 is-offset-1">
