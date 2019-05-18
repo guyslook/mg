@@ -2,6 +2,7 @@ import React from "react";
 import ReactVivus from "react-vivus";
 import Vivus from "vivus";
 import Card from "../Card/Card";
+import Banner from "../Banner/Banner";
 import AniLink from "gatsby-plugin-transition-link/AniLink";
 import TrackVisibility from "react-on-screen"; // CommonJs : require('react-on-screen').default
 
@@ -807,6 +808,7 @@ class Services extends React.Component {
               </div>
             </div>
           </div>
+          <Banner colour="3b9ed5" bannerText="Start a new project with us today" bannerButtonText="Get in touch" bannerButtonLink="/contact-us" />
         </div>
       </React.Fragment>
     );

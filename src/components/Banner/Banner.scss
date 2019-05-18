@@ -1,0 +1,20 @@
+.banner {
+    height: 300px;
+    font-size: 2em;
+    color: #ffffff;
+    background-color: #3b9ed5;
+    .container {
+        height: 100%;
+        .columns {
+            align-items: center;
+            height: 100%;
+        }
+    }
+    .bannerLink {
+        text-align: center;
+        button {
+            border-radius: 0;
+            font-size: 21px;
+        }
+    }
+}

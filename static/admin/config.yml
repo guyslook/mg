@@ -94,6 +94,12 @@ collections:
             fields:
               - {label: Video source, name: source, widget: "string"}
               - {label: Loop, name: loop, widget: "boolean"}
+          - label: "Banner"
+            name: "twoupimages"
+            widget: "object"
+            fields:
+              - {label: Left Image, name: leftimage, widget: "image"}
+              - {label: Right Image, name: rightimage, widget: "image"}
 
 
   - name: "menu"
