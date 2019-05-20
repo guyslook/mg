@@ -88,7 +88,7 @@ class AaFooter extends React.Component {
           </div>
           <div class="column">
             <div class="ftco-footer-widget mb-4">
-            	<h2 class="ftco-heading-2">Have a Questions?</h2>
+            	<h2 class="ftco-heading-2">Get in touch</h2>
             	<div class="block-23 mb-3">
 	              <ul>
 	                <li><FaMap size="1em" /><span class="text"></span></li>
