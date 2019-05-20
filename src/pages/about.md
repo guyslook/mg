@@ -2,7 +2,7 @@
 templateKey: basic-page
 title: About
 elements:
-  - heroimage: /img/tapet_2019-02-12_11-05-41_305_2160x1920.png
+  - heroimage: /img/screen-shot-2019-02-24-at-00.01.16.png
     herotitle: About Environ
     overlay: true
     top: true
