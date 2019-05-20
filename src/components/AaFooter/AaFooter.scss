@@ -21,17 +21,36 @@ footer.footer {
 }
 
 .footerSocial {
+  margin-top: 3rem;
   display: flex;
   ul {
     display: flex;
     li {
-      margin-left: 20px;
+      margin-right: 20px;
       a {
         color: $secondary;
         &:hover {
           color: $secondary;
         }
       }
+    }
+  }
+}
+
+footer {
+  color: #ffffff;
+  h2 {
+    font-size: 1.2rem;
+    margin: 2rem 0;
+    color: #ffffff;
+    font-weight: bold;
+  }
+  a {
+    color: #ffffff;
+    display: block;
+    margin-top: 0.5rem;
+    &:hover {
+      color: #ffffff;
     }
   }
 }

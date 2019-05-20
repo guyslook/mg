@@ -1,31 +1,26 @@
 @import "../all.sass";
 
-.services-links {
-	background-image: url('../../img/curve.png');
-	background-size: cover;
-	min-height: 500px;
-	padding: 100px 0;
-
-	h2 {
-		color: #FFFFFF;
-		font-size: 35px;
-		font-weight: bold;
-		margin: 0px 0 100px 0;
+.contact {
+	button {
+		border-radius: 0;
+		font-size: 21px;
+		margin-bottom: 3rem;
 	}
-
-	.btn {
-		color: #FFFFFF;
-		border-radius: 30px;
-		font-size: 20px;
-		text-transform: uppercase;
-		font-weight: bold;
-		padding: 5px 15px;
-		background-color: $secondary;
-		background-image: none;
-		border-width:0;
-		&:hover {
-			background-color: $primary;
-			background-image: none;
-		}
+	.content {
+		max-width: 900px;
 	}
+}
+
+label.label {
+    text-align: left;
+    padding: 0;
+	padding: 1rem 0;
+}
+
+label.radio {
+	margin-left: 20px;
+}
+
+.input, .textarea {
+	border-radius: 0 !important;
 }
