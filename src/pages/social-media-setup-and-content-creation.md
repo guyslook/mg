@@ -256,7 +256,7 @@ elements:
 
 
       SEO jargon is everywhere. What does it even mean? Let us break it down
-      nice and simply for you. We'll help people find you through google search.
+      nice and simply for you. We'll help people find you through Google search.
     textImage: >-
       <svg viewBox="0 0 667 667" fill="none" xmlns="http://www.w3.org/2000/svg">
       <circle cx="334" cy="334" r="171" fill="#FC0D1B"></circle> <path
