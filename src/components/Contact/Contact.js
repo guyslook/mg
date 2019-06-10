@@ -9,7 +9,8 @@ class Contact extends React.Component {
       <React.Fragment>
         <div className="contact">
           <div className="contactform container content">
-          <form name="contact" method="POST" data-netlify="true">
+          <form name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
+          <input type="hidden" name="bot-field" />
           <div class="field">
   <label class="label">Name</label>
   <div class="control">
