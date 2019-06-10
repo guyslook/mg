@@ -65,7 +65,7 @@ Would you like to receive tips and tricks for succeeding online?
 
 <div class="field">
   <div class="control">
-    <Button class="is-link">Submit</Button>
+    <Button type="submit" class="is-link">Submit</Button>
   </div>
 </div>
 </form>
