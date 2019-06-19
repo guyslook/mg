@@ -1,5 +1,6 @@
 import React from "react";
 import { FaFacebook, FaTwitter, FaInstagram, FaPhone, FaMap, FaEnvelope  } from "react-icons/fa";
+import { Button } from "rsuite";
 import ReactHtmlParser, {
   processNodes,
   convertNodeToElement,
@@ -91,10 +92,14 @@ class AaFooter extends React.Component {
             	<h2 class="ftco-heading-2">Get in touch</h2>
             	<div class="block-23 mb-3">
 	              <ul>
-	                <li><FaMap size="1em" /><span class="text"></span></li>
+	                {/* <li><FaMap size="1em" /><span class="text"></span></li> */}
 	                <li><FaPhone size="1em" /><span class="text"> +447807042123</span></li>
 	                <li><a href="mailto:hello@environ.digital"><FaEnvelope size="1em" /><span class="text"> hello@environ.digital</span></a></li>
 	              </ul>
+
+                <AniLink cover bg="#359dd9" to="/contact">
+                  <Button className="btn">Start a project →</Button>
+                </AniLink>
 	            </div>
             </div>
           </div>
