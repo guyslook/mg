@@ -33,7 +33,7 @@ class Contact extends React.Component {
           <div class="field">
   <label class="label">Name</label>
   <div class="control">
-    <input class="input" type="text" placeholder="Name"/>
+    <input name="name" class="input" type="text" placeholder="Name"/>
   </div>
 </div>
 
@@ -41,7 +41,7 @@ class Contact extends React.Component {
 <div class="field">
   <label class="label">Email</label>
   <div class="control">
-    <input class="input" type="email" placeholder="Email"/>
+    <input name="email" class="input" type="email" placeholder="Email"/>
     <span class="icon is-small is-right">
       <i class="fas fa-exclamation-triangle"></i>
     </span>
@@ -52,10 +52,10 @@ class Contact extends React.Component {
   <label class="label">Subject</label>
   <div class="control">
     <div class="select">
-      <select>
-        <option>General enquiry</option>
-        <option>Website audit</option>
-        <option>Training request</option>
+      <select name="subject">
+        <option value="generalEnquiry">General enquiry</option>
+        <option value="webAudit">Website audit</option>
+        <option value="trainingRequest">Training request</option>
       </select>
     </div>
   </div>
@@ -64,7 +64,7 @@ class Contact extends React.Component {
 <div class="field">
   <label class="label">Message</label>
   <div class="control">
-    <textarea class="textarea" placeholder="Textarea"></textarea>
+    <textarea name="message" class="textarea" placeholder="Textarea"></textarea>
   </div>
 </div>
 
