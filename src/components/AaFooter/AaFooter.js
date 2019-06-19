@@ -1,6 +1,7 @@
 import React from "react";
 import { FaFacebook, FaTwitter, FaInstagram, FaPhone, FaMap, FaEnvelope  } from "react-icons/fa";
 import { Button } from "rsuite";
+import AniLink from "gatsby-plugin-transition-link/AniLink";
 import ReactHtmlParser, {
   processNodes,
   convertNodeToElement,
