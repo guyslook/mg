@@ -10,7 +10,7 @@ class Contact extends React.Component {
         <div className="contact">
           <div className="contactform container content">
 
-          <form name="contact" method="POST" data-netlify="true">
+          {/* <form name="contact" method="POST" data-netlify="true">
           <input type="hidden" name="form-name" value="contact" />
 
   <p>
@@ -25,9 +25,10 @@ class Contact extends React.Component {
   <p>
     <button type="submit">Send</button>
   </p>
-</form>
+</form> */}
 
-          {/* <form name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
+          <form name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
+          <input type="hidden" name="form-name" value="contact" />
           <input type="hidden" name="bot-field" />
           <div class="field">
   <label class="label">Name</label>
@@ -87,7 +88,7 @@ Would you like to receive tips and tricks for succeeding online?
     <Button type="submit" class="is-link">Submit</Button>
   </div>
 </div>
-</form> */}
+</form>
           </div>
         </div>
       </React.Fragment>
