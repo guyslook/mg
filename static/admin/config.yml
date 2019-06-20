@@ -95,12 +95,13 @@ collections:
               - {label: Video source, name: source, widget: "string"}
               - {label: Loop, name: loop, widget: "boolean"}
           - label: "Banner"
-            name: "twoupimages"
+            name: "banner"
             widget: "object"
             fields:
-              - {label: Left Image, name: leftimage, widget: "image"}
-              - {label: Right Image, name: rightimage, widget: "image"}
-
+              - {label: Banner Colour, name: bannerColour, widget: color}
+              - {label: Banner Text, name: bannerText, widget: "string" }
+              - {label: Banner Button Text, name: bannerButtonText, widget: "string" }
+              - {label: Banner Button Link, name: bannerButtonLink, widget: "string" }
 
   - name: "menu"
     label: "Menu"
