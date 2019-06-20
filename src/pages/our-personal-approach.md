@@ -48,5 +48,10 @@ elements:
       come. So if it's been a while, and you'd like to make a quick change, let
       us know.
     type: text
+  - bannerButtonLink: /contact-us
+    bannerButtonText: Contact us
+    bannerColour: '#b20d1b'
+    bannerText: Start a project with us today
+    type: banner
 ---
 
