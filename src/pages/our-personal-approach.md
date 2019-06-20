@@ -15,15 +15,6 @@ elements:
       When working with us you'll work directly with a developer. This enables
       us to be a more budget-friendly option, particularly if you’re looking for
       one specific service.
-    type: text
-  - dark: true
-    paragraph: >-
-      ## Best tools for the job
-
-
-      We're not tied down to one way fits all, we will provide you with the
-      tools that fit your needs and we'll make sure you're fully trained to be
-      able to use them.
     textImage: >-
       <svg viewBox="0 0 667 667" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path d="M504 333C504 427.441 427.441 504 333 504C238.559 504 162 427.441
@@ -89,6 +80,15 @@ elements:
       214.882C458.788 224.599 449.287 233.759 441.516 240.518C437.639 243.89
       434.21 246.649 431.753 248.563Z" stroke="#333333" stroke-width="4"></path>
       </svg>
+    type: text
+  - dark: true
+    paragraph: >-
+      ## Best tools for the job
+
+
+      We're not tied down to one way fits all, we will provide you with the
+      tools that fit your needs and we'll make sure you're fully trained to be
+      able to use them.
     type: text
   - paragraph: >-
       ## Always on hand
