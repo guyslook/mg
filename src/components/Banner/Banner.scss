@@ -1,28 +1,20 @@
 .banner {
-    height: 300px;
+    min-height: 300px;
     font-size: 2em;
     color: #ffffff;
     padding: 40px;
-    padding: 0;
     display: flex;
     align-items: center;
     justify-content: center;
-    .columns {
-       align-items: center;
-        height: 100%;
-        // width: 100%;
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
+    flex-direction: column;
+    p {
+        max-width: 900px;
         padding: 20px;
-        .column {
-            padding-bottom: 0;
-            flex-shrink: 0;
-            flex-basis: 50%;
-        }
+        text-align: center;
     }
     .bannerLink {
         text-align: right;
+        margin-top: 30px;
         animation: bannerFloat 6s ease-in-out infinite;
         button {
             border-radius: 0;

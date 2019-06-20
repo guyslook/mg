@@ -15,17 +15,13 @@ class Banner extends React.Component {
   render() {
     return (
       <div className="banner" style={{backgroundColor: this.state.bannercolor}}>
-
-        <div class="columns">
-          <div class="column is-4">
             <p>{this.props.bannerText}</p>
-          </div>
-          <div class="bannerLink column is-8">
+          <div class="bannerLink ">
             <AniLink cover bg={this.props.bannerColour} to={this.props.bannerButtonLink}>
                 <Button className="btn">{this.props.bannerButtonText} →</Button>
             </AniLink>
           </div>
-      </div>
+
       </div>
     );
   }
