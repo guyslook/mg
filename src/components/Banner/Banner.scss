@@ -16,9 +16,22 @@
     }
     .bannerLink {
         text-align: center;
+        animation: float 6s ease-in-out infinite;
         button {
             border-radius: 0;
             font-size: 21px;
         }
     }
+}
+
+@keyframes float {
+	0% {
+        transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-20px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
 }
