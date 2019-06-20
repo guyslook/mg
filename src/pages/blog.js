@@ -13,8 +13,8 @@ export default class Infos extends React.Component {
     return (
       <Layout>
         <div>
-          <section className="section news">
-            <div className="container">
+          <section className="news">
+
               <div className="content">
                 <h1 className="has-text-weight-bold is-size-2">
                   Latest Stories
@@ -29,7 +29,6 @@ export default class Infos extends React.Component {
                   text={post.excerpt}
                 />
               ))}
-            </div>
           </section>
         </div>
       </Layout>
