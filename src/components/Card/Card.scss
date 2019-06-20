@@ -1,3 +1,5 @@
+@import '../../styles/_variables';
+
 .AaCard {
     background-color: #fff;
     box-shadow: none;
@@ -9,6 +11,7 @@
 
     .AaCardContent{
         display:flex;
+        width: 100%;
         .content {
             display: flex;
             flex-direction: column;
@@ -22,6 +25,63 @@
                     background-image: none;
                 }
             }
+        }
+    }
+}
+
+.blogCards {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 65px;
+    .AaCard {
+        flex-basis: 20%;
+        flex-grow: 1;
+        flex-shrink: 0;
+        width: unset;
+        min-width: unset;
+        height: 80vh;
+        background-color: #4a4a4a;
+        padding: 20px;
+        &:nth-child(4n+1) {
+            background-color: #3F1682;
+        }
+        &:nth-child(4n+2) {
+            background-color: #B40812;
+        }
+        &:nth-child(4n+3) {
+            background-color: #AD691D;
+        }
+        &:nth-child(4n+4) {
+            background-color: #939006;
+        }
+        &:nth-child(1), &:nth-child(2) {
+            flex-basis: 50%;
+        }
+        
+        .AaCardContent .content{
+            flex-direction: row;
+            flex-wrap: wrap;
+            height: 100%;
+            align-content: space-between;
+            h4, h5, a {
+                width: 100%;
+                display: block;
+                flex-shrink: 0;
+            }
+        }
+        h4 {
+            color: #ffffff;
+            max-width: 400px;
+            font-size: 2.75em;
+        }
+        h5 {
+            color: #ffffff;
+        }
+        p {
+            display: none;
+        }
+        a {
+            align-self: flex-end;
         }
     }
 }

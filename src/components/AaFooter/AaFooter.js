@@ -27,7 +27,7 @@ class AaFooter extends React.Component {
       <footer className="footer">
         <div className="footerAddress hidden">{ReactHtmlParser(newAddressHTML)}</div>
         <footer class="ftco-footer ftco-section">
-      <div class="container">
+      <div>
         <div class="columns">
           <div class="column">
             <div class="ftco-footer-widget is-4">

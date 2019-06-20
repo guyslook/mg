@@ -20,6 +20,7 @@ export default class Infos extends React.Component {
                   Latest Stories
                 </h1>
               </div>
+              <div className="blogCards">
               {posts.map(({ node: post }) => (
                 <Card
                   id={post.id}
@@ -29,6 +30,7 @@ export default class Infos extends React.Component {
                   text={post.excerpt}
                 />
               ))}
+              </div>
           </section>
         </div>
       </Layout>

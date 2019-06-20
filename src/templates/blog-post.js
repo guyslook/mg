@@ -5,6 +5,7 @@ import Helmet from 'react-helmet'
 import { graphql, Link } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
+import AaJumbotron from "../components/AaJumbotron/AaJumbotron";
 
 export const BlogPostTemplate = ({
   content,
@@ -19,16 +20,23 @@ export const BlogPostTemplate = ({
   return (
     <section className="section news">
       {helmet || ''}
+      <AaJumbotron
+                    title={title}
+                    // description={element.herodescription}
+                    // featuredimage={
+                    //   // element.heroimage &&
+                    //   // element.heroimage.childImageSharp.fluid.src
+                    // }
+                  />
       <div className="container content">
         <div className="columns">
           <div className="column is-10 is-offset-1">
-            <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
-              {title}
-            </h1>
-            <p>{description}</p>
-            <PostContent content={content} />
+            <div className="blogContentContainer">
+              <p>{description}</p>
+              <PostContent content={content} />
+            </div>
             {tags && tags.length ? (
-              <div style={{ marginTop: `4rem` }}>
+              <div className="tagListContainer">
                 <h4>Tags</h4>
                 <ul className="taglist">
                   {tags.map(tag => (
