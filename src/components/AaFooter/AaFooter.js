@@ -98,7 +98,7 @@ class AaFooter extends React.Component {
 	                <li><a href="mailto:hello@environ.digital"><FaEnvelope size="1em" /><span class="text"> hello@environ.digital</span></a></li>
 	              </ul>
 
-                <AniLink cover bg="#359dd9" to="/contact">
+                <AniLink cover bg="#359dd9" to="/contact-us">
                   <Button className="btn">Start a project →</Button>
                 </AniLink>
 	            </div>
