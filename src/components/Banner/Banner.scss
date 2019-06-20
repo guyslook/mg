@@ -2,13 +2,16 @@
     height: 300px;
     font-size: 2em;
     color: #ffffff;
+    padding: 40px;
     .container {
         height: 100%;
+        padding: 0;
         .columns {
             align-items: center;
             height: 100%;
             display: flex;
             justify-content: center;
+            flex-wrap: wrap;
         }
     }
     .bannerLink {
