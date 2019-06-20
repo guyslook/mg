@@ -12,6 +12,7 @@ import AaBlockquote from "../components/AaBlockquote/AaBlockquote";
 import AaCustomHTML from "../components/AaCustomHTML/AaCustomHTML";
 import TwoUpImages from "../components/TwoUpImages/TwoUpImages";
 import Services from "../components/Services/Services";
+import Banner from "../components/Banner/Banner";
 import Contact from "../components/Contact/Contact";
 import Newsletter from "../components/AaNewsletter/AaNewsletter";
 import ReactPlayer from "react-player";
@@ -104,6 +105,16 @@ export const BasicPageTemplate = ({
                     <TwoUpImages
                       leftimage={element.leftimage.childImageSharp.fluid.src}
                       rightimage={element.rightimage.childImageSharp.fluid.src}
+                    />
+                  </div>
+                )) ||
+                (element.type === "banner" && (
+                  <div>
+                    <Banner
+                      bannerColour={element.bannerColour}
+                      bannerText={element.bannerText}
+                      bannerButtonText={element.bannerButtonText}
+                      bannerButtonLink={element.bannerButtonLink}
                     />
                   </div>
                 )) ||
@@ -225,6 +236,11 @@ export const pageQuery = graphql`
               }
             }
           }
+
+          bannerColour
+          bannerText
+          bannerButtonText
+          bannerButtonLink
         }
       }
     }

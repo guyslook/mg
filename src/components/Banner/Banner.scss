@@ -3,20 +3,27 @@
     font-size: 2em;
     color: #ffffff;
     padding: 40px;
-    .container {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .columns {
+       align-items: center;
         height: 100%;
-        padding: 0;
-        .columns {
-            align-items: center;
-            height: 100%;
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
+        // width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 20px;
+        .column {
+            padding-bottom: 0;
+            flex-shrink: 0;
+            flex-basis: 50%;
         }
     }
     .bannerLink {
-        text-align: center;
-        animation: float 6s ease-in-out infinite;
+        text-align: right;
+        animation: bannerFloat 6s ease-in-out infinite;
         button {
             border-radius: 0;
             font-size: 21px;
@@ -24,14 +31,14 @@
     }
 }
 
-@keyframes float {
+@keyframes bannerFloat {
 	0% {
-        transform: translatey(0px);
+        transform: translatey(3px);
 	}
 	50% {
-		transform: translatey(-20px);
+		transform: translatey(-3px);
 	}
 	100% {
-		transform: translatey(0px);
+		transform: translatey(3px);
 	}
 }

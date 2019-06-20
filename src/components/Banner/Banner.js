@@ -8,24 +8,23 @@ class Banner extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      bannercolor: "#" + props.bannerColour
+      bannercolor: props.bannerColour
     };
   }
 
   render() {
     return (
       <div className="banner" style={{backgroundColor: this.state.bannercolor}}>
-      <div className="container">
+
         <div class="columns">
-          <div class="column is-4 is-offset-1">
+          <div class="column is-4">
             <p>{this.props.bannerText}</p>
           </div>
-          <div class="bannerLink column is-6 is-offset-1">
-            <AniLink cover bg="#359dd9" to={this.props.bannerButtonLink}>
+          <div class="bannerLink column is-8">
+            <AniLink cover bg={this.props.bannerColour} to={this.props.bannerButtonLink}>
                 <Button className="btn">{this.props.bannerButtonText} →</Button>
             </AniLink>
           </div>
-        </div>
       </div>
       </div>
     );
