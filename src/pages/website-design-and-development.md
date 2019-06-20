@@ -254,5 +254,10 @@ elements:
       434.21 246.649 431.753 248.563Z" stroke="#333333" stroke-width="4"></path>
       </svg>
     type: text
+  - bannerButtonLink: /contact-us
+    bannerButtonText: Contact us
+    bannerColour: '#3f1682'
+    bannerText: Need help with your website?
+    type: banner
 ---
 
