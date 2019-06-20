@@ -1,6 +1,7 @@
 ---
 templateKey: blog-post
 title: Top tips to ensure your website still works for you and your customers
+heroimage: /img/blur-close-up-collage-196655.jpg
 date: 2019-06-20T18:31:34.226Z
 description: >-
   Websites can easily fall behind if we don't keep them fresh, modern and up to
