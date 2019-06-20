@@ -48,12 +48,21 @@
 }
 
 .heroimage.tophero {
+    .aaJumbotron {
+        height: 80vh;
+    }
     h1 {
         font-size: 3em;
         @media (min-width: 768px) {
-            margin-top: 70px;
+            // margin-top: 70px;
             margin-left: -8px;
-            font-size: 10vw;
+            font-size: 9vw;
         }
+    }
+}
+
+.section.news {
+    .aaJumbotron {
+        padding-top: 100px;
     }
 }

@@ -13,6 +13,7 @@ export const BlogPostTemplate = ({
   description,
   tags,
   title,
+  heroimage,
   helmet,
 }) => {
   const PostContent = contentComponent || Content
@@ -20,14 +21,16 @@ export const BlogPostTemplate = ({
   return (
     <section className="section news">
       {helmet || ''}
+      <div className="overlayhero tophero">
       <AaJumbotron
                     title={title}
                     // description={element.herodescription}
-                    // featuredimage={
-                    //   // element.heroimage &&
-                    //   // element.heroimage.childImageSharp.fluid.src
-                    // }
+                    featuredimage={
+                      heroimage &&
+                      heroimage.childImageSharp.fluid.src
+                    }
                   />
+                  </div>
       <div className="container content">
         <div className="columns">
           <div className="column is-10 is-offset-1">
@@ -71,6 +74,7 @@ const BlogPost = ({ data }) => {
         content={post.html}
         contentComponent={HTMLContent}
         description={post.frontmatter.description}
+        heroimage={post.frontmatter.heroimage}
         helmet={<Helmet title={`${post.frontmatter.title} | Blog`} />}
         tags={post.frontmatter.tags}
         title={post.frontmatter.title}
@@ -97,6 +101,13 @@ export const pageQuery = graphql`
         title
         description
         tags
+        heroimage {
+          childImageSharp {
+            fluid(maxWidth: 1200, quality: 100) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
       }
     }
   }
