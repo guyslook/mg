@@ -323,5 +323,12 @@ elements:
       implement effective email newsletters and campaigns for your specific
       needs.
     type: text
+  - bannerButtonLink: /contact-us
+    bannerButtonText: Get in touch
+    bannerColour: '#ad691d'
+    bannerText: >-
+      Do you want to perfect your social media strategy, build your audience and
+      reach out to them with great content?
+    type: banner
 ---
 
