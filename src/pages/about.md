@@ -2,17 +2,18 @@
 templateKey: basic-page
 title: About
 elements:
-  - heroimage: /img/screen-shot-2019-02-24-at-00.01.16.png
+  - heroimage: /img/screenshot-2019-06-22-at-00.03.25.png
     herotitle: About Environ
     overlay: true
     top: true
     type: hero
   - dark: true
     paragraph: >-
-      Environ Digital is a small website development company designed to help
-      you with your every day needs online. We want to help you reach your
-      potential with what is possible on the internet, both reaching out to your
-      customers but also your internal online tasks and goals.
+      Environ Digital is a small website development company, based in
+      Manchester, designed to help you with your everyday needs online. We want
+      to help you reach your potential with what is possible on the internet,
+      both reaching out to your customers but also your internal online tasks
+      and goals.
 
 
       [Our personal approach](/our-personal-approach) means that we can directly
@@ -29,5 +30,10 @@ elements:
       need some help online and need some advice, get in touch now and we'll get
       started.
     type: text
+  - bannerButtonLink: /contact-us
+    bannerButtonText: Get in touch
+    bannerColour: '#349dd8'
+    bannerText: Want to discuss your project with one of our developers?
+    type: banner
 ---
 
