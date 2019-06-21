@@ -30,5 +30,10 @@ elements:
       need some help online and need some advice, get in touch now and we'll get
       started.
     type: text
+  - bannerButtonLink: /contact-us
+    bannerButtonText: Get in touch
+    bannerColour: '#349dd8'
+    bannerText: Want to discuss your project with one of our developers?
+    type: banner
 ---
 
