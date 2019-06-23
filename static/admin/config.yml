@@ -97,6 +97,7 @@ collections:
                   - { label: "Services", value: "services" }
                   - { label: "Newsletter", value: "newsletter" }
                   - { label: "Contact Form", value: "contact" }
+                  - { label: "Case Studies", value: "casestudies" }
           - label: "Two Up Images"
             name: "twoupimages"
             widget: "object"

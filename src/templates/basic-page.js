@@ -16,6 +16,7 @@ import Banner from "../components/Banner/Banner";
 import Contact from "../components/Contact/Contact";
 import Newsletter from "../components/AaNewsletter/AaNewsletter";
 import ReactPlayer from "react-player";
+import Casestudies from "../components/Casestudies/Casestudies";
 
 export const BasicPageTemplate = ({
   content,
@@ -123,12 +124,16 @@ export const BasicPageTemplate = ({
                     <div>
                       <Services />
                     </div>
-                  ))) ||
-                  (element.prebuilt === "contact" && (
+                  )) || (element.prebuilt === "contact" && (
                     <div>
                       <Contact />
                     </div>
-                  )))}
+                  )) || (element.prebuilt === "casestudies" && (
+                    <div>
+                      <Casestudies />
+                    </div>
+                  ))
+                  ))}
             </div>
           ))}
       </div>
