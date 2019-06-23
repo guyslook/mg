@@ -259,5 +259,7 @@ elements:
     bannerColour: '#3f1682'
     bannerText: Need help with your website?
     type: banner
+  - prebuilt: casestudies
+    type: prebuilt
 ---
 
