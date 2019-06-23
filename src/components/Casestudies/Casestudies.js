@@ -15,15 +15,14 @@ class Casestudies extends React.Component {
   render() {
     return (
       <div>
-        <section className="news">
+        <section className="casestudies">
             <div className="blogCards">
             <StaticQuery
             query={graphql`
               query {
                 allMarkdownRemark(
-                  filter: { frontmatter: { templateKey: { eq: "casestudies" } } }
+                  filter: { frontmatter: { templateKey: { eq: "case-study" } } }
                 ) {
-                  totalCount
                   edges {
                     node {
                       fields {
@@ -44,8 +43,7 @@ class Casestudies extends React.Component {
                     <Card
                         id={node.id}
                         buttonLink={node.fields.slug}
-                        title={node.frontmatter.title}
-                        date={node.frontmatter.date}
+                        title={"Case Study: " + node.frontmatter.title}
                         text={node.excerpt}
                     />
                 ))

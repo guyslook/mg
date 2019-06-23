@@ -24,7 +24,7 @@ class Card extends React.Component {
                 </div>
                 <p>{this.props.text}</p>
                 <AniLink cover bg="#359dd9" to={this.props.buttonLink}>
-                  <Button className="btn">Read article →</Button>
+                  <Button className="btn">Read →</Button>
                 </AniLink>
               </div>
             </div>
