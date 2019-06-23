@@ -29,10 +29,86 @@ collections:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "case-study"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Hero Image", name: heroimage, widget: "image"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Description", name: "description", widget: "text"}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Tags", name: "tags", widget: "list"}
+      - label: "Website elements"
+        name: "elements"
+        widget: "list"
+        required: false
+        types:
+          - label: "Hero"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {label: Image, name: heroimage, widget: "image"}
+              - {label: Title, name: herotitle, widget: "string"}
+              - {label: Description, name: herodescription, widget: "string"}
+              - {label: Link, name: herolink, widget: "string", required: false}
+              - {label: "Top", name: "top", widget: "boolean", default: false}
+              - {label: "Overlay", name: "overlay", widget: "boolean", default: true}
+          - label: "Text"
+            name: "text"
+            widget: "object"
+            fields:
+              - {label: Paragraph, name: paragraph, widget: "markdown"}
+              - {label: "Dark", name: "dark", widget: "boolean", default: false}
+              - {label: "Image", name: "textImage", widget: "string"}
+              - {label: "Class", name: "textClass", widget: "string"}
+          - label: "Gallery"
+            name: "gallery"
+            widget: "object"
+            fields:
+              - label: "Gallery item"
+                name: "galleryitem"
+                widget: "list"
+                fields:
+                  - {label: Image, name: src, widget: "image"}
+                  - {label: Thumbnail, name: thumbnail, widget: "image"}
+                  - {label: Title, name: caption, widget: "string"}
+          - label: "Quote"
+            name: "quote"
+            widget: "object"
+            fields:
+              - {label: Quote, name: quotetitle, widget: "string"}
+              - {label: Quote author, name: quoteauthor, widget: "string"}
+          - label: "Custom HTML"
+            name: "customhtml"
+            widget: "object"
+            fields:
+              - {label: Custom HTML, name: customhtml, widget: "string"}
+          - label: "Prebuild Components"
+            name: "prebuilt"
+            widget: "object"
+            fields:
+              - label: "Component"
+                name: "prebuilt"
+                widget: "select"
+                options:
+                  - { label: "Services", value: "services" }
+                  - { label: "Newsletter", value: "newsletter" }
+                  - { label: "Contact Form", value: "contact" }
+                  - { label: "Case Studies", value: "casestudies" }
+          - label: "Two Up Images"
+            name: "twoupimages"
+            widget: "object"
+            fields:
+              - {label: Left Image, name: leftimage, widget: "image"}
+              - {label: Right Image, name: rightimage, widget: "image"}
+          - label: "Video"
+            name: "video"
+            widget: "object"
+            fields:
+              - {label: Video source, name: source, widget: "string"}
+              - {label: Loop, name: loop, widget: "boolean"}
+          - label: "Banner"
+            name: "banner"
+            widget: "object"
+            fields:
+              - {label: Banner Colour, name: bannerColour, widget: color}
+              - {label: Banner Text, name: bannerText, widget: "string" }
+              - {label: Banner Button Text, name: bannerButtonText, widget: "string" }
+              - {label: Banner Button Link, name: bannerButtonLink, widget: "string" }
 
   - name: "pages"
     label: "Pages"
