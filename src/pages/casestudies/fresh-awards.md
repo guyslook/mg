@@ -7,6 +7,7 @@ description: >-
   Fresh awards is a yearly awards ceremony that celebrates fresh ideas and
   design in the industry. They needed an elegant website to the awards the
   winners and announce the winners
+link: 'https://freshawards.co.uk'
 tags:
   - awards
   - design
