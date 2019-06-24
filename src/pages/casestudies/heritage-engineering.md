@@ -6,6 +6,7 @@ date: 2019-06-23T23:56:46.844Z
 description: >-
   Heritage Engineering needed some help getting their business online, we
   crafted their content plan and built them a website to suit their needs. 
+link: 'https://heritageengineeringnw.co.uk/'
 tags:
   - engineering
   - website development
