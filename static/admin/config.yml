@@ -32,7 +32,7 @@ collections:
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Description", name: "description", widget: "text"}
       - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Site Link", name: "link", widget: "text"}
+      - {label: "Site Link", name: "link", widget: "string"}
       - {label: "Tags", name: "tags", widget: "list"}
 
   - name: "pages"
