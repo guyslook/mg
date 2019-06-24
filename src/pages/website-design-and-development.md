@@ -256,7 +256,7 @@ elements:
     type: text
   - bannerButtonLink: /contact-us
     bannerButtonText: Contact us
-    bannerColour: '#3f1682'
+    bannerColour: '#333333'
     bannerText: Need help with your website?
     type: banner
   - prebuilt: casestudies
