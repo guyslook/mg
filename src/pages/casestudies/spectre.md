@@ -8,6 +8,7 @@ description: >-
   helped make the project a reality providing user experience (UX) consultation,
   development support for the initial prototypes and the final installation of
   which made its debut appearance at Sheffield Doc/Fest in June 2019.
+link: 'http://billposters.ch/spectre-launch/'
 tags:
   - ux
   - art
