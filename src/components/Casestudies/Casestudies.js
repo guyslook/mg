@@ -15,7 +15,7 @@ class Casestudies extends React.Component {
   render() {
     return (
       <div>
-        <section className="casestudies">
+        <section id="casestudies" className="casestudies">
             <div className="blogCards">
             <StaticQuery
             query={graphql`

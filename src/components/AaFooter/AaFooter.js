@@ -84,6 +84,7 @@ class AaFooter extends React.Component {
                 <li><a href="/about" class="py-2 d-block">About</a></li>
                 <li><a href="/our-personal-approach" class="py-2 d-block">Approach</a></li>
                 <li><a href="/blog" class="py-2 d-block">Blog</a></li>
+                <li><a href="/website-design-and-development#casestudies" class="py-2 d-block">Case Studies</a></li>
                 <li><a href="/contact-us" class="py-2 d-block">Contact</a></li>
               </ul>
             </div>
