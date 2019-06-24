@@ -6,6 +6,7 @@ import { graphql, Link } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
 import AaJumbotron from "../components/AaJumbotron/AaJumbotron";
+import { Button } from "rsuite";
 
 export const CaseStudyTemplate = ({
   content,
@@ -15,6 +16,7 @@ export const CaseStudyTemplate = ({
   title,
   heroimage,
   helmet,
+  link,
 }) => {
   const PostContent = contentComponent || Content
 
@@ -37,7 +39,11 @@ export const CaseStudyTemplate = ({
             <div className="blogContentContainer">
               <p>{description}</p>
               <PostContent content={content} />
+              <a href={link}>
+                <Button className="btn">Visit site →</Button>
+              </a>
             </div>
+
             {tags && tags.length ? (
               <div className="tagListContainer">
                 <h4>Tags</h4>
@@ -78,6 +84,7 @@ const CaseStudy = ({ data }) => {
         helmet={<Helmet title={`${post.frontmatter.title} | Case Study`} />}
         tags={post.frontmatter.tags}
         title={post.frontmatter.title}
+        link={post.frontmatter.link}
       />
     </Layout>
   )
@@ -101,6 +108,7 @@ export const pageQuery = graphql`
         title
         description
         tags
+        link
         heroimage {
           childImageSharp {
             fluid(maxWidth: 1200, quality: 100) {
