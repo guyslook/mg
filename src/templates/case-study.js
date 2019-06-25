@@ -6,6 +6,7 @@ import { graphql, Link } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
 import AaJumbotron from "../components/AaJumbotron/AaJumbotron";
+import Banner from "../components/Banner/Banner";
 import { Button } from "rsuite";
 
 export const CaseStudyTemplate = ({
@@ -59,6 +60,7 @@ export const CaseStudyTemplate = ({
           </div>
         </div>
       </div>
+      <Banner bannerColour="#3b9ed5" bannerText="Start your project with us today" bannerButtonText="Get in touch" bannerButtonLink="/contact-us" />
     </section>
   )
 }
