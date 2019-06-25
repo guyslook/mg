@@ -23,3 +23,5 @@ It was important that when a client landed on their website they could clearly s
 ![Repair work logo](/img/screenshot-2019-06-24-at-00.55.28.png)
 
 > Environ helped us to reach our customers by improving our skills online, not only did they build a website for us they also helped us to create content that works really well
+
+We continue to work closely with Heritage Engineering as they continue to build their presence online.
