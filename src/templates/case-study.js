@@ -26,7 +26,7 @@ export const CaseStudyTemplate = ({
       {helmet || ''}
       <div className="overlayhero tophero">
       <AaJumbotron
-                    title={title}
+                    title={"Case Study: " + title}
                     // description={element.herodescription}
                     featuredimage={
                       heroimage &&
