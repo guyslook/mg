@@ -9,8 +9,10 @@ elements:
       <script id="setmore_script" type="text/javascript"
       src="https://my.setmore.com/webapp/js/src/others/setmore_iframe.js"></script><a
       id="Setmore_button_iframe" style="float:none"
-      href="https://my.setmore.com/bookingpage/6d9a98d7dbe4cff093bd1cb116ebd341e7235042">Book
-      an appointment</a>
+      href="https://my.setmore.com/bookingpage/6d9a98d7dbe4cff093bd1cb116ebd341e7235042"><img
+      border="none"
+      src="https://my.setmore.com/webapp/images/bookappt/SetMore-book-button.png"
+      alt="Book an appointment with Environ Digital using SetMore" /></a>
     type: customhtml
 ---
 
